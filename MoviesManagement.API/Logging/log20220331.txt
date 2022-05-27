@@ -1,0 +1,23 @@
+2022-03-31 10:40:18.102 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-03-31 10:40:21.356 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-31 10:40:21.359 +02:00 [INF] Hosting environment: Development
+2022-03-31 10:40:21.364 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-03-31 10:40:21.845 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-03-31 10:40:22.560 +02:00 [INF] Request finished in 738.8506ms 200 text/html;charset=utf-8
+2022-03-31 10:40:22.685 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-03-31 10:40:22.692 +02:00 [INF] Request finished in 6.4471ms 200 application/javascript; charset=utf-8
+2022-03-31 10:40:22.890 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-03-31 10:40:22.927 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-03-31 10:40:22.927 +02:00 [INF] Request finished in 37.8745ms 0 image/png
+2022-03-31 10:40:22.967 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-03-31 10:40:23.186 +02:00 [INF] Request finished in 218.4962ms 200 application/json;charset=utf-8
+2022-03-31 11:20:52.815 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-03-31 11:20:53.357 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-31 11:20:53.358 +02:00 [INF] Hosting environment: Development
+2022-03-31 11:20:53.358 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-03-31 11:20:53.401 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-03-31 11:20:53.667 +02:00 [INF] Request finished in 272.9915ms 200 text/html;charset=utf-8
+2022-03-31 11:20:53.713 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-03-31 11:20:53.723 +02:00 [INF] Request finished in 9.4559ms 200 application/javascript; charset=utf-8
+2022-03-31 11:20:53.938 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-03-31 11:20:54.066 +02:00 [INF] Request finished in 128.5992ms 200 application/json;charset=utf-8

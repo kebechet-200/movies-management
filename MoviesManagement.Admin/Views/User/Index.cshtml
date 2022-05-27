@@ -1,0 +1,42 @@
+﻿@model PageModelList<GetUserWithRolesViewModel>;
+
+
+<h1>User Roles</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>User Name</th>
+            <th>Roles</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@string.Join(" , ", user.Roles.ToList())</td>
+                <td>
+                    <a class="btn btn-info" asp-controller="User" asp-action="Manage" asp-route-id="@user.Id">Manage Roles</a>
+                </td>
+                <td>
+                    <a class="btn btn-info" asp-controller="User" asp-action="UserTickets" asp-route-id="@user.Id">Manage Tickets</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@{
+    var prevDisabled = !Model.PreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.NextPage ? "disabled" : "";
+}
+
+<a asp-controller="User" asp-action="Index" asp-route-pageNumber="@(Model.PageIndex - 1)" class="btn btn-primary @prevDisabled">
+    Previous
+</a>
+
+<a asp-controller="User" asp-action="Index" asp-route-pageNumber="@(Model.PageIndex + 1)" class="btn btn-primary @nextDisabled">
+    Next
+</a>
+

@@ -1,0 +1,32 @@
+﻿@using MoviesManagement.Services.Enum
+@model UserWithTicketsViewModel;
+
+<h1>User Tickets For : @Model.UserName</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Movie Id</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Tickets)
+        {
+            <tr>
+                <td>@user.MovieId</td>
+                @if(user.State == TicketStatus.Reserved)
+                {
+                    <td>
+                        <a class="btn btn-info" asp-controller="User" asp-action="CancelTicket" asp-route-userId="@user.UserId" asp-route-movieId="@user.MovieId">გაუქმება</a>
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        <a class="btn btn-danger">ნაყიდია</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

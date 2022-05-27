@@ -1,0 +1,26 @@
+﻿@model MovieViewModel;
+
+<div class="row justify-align-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card m-6">
+            <div class="card-header text-center">
+                <h1>@Model.Name</h1>
+            </div>
+
+            <div class="card-body text-center">
+                <img class="card-img-top" style="width:auto; height:400px;" src=@Model.Image />
+                <h4 class="card-text">@Model.Description</h4>
+                <h4 class="cardalert-info">@Model.StartDate</h4>
+            </div>
+
+            <div class="card-footer">
+                <a class="btn btn-warning text-white" asp-controller="Movie" asp-action="Edit" asp-route-id="@Model.Id">განახლება</a>
+                <a class="btn btn-danger float-end" asp-controller="Movie" asp-action="Delete" asp-route-id="@Model.Id">წაშლა</a>
+            </div>
+
+            
+
+        </div>
+    </div>
+</div>
+

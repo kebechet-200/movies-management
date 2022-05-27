@@ -1,0 +1,159 @@
+2022-04-07 10:58:06.005 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-07 10:58:07.001 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-07 10:58:07.002 +02:00 [INF] Hosting environment: Development
+2022-04-07 10:58:07.002 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-07 10:58:07.107 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-07 10:58:07.690 +02:00 [INF] Request finished in 597.9219ms 200 text/html;charset=utf-8
+2022-04-07 10:58:07.796 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-07 10:58:07.840 +02:00 [INF] Request finished in 44.6494ms 200 application/javascript; charset=utf-8
+2022-04-07 10:58:08.190 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-07 10:58:08.402 +02:00 [INF] Request finished in 209.924ms 200 application/json;charset=utf-8
+2022-04-07 10:58:19.152 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/Ticket/Buy application/json 1
+2022-04-07 10:58:19.310 +02:00 [INF] Authorization failed.
+2022-04-07 10:58:19.315 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2022-04-07 10:58:19.318 +02:00 [INF] HTTP POST /api/Ticket/Buy responded 302 in 156.0373 ms
+2022-04-07 10:58:19.324 +02:00 [INF] Request finished in 175.948ms 302 
+2022-04-07 10:58:19.355 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/Account/Login?ReturnUrl=%2Fapi%2FTicket%2FBuy  
+2022-04-07 10:58:19.361 +02:00 [INF] HTTP GET /Account/Login responded 404 in 5.2640 ms
+2022-04-07 10:58:19.362 +02:00 [WRN] 404 client error occured
+2022-04-07 10:58:19.367 +02:00 [INF] Request finished in 11.9505ms 404 
+2022-04-07 13:17:00.578 +02:00 [FTL] Application Failed
+2022-04-07 13:20:55.551 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-07 13:20:56.064 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-07 13:20:56.065 +02:00 [INF] Hosting environment: Development
+2022-04-07 13:20:56.065 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-07 13:20:56.104 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-07 13:20:56.393 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-07 13:20:56.397 +02:00 [INF] Request finished in 295.7784ms 200 text/html;charset=utf-8
+2022-04-07 13:20:56.409 +02:00 [INF] Request finished in 15.3563ms 200 application/javascript; charset=utf-8
+2022-04-07 13:20:56.793 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-07 13:20:57.079 +02:00 [INF] Request finished in 285.6842ms 200 application/json;charset=utf-8
+2022-04-07 13:22:05.622 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/User/Login application/json 55
+2022-04-07 13:22:05.688 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-07 13:22:05.689 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.UserController.Login (MoviesManagement.API)'
+2022-04-07 13:22:05.734 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MoviesManagement.API.Models.Request.AccountLoginDTO) on controller MoviesManagement.API.Controllers.UserController (MoviesManagement.API).
+2022-04-07 13:22:12.369 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-07 13:22:13.526 +02:00 [INF] Executed DbCommand (61ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Discriminator], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[Password]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-04-07 13:22:13.648 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Discriminator], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[Password]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-04-07 13:22:13.752 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2022-04-07 13:22:13.788 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2022-04-07 13:22:13.799 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2022-04-07 13:22:13.816 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2022-04-07 13:22:13.828 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2022-04-07 13:22:14.437 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2022-04-07 13:22:14.447 +02:00 [INF] Executed action MoviesManagement.API.Controllers.UserController.Login (MoviesManagement.API) in 8704.403ms
+2022-04-07 13:22:14.448 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.UserController.Login (MoviesManagement.API)'
+2022-04-07 13:22:14.451 +02:00 [INF] HTTP POST /api/User/Login responded 200 in 8820.4582 ms
+2022-04-07 13:22:14.451 +02:00 [INF] 200 Succeed!
+2022-04-07 13:22:14.455 +02:00 [INF] Request finished in 8841.515ms 200 text/plain; charset=utf-8
+2022-04-07 13:22:34.469 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/Ticket/Buy application/json 1
+2022-04-07 13:22:34.504 +02:00 [INF] Authorization was successful.
+2022-04-07 13:22:34.505 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.TicketController.Buy (MoviesManagement.API)'
+2022-04-07 13:22:34.511 +02:00 [INF] Route matched with {action = "Buy", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Buy(Int32) on controller MoviesManagement.API.Controllers.TicketController (MoviesManagement.API).
+2022-04-07 13:22:34.552 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-07 13:22:36.216 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__ticket_UserId_0='?' (Size = 450), @__ticket_MovieId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Tickets] AS [t]
+        WHERE (([t].[UserId] = @__ticket_UserId_0) AND ([t].[MovieId] = @__ticket_MovieId_1)) AND ([t].[State] = 0)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-07 13:22:36.232 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ticket_UserId_0='?' (Size = 450), @__ticket_MovieId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[MovieId], [t].[State], [t].[UserId]
+FROM [Tickets] AS [t]
+WHERE ([t].[UserId] = @__ticket_UserId_0) AND ([t].[MovieId] = @__ticket_MovieId_1)
+2022-04-07 13:22:36.448 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Tickets] ([MovieId], [State], [UserId])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Tickets]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-04-07 13:22:36.486 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2022-04-07 13:22:36.487 +02:00 [INF] Executed action MoviesManagement.API.Controllers.TicketController.Buy (MoviesManagement.API) in 1975.6551ms
+2022-04-07 13:22:36.487 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.TicketController.Buy (MoviesManagement.API)'
+2022-04-07 13:22:36.487 +02:00 [INF] HTTP POST /api/Ticket/Buy responded 200 in 2016.9755 ms
+2022-04-07 13:22:36.487 +02:00 [INF] 200 Succeed!
+2022-04-07 13:22:36.488 +02:00 [INF] Request finished in 2019.2143ms 200 text/plain; charset=utf-8
+2022-04-07 14:37:25.769 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-07 14:37:26.193 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-07 14:37:26.194 +02:00 [INF] Hosting environment: Development
+2022-04-07 14:37:26.194 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-07 14:37:26.232 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-07 14:37:26.491 +02:00 [INF] Request finished in 264.5109ms 200 text/html;charset=utf-8
+2022-04-07 14:37:26.510 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-07 14:37:26.518 +02:00 [INF] Request finished in 10.0716ms 200 application/javascript; charset=utf-8
+2022-04-07 14:37:26.720 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-07 14:37:26.864 +02:00 [INF] Request finished in 143.1668ms 200 application/json;charset=utf-8
+2022-04-07 14:37:39.193 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/User/Login application/json 55
+2022-04-07 14:37:39.257 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-07 14:37:39.261 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.UserController.Login (MoviesManagement.API)'
+2022-04-07 14:37:39.355 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MoviesManagement.API.Models.Request.AccountLoginDTO) on controller MoviesManagement.API.Controllers.UserController (MoviesManagement.API).
+2022-04-07 14:37:44.038 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-07 14:37:44.907 +02:00 [INF] Executed DbCommand (65ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Discriminator], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[Password]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-04-07 14:37:45.013 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Discriminator], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[Password]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-04-07 14:37:45.121 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2022-04-07 14:37:45.157 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2022-04-07 14:37:45.167 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2022-04-07 14:37:45.183 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2022-04-07 14:37:45.192 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2022-04-07 14:37:45.407 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2022-04-07 14:37:45.417 +02:00 [INF] Executed action MoviesManagement.API.Controllers.UserController.Login (MoviesManagement.API) in 6053.6898ms
+2022-04-07 14:37:45.418 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.UserController.Login (MoviesManagement.API)'
+2022-04-07 14:37:45.420 +02:00 [INF] HTTP POST /api/User/Login responded 200 in 6219.1518 ms
+2022-04-07 14:37:45.421 +02:00 [INF] 200 Succeed!
+2022-04-07 14:37:45.424 +02:00 [INF] Request finished in 6236.6957ms 200 text/plain; charset=utf-8
+2022-04-07 14:37:59.487 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/Ticket/Reserve application/json 1
+2022-04-07 14:37:59.508 +02:00 [INF] Authorization was successful.
+2022-04-07 14:37:59.509 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API)'
+2022-04-07 14:37:59.513 +02:00 [INF] Route matched with {action = "Reserve", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Reserve(Int32) on controller MoviesManagement.API.Controllers.TicketController (MoviesManagement.API).
+2022-04-07 14:37:59.550 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-07 14:49:17.559 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-07 14:49:18.000 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-07 14:49:18.007 +02:00 [INF] Hosting environment: Development
+2022-04-07 14:49:18.007 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-07 14:49:18.041 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-07 14:49:18.576 +02:00 [INF] Request finished in 538.747ms 200 text/html;charset=utf-8
+2022-04-07 14:49:18.787 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-07 14:49:18.877 +02:00 [INF] Request finished in 90.4393ms 200 application/javascript; charset=utf-8
+2022-04-07 14:49:19.720 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-07 14:49:20.163 +02:00 [INF] Request finished in 444.9791ms 200 application/json;charset=utf-8

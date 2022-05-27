@@ -1,0 +1,1678 @@
+2022-04-05 13:55:36.960 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 13:55:37.719 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 13:55:37.720 +02:00 [INF] Hosting environment: Development
+2022-04-05 13:55:37.724 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 13:55:37.751 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 13:55:38.084 +02:00 [INF] Request finished in 338.4619ms 200 text/html;charset=utf-8
+2022-04-05 13:55:38.864 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 13:55:38.906 +02:00 [INF] Request finished in 43.6612ms 200 application/javascript; charset=utf-8
+2022-04-05 13:55:39.271 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-05 13:55:39.292 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-05 13:55:39.293 +02:00 [INF] Request finished in 21.9434ms 0 image/png
+2022-04-05 13:55:39.327 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 13:55:39.462 +02:00 [INF] Request finished in 135.7384ms 200 application/json;charset=utf-8
+2022-04-05 13:59:42.928 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 13:59:43.321 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 13:59:43.322 +02:00 [INF] Hosting environment: Development
+2022-04-05 13:59:43.322 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 13:59:43.351 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 13:59:43.592 +02:00 [INF] Request finished in 245.086ms 200 text/html;charset=utf-8
+2022-04-05 13:59:43.643 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 13:59:43.680 +02:00 [INF] Request finished in 36.6978ms 200 application/javascript; charset=utf-8
+2022-04-05 13:59:43.685 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-05 13:59:43.711 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-05 13:59:43.711 +02:00 [INF] Request finished in 26.496ms 0 text/css
+2022-04-05 13:59:43.868 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 13:59:43.998 +02:00 [INF] Request finished in 130.2241ms 200 application/json;charset=utf-8
+2022-04-05 13:59:50.169 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/api/Movie  
+2022-04-05 13:59:50.231 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.MovieController.GetAll (MoviesManagement.API)'
+2022-04-05 13:59:50.276 +02:00 [INF] Route matched with {action = "GetAll", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MoviesManagement.API.Controllers.MovieController (MoviesManagement.API).
+2022-04-05 13:59:51.895 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-05 13:59:52.914 +02:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Description], [m].[Image], [m].[IsActive], [m].[IsExpired], [m].[Name], [m].[StartDate]
+FROM [Movies] AS [m]
+WHERE ([m].[IsActive] = CAST(1 AS bit)) AND ([m].[IsExpired] <> CAST(1 AS bit))
+2022-04-05 13:59:53.091 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesManagement.API.Models.DTO.MovieDTO, MoviesManagement.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-05 13:59:53.114 +02:00 [INF] Executed action MoviesManagement.API.Controllers.MovieController.GetAll (MoviesManagement.API) in 2826.0847ms
+2022-04-05 13:59:53.115 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.MovieController.GetAll (MoviesManagement.API)'
+2022-04-05 13:59:53.118 +02:00 [INF] HTTP GET /api/Movie responded 200 in 2942.5217 ms
+2022-04-05 13:59:53.118 +02:00 [INF] 200 Succeed!
+2022-04-05 13:59:53.123 +02:00 [INF] Request finished in 2953.8434ms 200 application/json; charset=utf-8
+2022-04-05 14:00:21.416 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:00:21.959 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:00:21.962 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:00:21.962 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:00:22.015 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:00:22.391 +02:00 [INF] Request finished in 382.873ms 200 text/html;charset=utf-8
+2022-04-05 14:00:22.476 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:00:22.484 +02:00 [INF] Request finished in 7.7089ms 200 application/javascript; charset=utf-8
+2022-04-05 14:00:22.878 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-05 14:00:22.898 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-05 14:00:22.899 +02:00 [INF] Request finished in 20.9657ms 0 image/png
+2022-04-05 14:00:22.960 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:00:23.096 +02:00 [INF] Request finished in 135.2864ms 200 application/json;charset=utf-8
+2022-04-05 14:02:25.266 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:02:25.895 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:02:25.896 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:02:25.896 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:02:25.969 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:02:26.384 +02:00 [INF] Request finished in 421.094ms 200 text/html;charset=utf-8
+2022-04-05 14:02:26.461 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:02:26.464 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-05 14:02:26.470 +02:00 [INF] Request finished in 9.4609ms 200 application/javascript; charset=utf-8
+2022-04-05 14:02:26.515 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-05 14:02:26.515 +02:00 [INF] Request finished in 51.132ms 0 text/css
+2022-04-05 14:02:26.900 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-05 14:02:26.905 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-05 14:02:26.906 +02:00 [INF] Request finished in 6.7823ms 0 image/png
+2022-04-05 14:02:26.981 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:02:27.123 +02:00 [INF] Request finished in 142.3609ms 200 application/json;charset=utf-8
+2022-04-05 14:06:02.351 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:06:02.908 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:06:02.908 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:06:02.909 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:06:02.944 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:06:03.197 +02:00 [INF] Request finished in 259.3311ms 200 text/html;charset=utf-8
+2022-04-05 14:06:03.285 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:06:03.290 +02:00 [INF] Request finished in 5.0227ms 200 application/javascript; charset=utf-8
+2022-04-05 14:06:03.667 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:06:03.861 +02:00 [INF] Request finished in 194.3256ms 200 application/json;charset=utf-8
+2022-04-05 14:06:49.808 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:06:50.437 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:06:50.443 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:06:50.443 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:06:50.518 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:06:50.900 +02:00 [INF] Request finished in 391.6658ms 200 text/html;charset=utf-8
+2022-04-05 14:06:50.992 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:06:51.019 +02:00 [INF] Request finished in 26.448ms 200 application/javascript; charset=utf-8
+2022-04-05 14:06:51.044 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-05 14:06:51.071 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-05 14:06:51.071 +02:00 [INF] Request finished in 26.9472ms 0 text/css
+2022-04-05 14:06:51.377 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-05 14:06:51.382 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-05 14:06:51.383 +02:00 [INF] Request finished in 7.0655ms 0 image/png
+2022-04-05 14:06:51.563 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:06:51.749 +02:00 [INF] Request finished in 186.4324ms 200 application/json;charset=utf-8
+2022-04-05 14:09:18.168 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:09:19.055 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:09:19.056 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:09:19.056 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:09:19.118 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:09:19.465 +02:00 [INF] Request finished in 353.3657ms 200 text/html;charset=utf-8
+2022-04-05 14:09:19.553 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:09:19.560 +02:00 [INF] Request finished in 7.0961ms 200 application/javascript; charset=utf-8
+2022-04-05 14:09:20.414 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-05 14:09:20.436 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-05 14:09:20.436 +02:00 [INF] Request finished in 22.4068ms 0 image/png
+2022-04-05 14:09:20.817 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:09:20.984 +02:00 [INF] Request finished in 167.213ms 200 application/json;charset=utf-8
+2022-04-05 14:10:44.515 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:10:45.112 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:10:45.112 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:10:45.112 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:10:45.150 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:10:45.454 +02:00 [INF] Request finished in 309.2881ms 200 text/html;charset=utf-8
+2022-04-05 14:10:45.598 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:10:45.604 +02:00 [INF] Request finished in 6.4749ms 200 application/javascript; charset=utf-8
+2022-04-05 14:10:45.879 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-05 14:10:45.898 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-05 14:10:45.899 +02:00 [INF] Request finished in 20.1434ms 0 image/png
+2022-04-05 14:10:46.211 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:10:46.371 +02:00 [INF] Request finished in 161.1096ms 200 application/json;charset=utf-8
+2022-04-05 14:12:06.355 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:12:06.874 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:12:06.877 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:12:06.878 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:12:06.931 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:12:07.221 +02:00 [INF] Request finished in 296.407ms 200 text/html;charset=utf-8
+2022-04-05 14:12:07.310 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:12:07.316 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-05 14:12:07.321 +02:00 [INF] Request finished in 10.5595ms 200 application/javascript; charset=utf-8
+2022-04-05 14:12:07.340 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-05 14:12:07.340 +02:00 [INF] Request finished in 23.9838ms 0 text/css
+2022-04-05 14:12:07.698 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-05 14:12:07.703 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-05 14:12:07.705 +02:00 [INF] Request finished in 7.4136ms 0 image/png
+2022-04-05 14:12:07.910 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:12:08.068 +02:00 [INF] Request finished in 158.5868ms 200 application/json;charset=utf-8
+2022-04-05 14:14:02.383 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:14:02.945 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:14:02.945 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:14:02.945 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:14:02.986 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:14:03.326 +02:00 [INF] Request finished in 345.8465ms 200 text/html;charset=utf-8
+2022-04-05 14:14:03.421 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:14:03.438 +02:00 [INF] Request finished in 17.5121ms 200 application/javascript; charset=utf-8
+2022-04-05 14:14:03.787 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-05 14:14:03.809 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-05 14:14:03.810 +02:00 [INF] Request finished in 23.3582ms 0 image/png
+2022-04-05 14:14:03.955 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:14:04.120 +02:00 [INF] Request finished in 164.8769ms 200 application/json;charset=utf-8
+2022-04-05 14:15:38.742 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:15:39.349 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:15:39.349 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:15:39.350 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:15:39.392 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:15:39.680 +02:00 [INF] Request finished in 294.451ms 200 text/html;charset=utf-8
+2022-04-05 14:15:39.785 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-05 14:15:39.815 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-05 14:15:39.815 +02:00 [INF] Request finished in 29.812ms 0 text/css
+2022-04-05 14:15:39.869 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:15:39.874 +02:00 [INF] Request finished in 5.6842ms 200 application/javascript; charset=utf-8
+2022-04-05 14:15:40.125 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-05 14:15:40.130 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-05 14:15:40.131 +02:00 [INF] Request finished in 6.9149ms 0 image/png
+2022-04-05 14:15:40.342 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:15:40.514 +02:00 [INF] Request finished in 172.7445ms 200 application/json;charset=utf-8
+2022-04-05 14:17:41.108 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:17:41.631 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:17:41.636 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:17:41.636 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:17:41.734 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:17:42.063 +02:00 [INF] Request finished in 370.0317ms 200 text/html;charset=utf-8
+2022-04-05 14:17:42.151 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:17:42.160 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-05 14:17:42.160 +02:00 [INF] Request finished in 9.5496ms 200 application/javascript; charset=utf-8
+2022-04-05 14:17:42.188 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-05 14:17:42.188 +02:00 [INF] Request finished in 28.1984ms 0 text/css
+2022-04-05 14:17:42.553 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-05 14:17:42.557 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-05 14:17:42.558 +02:00 [INF] Request finished in 5.5302ms 0 image/png
+2022-04-05 14:17:42.752 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:17:42.925 +02:00 [INF] Request finished in 172.9852ms 200 application/json;charset=utf-8
+2022-04-05 14:18:02.853 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:18:03.670 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:18:03.677 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:18:03.684 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:18:03.735 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger  
+2022-04-05 14:18:03.869 +02:00 [INF] Request finished in 143.1687ms 301 
+2022-04-05 14:18:03.873 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:18:04.160 +02:00 [INF] Request finished in 286.9484ms 200 text/html;charset=utf-8
+2022-04-05 14:18:04.160 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-05 14:18:04.165 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui-bundle.js  
+2022-04-05 14:18:04.169 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui-standalone-preset.js  
+2022-04-05 14:18:04.205 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-05 14:18:04.205 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-05 14:18:04.206 +02:00 [INF] Request finished in 36.5119ms 200 application/javascript
+2022-04-05 14:18:04.206 +02:00 [INF] Request finished in 45.5304ms 200 text/css
+2022-04-05 14:18:04.207 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-05 14:18:04.207 +02:00 [INF] Request finished in 42.4448ms 200 application/javascript
+2022-04-05 14:18:04.241 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:18:04.245 +02:00 [INF] Request finished in 3.8019ms 200 application/javascript; charset=utf-8
+2022-04-05 14:18:04.988 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:18:05.058 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-05 14:18:05.061 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-05 14:18:05.061 +02:00 [INF] Request finished in 3.858ms 200 image/png
+2022-04-05 14:18:05.129 +02:00 [INF] Request finished in 141.359ms 200 application/json;charset=utf-8
+2022-04-05 14:23:37.128 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:23:37.696 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:23:37.697 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:23:37.697 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:23:37.736 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:23:38.874 +02:00 [INF] Request finished in 1145.0626ms 200 text/html;charset=utf-8
+2022-04-05 14:23:39.177 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:23:39.182 +02:00 [INF] Request finished in 4.9824ms 200 application/javascript; charset=utf-8
+2022-04-05 14:23:44.149 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:23:44.300 +02:00 [INF] Request finished in 151.4764ms 200 application/json;charset=utf-8
+2022-04-05 14:31:11.803 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:31:12.679 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:31:12.685 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:31:12.685 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:31:12.762 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:31:14.155 +02:00 [INF] Request finished in 1400.6327ms 200 text/html;charset=utf-8
+2022-04-05 14:31:14.207 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:31:14.213 +02:00 [INF] Request finished in 6.169ms 200 application/javascript; charset=utf-8
+2022-04-05 14:31:15.316 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:31:15.478 +02:00 [INF] Request finished in 162.5865ms 200 application/json;charset=utf-8
+2022-04-05 14:33:02.844 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:33:03.501 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:33:03.502 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:33:03.502 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:33:03.559 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:33:03.929 +02:00 [INF] Request finished in 378.8636ms 200 text/html;charset=utf-8
+2022-04-05 14:33:03.957 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:33:03.962 +02:00 [INF] Request finished in 5.2674ms 200 application/javascript; charset=utf-8
+2022-04-05 14:33:04.305 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:33:04.443 +02:00 [INF] Request finished in 138.252ms 200 application/json;charset=utf-8
+2022-04-05 14:33:54.553 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:33:55.121 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:33:55.121 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:33:55.121 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:33:55.160 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:33:55.488 +02:00 [INF] Request finished in 331.4926ms 200 text/html;charset=utf-8
+2022-04-05 14:33:55.516 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:33:55.522 +02:00 [INF] Request finished in 6.3582ms 200 application/javascript; charset=utf-8
+2022-04-05 14:33:55.799 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:33:55.931 +02:00 [INF] Request finished in 132.5536ms 200 application/json;charset=utf-8
+2022-04-05 14:35:53.347 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:35:54.031 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:35:54.041 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:35:54.041 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:35:54.094 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:35:54.443 +02:00 [INF] Request finished in 356.7359ms 200 text/html;charset=utf-8
+2022-04-05 14:35:54.458 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:35:54.471 +02:00 [INF] Request finished in 12.9995ms 200 application/javascript; charset=utf-8
+2022-04-05 14:35:54.757 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:35:54.905 +02:00 [INF] Request finished in 148.6519ms 200 application/json;charset=utf-8
+2022-04-05 14:39:01.638 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:39:02.632 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:39:02.633 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:39:02.633 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:39:02.792 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:39:03.432 +02:00 [INF] Request finished in 648.2298ms 200 text/html;charset=utf-8
+2022-04-05 14:39:03.527 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:39:03.533 +02:00 [INF] Request finished in 5.5377ms 200 application/javascript; charset=utf-8
+2022-04-05 14:39:05.654 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:39:05.864 +02:00 [INF] Request finished in 211.2471ms 200 application/json;charset=utf-8
+2022-04-05 14:39:48.353 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:39:49.044 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:39:49.044 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:39:49.044 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:39:49.117 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:39:49.496 +02:00 [INF] Request finished in 386.31ms 200 text/html;charset=utf-8
+2022-04-05 14:39:49.510 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:39:49.525 +02:00 [INF] Request finished in 14.4577ms 200 application/javascript; charset=utf-8
+2022-04-05 14:39:49.984 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:39:50.129 +02:00 [INF] Request finished in 146.0488ms 200 application/json;charset=utf-8
+2022-04-05 14:43:40.483 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:43:41.108 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:43:41.109 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:43:41.109 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:43:41.146 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:43:41.473 +02:00 [INF] Request finished in 333.6368ms 200 text/html;charset=utf-8
+2022-04-05 14:43:41.509 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:43:41.514 +02:00 [INF] Request finished in 4.7158ms 200 application/javascript; charset=utf-8
+2022-04-05 14:43:41.906 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:43:42.091 +02:00 [INF] Request finished in 185.6036ms 200 application/json;charset=utf-8
+2022-04-05 14:44:25.070 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:44:25.796 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:44:25.806 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:44:25.807 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:44:25.864 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:44:26.215 +02:00 [INF] Request finished in 358.4205ms 200 text/html;charset=utf-8
+2022-04-05 14:44:26.287 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:44:26.293 +02:00 [INF] Request finished in 5.7543ms 200 application/javascript; charset=utf-8
+2022-04-05 14:44:26.691 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:44:26.831 +02:00 [INF] Request finished in 140.3832ms 200 application/json;charset=utf-8
+2022-04-05 14:44:59.747 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:45:00.345 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:45:00.349 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:45:00.353 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:45:00.388 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:45:00.704 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:45:00.705 +02:00 [INF] Request finished in 324.9449ms 200 text/html;charset=utf-8
+2022-04-05 14:45:00.711 +02:00 [INF] Request finished in 7.0256ms 200 application/javascript; charset=utf-8
+2022-04-05 14:45:00.979 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:45:01.179 +02:00 [INF] Request finished in 200.831ms 200 application/json;charset=utf-8
+2022-04-05 14:46:49.061 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:46:49.798 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:46:49.799 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:46:49.799 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:46:49.862 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:46:50.210 +02:00 [INF] Request finished in 356.2352ms 200 text/html;charset=utf-8
+2022-04-05 14:46:50.221 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:46:50.242 +02:00 [INF] Request finished in 20.6413ms 200 application/javascript; charset=utf-8
+2022-04-05 14:46:50.474 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:46:50.647 +02:00 [INF] Request finished in 173.7838ms 200 application/json;charset=utf-8
+2022-04-05 14:47:32.947 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:47:33.471 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:47:33.482 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:47:33.483 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:47:33.527 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:47:33.840 +02:00 [INF] Request finished in 321.8117ms 200 text/html;charset=utf-8
+2022-04-05 14:47:33.870 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:47:33.878 +02:00 [INF] Request finished in 7.1383ms 200 application/javascript; charset=utf-8
+2022-04-05 14:47:34.101 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:47:34.315 +02:00 [INF] Request finished in 213.7235ms 200 application/json;charset=utf-8
+2022-04-05 14:49:13.115 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:49:13.606 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:49:13.615 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:49:13.615 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:49:13.657 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:49:14.127 +02:00 [INF] Request finished in 476.2909ms 200 text/html;charset=utf-8
+2022-04-05 14:49:14.142 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:49:14.165 +02:00 [INF] Request finished in 22.8287ms 200 application/javascript; charset=utf-8
+2022-04-05 14:49:14.414 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:49:14.581 +02:00 [INF] Request finished in 167.1321ms 200 application/json;charset=utf-8
+2022-04-05 14:50:13.681 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:50:14.203 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:50:14.203 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:50:14.203 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:50:14.283 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:50:14.653 +02:00 [INF] Request finished in 379.0948ms 200 text/html;charset=utf-8
+2022-04-05 14:50:14.691 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:50:14.697 +02:00 [INF] Request finished in 6.1963ms 200 application/javascript; charset=utf-8
+2022-04-05 14:50:15.633 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:50:15.792 +02:00 [INF] Request finished in 159.2148ms 200 application/json;charset=utf-8
+2022-04-05 14:51:02.932 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:51:03.517 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:51:03.518 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:51:03.518 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:51:03.567 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:51:03.881 +02:00 [INF] Request finished in 317.3088ms 200 text/html;charset=utf-8
+2022-04-05 14:51:03.896 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:51:03.912 +02:00 [INF] Request finished in 16.6397ms 200 application/javascript; charset=utf-8
+2022-04-05 14:51:04.214 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:51:04.359 +02:00 [INF] Request finished in 144.5574ms 200 application/json;charset=utf-8
+2022-04-05 14:52:07.583 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:52:08.321 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:52:08.325 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:52:08.326 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:52:08.393 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:52:08.749 +02:00 [INF] Request finished in 363.0729ms 200 text/html;charset=utf-8
+2022-04-05 14:52:08.791 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:52:08.802 +02:00 [INF] Request finished in 6.1242ms 200 application/javascript; charset=utf-8
+2022-04-05 14:52:09.273 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:52:09.449 +02:00 [INF] Request finished in 176.6459ms 200 application/json;charset=utf-8
+2022-04-05 14:52:43.215 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:52:43.968 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:52:43.970 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:52:43.970 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:52:44.032 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:52:44.401 +02:00 [INF] Request finished in 377.3952ms 200 text/html;charset=utf-8
+2022-04-05 14:52:44.443 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:52:44.454 +02:00 [INF] Request finished in 19.4001ms 200 application/javascript; charset=utf-8
+2022-04-05 14:52:45.274 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:52:45.430 +02:00 [INF] Request finished in 155.6422ms 200 application/json;charset=utf-8
+2022-04-05 14:54:52.778 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:54:53.584 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:54:53.585 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:54:53.585 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:54:53.641 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:54:54.015 +02:00 [INF] Request finished in 381.4172ms 200 text/html;charset=utf-8
+2022-04-05 14:54:54.040 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:54:54.053 +02:00 [INF] Request finished in 13.4945ms 200 application/javascript; charset=utf-8
+2022-04-05 14:54:54.386 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:54:54.522 +02:00 [INF] Request finished in 136.9043ms 200 application/json;charset=utf-8
+2022-04-05 14:55:28.869 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:55:29.473 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:55:29.482 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:55:29.482 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:55:29.520 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:55:29.837 +02:00 [INF] Request finished in 322.1948ms 200 text/html;charset=utf-8
+2022-04-05 14:55:29.852 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:55:29.866 +02:00 [INF] Request finished in 14.5419ms 200 application/javascript; charset=utf-8
+2022-04-05 14:55:30.152 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:55:30.294 +02:00 [INF] Request finished in 142.5261ms 200 application/json;charset=utf-8
+2022-04-05 14:56:26.551 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:56:27.090 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:56:27.091 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:56:27.092 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:56:27.131 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:56:27.421 +02:00 [INF] Request finished in 292.9522ms 200 text/html;charset=utf-8
+2022-04-05 14:56:27.435 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:56:27.445 +02:00 [INF] Request finished in 9.1729ms 200 application/javascript; charset=utf-8
+2022-04-05 14:56:27.798 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:56:27.934 +02:00 [INF] Request finished in 136.3304ms 200 application/json;charset=utf-8
+2022-04-05 14:57:05.427 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:57:05.987 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:57:05.988 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:57:05.988 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:57:06.040 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:57:06.378 +02:00 [INF] Request finished in 341.2196ms 200 text/html;charset=utf-8
+2022-04-05 14:57:06.454 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:57:06.459 +02:00 [INF] Request finished in 5.0117ms 200 application/javascript; charset=utf-8
+2022-04-05 14:57:06.734 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:57:06.893 +02:00 [INF] Request finished in 159.8872ms 200 application/json;charset=utf-8
+2022-04-05 14:57:34.146 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:57:34.698 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:57:34.699 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:57:34.699 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:57:34.745 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:57:35.038 +02:00 [INF] Request finished in 301.0638ms 200 text/html;charset=utf-8
+2022-04-05 14:57:35.090 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:57:35.096 +02:00 [INF] Request finished in 6.0346ms 200 application/javascript; charset=utf-8
+2022-04-05 14:57:35.442 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:57:35.580 +02:00 [INF] Request finished in 137.5625ms 200 application/json;charset=utf-8
+2022-04-05 14:58:03.199 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:58:03.710 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:58:03.715 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:58:03.715 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:58:03.746 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:58:04.042 +02:00 [INF] Request finished in 300.3289ms 200 text/html;charset=utf-8
+2022-04-05 14:58:04.081 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:58:04.089 +02:00 [INF] Request finished in 8.2127ms 200 application/javascript; charset=utf-8
+2022-04-05 14:58:04.379 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:58:04.538 +02:00 [INF] Request finished in 159.4627ms 200 application/json;charset=utf-8
+2022-04-05 14:58:39.336 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:58:39.980 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:58:39.983 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:58:39.992 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:58:40.039 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:58:40.473 +02:00 [INF] Request finished in 444.476ms 200 text/html;charset=utf-8
+2022-04-05 14:58:40.565 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:58:40.571 +02:00 [INF] Request finished in 6.8961ms 200 application/javascript; charset=utf-8
+2022-04-05 14:58:41.809 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:58:41.960 +02:00 [INF] Request finished in 151.6013ms 200 application/json;charset=utf-8
+2022-04-05 14:59:28.796 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 14:59:29.402 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 14:59:29.412 +02:00 [INF] Hosting environment: Development
+2022-04-05 14:59:29.412 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 14:59:29.448 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 14:59:29.749 +02:00 [INF] Request finished in 303.908ms 200 text/html;charset=utf-8
+2022-04-05 14:59:29.783 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 14:59:29.790 +02:00 [INF] Request finished in 6.7521ms 200 application/javascript; charset=utf-8
+2022-04-05 14:59:30.089 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 14:59:30.234 +02:00 [INF] Request finished in 144.6435ms 200 application/json;charset=utf-8
+2022-04-05 15:01:42.656 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:01:43.149 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:01:43.156 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:01:43.156 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:01:43.202 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:01:43.474 +02:00 [INF] Request finished in 276.849ms 200 text/html;charset=utf-8
+2022-04-05 15:01:43.491 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:01:43.506 +02:00 [INF] Request finished in 14.8708ms 200 application/javascript; charset=utf-8
+2022-04-05 15:01:43.812 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:01:43.961 +02:00 [INF] Request finished in 159.7204ms 200 application/json;charset=utf-8
+2022-04-05 15:02:31.854 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:02:32.376 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:02:32.377 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:02:32.377 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:02:32.421 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:02:32.722 +02:00 [INF] Request finished in 304.2959ms 200 text/html;charset=utf-8
+2022-04-05 15:02:32.737 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:02:32.752 +02:00 [INF] Request finished in 14.5688ms 200 application/javascript; charset=utf-8
+2022-04-05 15:02:33.025 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:02:33.169 +02:00 [INF] Request finished in 144.4145ms 200 application/json;charset=utf-8
+2022-04-05 15:03:30.102 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:03:30.664 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:03:30.665 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:03:30.665 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:03:30.698 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:03:30.968 +02:00 [INF] Request finished in 276.1405ms 200 text/html;charset=utf-8
+2022-04-05 15:03:31.003 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:03:31.009 +02:00 [INF] Request finished in 5.1052ms 200 application/javascript; charset=utf-8
+2022-04-05 15:03:31.310 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:03:31.456 +02:00 [INF] Request finished in 146.5829ms 200 application/json;charset=utf-8
+2022-04-05 15:05:52.081 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:05:52.612 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:05:52.622 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:05:52.622 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:05:52.665 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:05:52.954 +02:00 [INF] Request finished in 296.4849ms 200 text/html;charset=utf-8
+2022-04-05 15:05:52.970 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:05:52.986 +02:00 [INF] Request finished in 15.7589ms 200 application/javascript; charset=utf-8
+2022-04-05 15:05:53.285 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:05:53.425 +02:00 [INF] Request finished in 140.6593ms 200 application/json;charset=utf-8
+2022-04-05 15:08:59.898 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:09:00.439 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:09:00.440 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:09:00.440 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:09:00.481 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:09:00.790 +02:00 [INF] Request finished in 286.1115ms 200 text/html;charset=utf-8
+2022-04-05 15:09:00.832 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:09:00.839 +02:00 [INF] Request finished in 6.8169ms 200 application/javascript; charset=utf-8
+2022-04-05 15:09:01.103 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:09:01.241 +02:00 [INF] Request finished in 138.642ms 200 application/json;charset=utf-8
+2022-04-05 15:09:26.204 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:09:26.756 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:09:26.757 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:09:26.757 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:09:26.799 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:09:27.092 +02:00 [INF] Request finished in 299.2764ms 200 text/html;charset=utf-8
+2022-04-05 15:09:27.109 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:09:27.123 +02:00 [INF] Request finished in 14.3759ms 200 application/javascript; charset=utf-8
+2022-04-05 15:09:27.382 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:09:27.542 +02:00 [INF] Request finished in 160.6259ms 200 application/json;charset=utf-8
+2022-04-05 15:10:07.566 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:10:08.086 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:10:08.087 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:10:08.093 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:10:08.148 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:10:08.427 +02:00 [INF] Request finished in 284.2901ms 200 text/html;charset=utf-8
+2022-04-05 15:10:08.448 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:10:08.464 +02:00 [INF] Request finished in 15.4758ms 200 application/javascript; charset=utf-8
+2022-04-05 15:10:08.787 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:10:08.925 +02:00 [INF] Request finished in 138.4178ms 200 application/json;charset=utf-8
+2022-04-05 15:21:37.378 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:21:37.905 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:21:37.905 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:21:37.905 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:21:37.946 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:21:38.328 +02:00 [INF] Request finished in 388.677ms 200 text/html;charset=utf-8
+2022-04-05 15:21:38.343 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:21:38.362 +02:00 [INF] Request finished in 18.8863ms 200 application/javascript; charset=utf-8
+2022-04-05 15:21:38.658 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:21:38.813 +02:00 [INF] Request finished in 155.402ms 200 application/json;charset=utf-8
+2022-04-05 15:22:21.680 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:22:22.229 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:22:22.230 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:22:22.230 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:22:22.261 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:22:22.570 +02:00 [INF] Request finished in 312.9365ms 200 text/html;charset=utf-8
+2022-04-05 15:22:22.657 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:22:22.662 +02:00 [INF] Request finished in 4.7483ms 200 application/javascript; charset=utf-8
+2022-04-05 15:22:22.989 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:22:23.128 +02:00 [INF] Request finished in 139.2494ms 200 application/json;charset=utf-8
+2022-04-05 15:31:18.635 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:31:19.271 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:31:19.272 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:31:19.272 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:31:19.400 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:31:19.906 +02:00 [INF] Request finished in 518.5422ms 200 text/html;charset=utf-8
+2022-04-05 15:31:20.037 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:31:20.043 +02:00 [INF] Request finished in 5.1034ms 200 application/javascript; charset=utf-8
+2022-04-05 15:31:20.879 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:31:21.047 +02:00 [INF] Request finished in 168.6448ms 200 application/json;charset=utf-8
+2022-04-05 15:32:03.193 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:32:03.776 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:32:03.776 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:32:03.776 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:32:03.818 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:32:04.102 +02:00 [INF] Request finished in 290.4948ms 200 text/html;charset=utf-8
+2022-04-05 15:32:04.116 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:32:04.133 +02:00 [INF] Request finished in 16.651ms 200 application/javascript; charset=utf-8
+2022-04-05 15:32:04.419 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:32:04.564 +02:00 [INF] Request finished in 144.8473ms 200 application/json;charset=utf-8
+2022-04-05 15:32:25.197 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:32:25.743 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:32:25.747 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:32:25.747 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:32:25.810 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:32:26.166 +02:00 [INF] Request finished in 361.103ms 200 text/html;charset=utf-8
+2022-04-05 15:32:26.210 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:32:26.220 +02:00 [INF] Request finished in 9.6224ms 200 application/javascript; charset=utf-8
+2022-04-05 15:32:26.527 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:32:26.668 +02:00 [INF] Request finished in 141.0439ms 200 application/json;charset=utf-8
+2022-04-05 15:33:26.449 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:33:26.993 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:33:26.993 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:33:26.993 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:33:27.033 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:33:27.321 +02:00 [INF] Request finished in 294.3261ms 200 text/html;charset=utf-8
+2022-04-05 15:33:27.338 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:33:27.352 +02:00 [INF] Request finished in 14.6227ms 200 application/javascript; charset=utf-8
+2022-04-05 15:33:27.624 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:33:27.779 +02:00 [INF] Request finished in 156.1301ms 200 application/json;charset=utf-8
+2022-04-05 15:34:17.588 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:34:18.094 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:34:18.095 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:34:18.095 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:34:18.148 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:34:18.441 +02:00 [INF] Request finished in 299.2603ms 200 text/html;charset=utf-8
+2022-04-05 15:34:18.455 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:34:18.469 +02:00 [INF] Request finished in 13.9458ms 200 application/javascript; charset=utf-8
+2022-04-05 15:34:18.788 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:34:18.937 +02:00 [INF] Request finished in 149.9631ms 200 application/json;charset=utf-8
+2022-04-05 15:35:01.025 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:35:01.641 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:35:01.643 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:35:01.643 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:35:01.693 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:35:02.070 +02:00 [INF] Request finished in 378.8698ms 200 text/html;charset=utf-8
+2022-04-05 15:35:02.132 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:35:02.148 +02:00 [INF] Request finished in 16.2687ms 200 application/javascript; charset=utf-8
+2022-04-05 15:35:02.534 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:35:02.685 +02:00 [INF] Request finished in 151.4657ms 200 application/json;charset=utf-8
+2022-04-05 15:36:12.517 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:36:13.045 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:36:13.051 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:36:13.051 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:36:13.086 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:36:13.364 +02:00 [INF] Request finished in 282.6961ms 200 text/html;charset=utf-8
+2022-04-05 15:36:13.382 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:36:13.400 +02:00 [INF] Request finished in 18.1679ms 200 application/javascript; charset=utf-8
+2022-04-05 15:36:13.706 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:36:13.860 +02:00 [INF] Request finished in 154.3699ms 200 application/json;charset=utf-8
+2022-04-05 15:36:59.265 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:36:59.810 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:36:59.811 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:36:59.811 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:36:59.852 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:37:00.192 +02:00 [INF] Request finished in 341.8396ms 200 text/html;charset=utf-8
+2022-04-05 15:37:00.223 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:37:00.229 +02:00 [INF] Request finished in 5.4084ms 200 application/javascript; charset=utf-8
+2022-04-05 15:37:00.559 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:37:00.700 +02:00 [INF] Request finished in 141.1922ms 200 application/json;charset=utf-8
+2022-04-05 15:37:55.622 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:37:56.317 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:37:56.318 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:37:56.318 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:37:56.382 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:37:56.741 +02:00 [INF] Request finished in 364.1314ms 200 text/html;charset=utf-8
+2022-04-05 15:37:56.772 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:37:56.777 +02:00 [INF] Request finished in 5.5244ms 200 application/javascript; charset=utf-8
+2022-04-05 15:37:57.181 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:37:57.312 +02:00 [INF] Request finished in 131.9328ms 200 application/json;charset=utf-8
+2022-04-05 15:38:33.038 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:38:33.906 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:38:33.917 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:38:33.917 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:38:33.987 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:38:34.520 +02:00 [INF] Request finished in 541.825ms 200 text/html;charset=utf-8
+2022-04-05 15:38:34.570 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:38:34.581 +02:00 [INF] Request finished in 10.7276ms 200 application/javascript; charset=utf-8
+2022-04-05 15:38:35.685 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:38:35.837 +02:00 [INF] Request finished in 151.9062ms 200 application/json;charset=utf-8
+2022-04-05 15:41:51.285 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:41:52.538 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:41:52.538 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:41:52.539 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:41:52.673 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:41:53.134 +02:00 [INF] Request finished in 485.4561ms 200 text/html;charset=utf-8
+2022-04-05 15:41:53.174 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:41:53.194 +02:00 [INF] Request finished in 29.8723ms 200 application/javascript; charset=utf-8
+2022-04-05 15:41:55.623 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:41:55.809 +02:00 [INF] Request finished in 186.7913ms 200 application/json;charset=utf-8
+2022-04-05 15:44:30.183 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:44:30.901 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:44:30.914 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:44:30.914 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:44:30.975 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:44:31.395 +02:00 [INF] Request finished in 427.413ms 200 text/html;charset=utf-8
+2022-04-05 15:44:31.465 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:44:31.472 +02:00 [INF] Request finished in 6.3771ms 200 application/javascript; charset=utf-8
+2022-04-05 15:44:31.931 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:44:32.100 +02:00 [INF] Request finished in 167.9666ms 200 application/json;charset=utf-8
+2022-04-05 15:45:17.132 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:45:17.644 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:45:17.645 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:45:17.649 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:45:17.689 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:45:18.012 +02:00 [INF] Request finished in 332.508ms 200 text/html;charset=utf-8
+2022-04-05 15:45:18.027 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:45:18.044 +02:00 [INF] Request finished in 16.1648ms 200 application/javascript; charset=utf-8
+2022-04-05 15:45:18.322 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:45:18.461 +02:00 [INF] Request finished in 139.9944ms 200 application/json;charset=utf-8
+2022-04-05 15:45:47.405 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:45:48.040 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:45:48.041 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:45:48.041 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:45:48.090 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:45:48.363 +02:00 [INF] Request finished in 280.2163ms 200 text/html;charset=utf-8
+2022-04-05 15:45:48.378 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:45:48.396 +02:00 [INF] Request finished in 18.3099ms 200 application/javascript; charset=utf-8
+2022-04-05 15:45:48.683 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:45:48.839 +02:00 [INF] Request finished in 155.9325ms 200 application/json;charset=utf-8
+2022-04-05 15:46:43.935 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:46:44.617 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:46:44.627 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:46:44.627 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:46:44.677 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:46:45.077 +02:00 [INF] Request finished in 409.6567ms 200 text/html;charset=utf-8
+2022-04-05 15:46:45.109 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:46:45.115 +02:00 [INF] Request finished in 10.9688ms 200 application/javascript; charset=utf-8
+2022-04-05 15:46:45.595 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:46:45.736 +02:00 [INF] Request finished in 141.537ms 200 application/json;charset=utf-8
+2022-04-05 15:49:34.441 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:49:35.039 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:49:35.039 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:49:35.040 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:49:35.098 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:49:35.385 +02:00 [INF] Request finished in 295.5294ms 200 text/html;charset=utf-8
+2022-04-05 15:49:35.400 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:49:35.413 +02:00 [INF] Request finished in 13.7257ms 200 application/javascript; charset=utf-8
+2022-04-05 15:49:35.686 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:49:35.840 +02:00 [INF] Request finished in 154.1155ms 200 application/json;charset=utf-8
+2022-04-05 15:50:51.753 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:50:52.614 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:50:52.615 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:50:52.615 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:50:52.701 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:50:53.066 +02:00 [INF] Request finished in 371.5284ms 200 text/html;charset=utf-8
+2022-04-05 15:50:53.113 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:50:53.119 +02:00 [INF] Request finished in 6.2574ms 200 application/javascript; charset=utf-8
+2022-04-05 15:50:53.975 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:50:54.156 +02:00 [INF] Request finished in 182.4105ms 200 application/json;charset=utf-8
+2022-04-05 15:51:35.869 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:51:36.400 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:51:36.405 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:51:36.405 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:51:36.439 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:51:36.726 +02:00 [INF] Request finished in 292.9306ms 200 text/html;charset=utf-8
+2022-04-05 15:51:36.791 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:51:36.802 +02:00 [INF] Request finished in 10.2821ms 200 application/javascript; charset=utf-8
+2022-04-05 15:51:37.337 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:51:37.522 +02:00 [INF] Request finished in 185.3645ms 200 application/json;charset=utf-8
+2022-04-05 15:52:02.230 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:52:02.849 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:52:02.852 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:52:02.852 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:52:02.930 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:52:03.284 +02:00 [INF] Request finished in 366.212ms 200 text/html;charset=utf-8
+2022-04-05 15:52:03.321 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:52:03.326 +02:00 [INF] Request finished in 5.1905ms 200 application/javascript; charset=utf-8
+2022-04-05 15:52:03.722 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:52:03.883 +02:00 [INF] Request finished in 161.8051ms 200 application/json;charset=utf-8
+2022-04-05 15:52:21.463 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:52:22.214 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:52:22.224 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:52:22.224 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:52:22.302 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:52:22.771 +02:00 [INF] Request finished in 478.6104ms 200 text/html;charset=utf-8
+2022-04-05 15:52:22.824 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:52:22.829 +02:00 [INF] Request finished in 11.124ms 200 application/javascript; charset=utf-8
+2022-04-05 15:52:23.251 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:52:23.407 +02:00 [INF] Request finished in 156.5832ms 200 application/json;charset=utf-8
+2022-04-05 15:54:29.458 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:54:30.011 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:54:30.011 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:54:30.018 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:54:30.055 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:54:30.366 +02:00 [INF] Request finished in 313.8117ms 200 text/html;charset=utf-8
+2022-04-05 15:54:30.395 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:54:30.400 +02:00 [INF] Request finished in 5.1855ms 200 application/javascript; charset=utf-8
+2022-04-05 15:54:30.676 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:54:30.824 +02:00 [INF] Request finished in 148.3681ms 200 application/json;charset=utf-8
+2022-04-05 15:54:55.644 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 15:54:56.171 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 15:54:56.183 +02:00 [INF] Hosting environment: Development
+2022-04-05 15:54:56.183 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 15:54:56.226 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 15:54:56.537 +02:00 [INF] Request finished in 316.7349ms 200 text/html;charset=utf-8
+2022-04-05 15:54:56.564 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 15:54:56.568 +02:00 [INF] Request finished in 4.3199ms 200 application/javascript; charset=utf-8
+2022-04-05 15:54:56.896 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 15:54:57.046 +02:00 [INF] Request finished in 150.5296ms 200 application/json;charset=utf-8
+2022-04-05 16:02:50.894 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:02:51.491 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:02:51.500 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:02:51.500 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:02:51.542 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:02:52.737 +02:00 [INF] Request finished in 1200.7437ms 200 text/html;charset=utf-8
+2022-04-05 16:02:52.844 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:02:52.850 +02:00 [INF] Request finished in 5.8465ms 200 application/javascript; charset=utf-8
+2022-04-05 16:02:53.619 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:02:53.806 +02:00 [INF] Request finished in 187.657ms 200 application/json;charset=utf-8
+2022-04-05 16:04:13.926 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:04:14.480 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:04:14.485 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:04:14.485 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:04:14.518 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:04:14.820 +02:00 [INF] Request finished in 309.0524ms 200 text/html;charset=utf-8
+2022-04-05 16:04:14.838 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:04:14.857 +02:00 [INF] Request finished in 18.525ms 200 application/javascript; charset=utf-8
+2022-04-05 16:04:15.182 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:04:15.327 +02:00 [INF] Request finished in 144.8918ms 200 application/json;charset=utf-8
+2022-04-05 16:04:55.652 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:04:56.200 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:04:56.200 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:04:56.200 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:04:56.237 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:04:56.536 +02:00 [INF] Request finished in 305.8413ms 200 text/html;charset=utf-8
+2022-04-05 16:04:56.567 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:04:56.572 +02:00 [INF] Request finished in 5.1727ms 200 application/javascript; charset=utf-8
+2022-04-05 16:04:56.916 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:04:57.056 +02:00 [INF] Request finished in 139.9197ms 200 application/json;charset=utf-8
+2022-04-05 16:05:37.909 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:05:38.511 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:05:38.513 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:05:38.513 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:05:38.561 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:05:38.873 +02:00 [INF] Request finished in 317.93ms 200 text/html;charset=utf-8
+2022-04-05 16:05:38.901 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:05:38.906 +02:00 [INF] Request finished in 4.5489ms 200 application/javascript; charset=utf-8
+2022-04-05 16:05:39.236 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:05:39.378 +02:00 [INF] Request finished in 142.8625ms 200 application/json;charset=utf-8
+2022-04-05 16:07:21.234 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:07:21.847 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:07:21.854 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:07:21.854 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:07:21.920 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:07:22.218 +02:00 [INF] Request finished in 305.3613ms 200 text/html;charset=utf-8
+2022-04-05 16:07:22.231 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:07:22.244 +02:00 [INF] Request finished in 13.103ms 200 application/javascript; charset=utf-8
+2022-04-05 16:07:22.557 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:07:22.711 +02:00 [INF] Request finished in 154.8968ms 200 application/json;charset=utf-8
+2022-04-05 16:07:46.757 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:07:47.376 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:07:47.377 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:07:47.377 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:07:47.445 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:07:47.859 +02:00 [INF] Request finished in 421.7235ms 200 text/html;charset=utf-8
+2022-04-05 16:07:48.001 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:07:48.006 +02:00 [INF] Request finished in 5.4229ms 200 application/javascript; charset=utf-8
+2022-04-05 16:07:48.302 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:07:48.459 +02:00 [INF] Request finished in 156.8243ms 200 application/json;charset=utf-8
+2022-04-05 16:08:32.395 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:08:32.932 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:08:32.939 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:08:32.939 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:08:32.973 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:08:33.269 +02:00 [INF] Request finished in 300.1677ms 200 text/html;charset=utf-8
+2022-04-05 16:08:33.284 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:08:33.304 +02:00 [INF] Request finished in 19.6757ms 200 application/javascript; charset=utf-8
+2022-04-05 16:08:33.592 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:08:33.723 +02:00 [INF] Request finished in 131.2221ms 200 application/json;charset=utf-8
+2022-04-05 16:10:45.006 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:10:45.729 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:10:45.730 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:10:45.731 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:10:45.810 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:10:46.165 +02:00 [INF] Request finished in 363.2193ms 200 text/html;charset=utf-8
+2022-04-05 16:10:46.209 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:10:46.215 +02:00 [INF] Request finished in 5.5043ms 200 application/javascript; charset=utf-8
+2022-04-05 16:10:46.600 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:10:46.756 +02:00 [INF] Request finished in 156.003ms 200 application/json;charset=utf-8
+2022-04-05 16:11:49.657 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:11:50.224 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:11:50.232 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:11:50.232 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:11:50.278 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:11:50.590 +02:00 [INF] Request finished in 316.7244ms 200 text/html;charset=utf-8
+2022-04-05 16:11:50.620 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:11:50.624 +02:00 [INF] Request finished in 4.2761ms 200 application/javascript; charset=utf-8
+2022-04-05 16:11:50.884 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:11:51.033 +02:00 [INF] Request finished in 149.5099ms 200 application/json;charset=utf-8
+2022-04-05 16:14:23.999 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:14:24.747 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:14:24.747 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:14:24.748 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:14:24.806 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:14:25.198 +02:00 [INF] Request finished in 399.7255ms 200 text/html;charset=utf-8
+2022-04-05 16:14:25.212 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:14:25.228 +02:00 [INF] Request finished in 16.1008ms 200 application/javascript; charset=utf-8
+2022-04-05 16:14:25.520 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:14:25.679 +02:00 [INF] Request finished in 159.2164ms 200 application/json;charset=utf-8
+2022-04-05 16:21:14.530 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:21:15.374 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:21:15.379 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:21:15.387 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:21:15.452 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:21:15.848 +02:00 [INF] Request finished in 415.6396ms 200 text/html;charset=utf-8
+2022-04-05 16:21:15.914 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:21:15.921 +02:00 [INF] Request finished in 6.7465ms 200 application/javascript; charset=utf-8
+2022-04-05 16:21:16.874 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:21:17.040 +02:00 [INF] Request finished in 165.631ms 200 application/json;charset=utf-8
+2022-04-05 16:23:01.496 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:23:02.012 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:23:02.013 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:23:02.013 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:23:02.048 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:23:02.388 +02:00 [INF] Request finished in 338.728ms 200 text/html;charset=utf-8
+2022-04-05 16:23:02.469 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:23:02.482 +02:00 [INF] Request finished in 13.5089ms 200 application/javascript; charset=utf-8
+2022-04-05 16:23:02.763 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:23:02.899 +02:00 [INF] Request finished in 137.3491ms 200 application/json;charset=utf-8
+2022-04-05 16:24:03.649 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:24:04.178 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:24:04.179 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:24:04.179 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:24:04.218 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:24:04.553 +02:00 [INF] Request finished in 340.7709ms 200 text/html;charset=utf-8
+2022-04-05 16:24:04.567 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:24:04.596 +02:00 [INF] Request finished in 28.9061ms 200 application/javascript; charset=utf-8
+2022-04-05 16:24:04.855 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:24:05.011 +02:00 [INF] Request finished in 156.8699ms 200 application/json;charset=utf-8
+2022-04-05 16:24:26.959 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:24:27.566 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:24:27.567 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:24:27.567 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:24:27.617 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:24:27.907 +02:00 [INF] Request finished in 294.3743ms 200 text/html;charset=utf-8
+2022-04-05 16:24:27.976 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:24:27.994 +02:00 [INF] Request finished in 18.7436ms 200 application/javascript; charset=utf-8
+2022-04-05 16:24:28.317 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:24:28.466 +02:00 [INF] Request finished in 149.8154ms 200 application/json;charset=utf-8
+2022-04-05 16:25:26.721 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:25:27.327 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:25:27.328 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:25:27.328 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:25:27.393 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:25:27.734 +02:00 [INF] Request finished in 349.3909ms 200 text/html;charset=utf-8
+2022-04-05 16:25:27.797 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:25:27.802 +02:00 [INF] Request finished in 5.0294ms 200 application/javascript; charset=utf-8
+2022-04-05 16:25:28.098 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:25:28.265 +02:00 [INF] Request finished in 167.7471ms 200 application/json;charset=utf-8
+2022-04-05 16:26:49.475 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:26:50.096 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:26:50.096 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:26:50.096 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:26:50.132 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:26:50.464 +02:00 [INF] Request finished in 340.0671ms 200 text/html;charset=utf-8
+2022-04-05 16:26:50.480 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:26:50.501 +02:00 [INF] Request finished in 22.4722ms 200 application/javascript; charset=utf-8
+2022-04-05 16:26:50.717 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:26:50.882 +02:00 [INF] Request finished in 165.8338ms 200 application/json;charset=utf-8
+2022-04-05 16:28:20.388 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:28:21.109 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:28:21.110 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:28:21.110 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:28:21.187 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:28:21.545 +02:00 [INF] Request finished in 369.9656ms 200 text/html;charset=utf-8
+2022-04-05 16:28:21.558 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:28:21.573 +02:00 [INF] Request finished in 15.2867ms 200 application/javascript; charset=utf-8
+2022-04-05 16:28:21.842 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:28:21.997 +02:00 [INF] Request finished in 156.0395ms 200 application/json;charset=utf-8
+2022-04-05 16:29:19.286 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:29:19.826 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:29:19.827 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:29:19.827 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:29:19.870 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:29:20.174 +02:00 [INF] Request finished in 307.3078ms 200 text/html;charset=utf-8
+2022-04-05 16:29:20.207 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:29:20.213 +02:00 [INF] Request finished in 5.4419ms 200 application/javascript; charset=utf-8
+2022-04-05 16:29:20.489 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:29:20.649 +02:00 [INF] Request finished in 160.0223ms 200 application/json;charset=utf-8
+2022-04-05 16:31:20.896 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:31:21.465 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:31:21.466 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:31:21.466 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:31:21.503 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:31:21.824 +02:00 [INF] Request finished in 329.1981ms 200 text/html;charset=utf-8
+2022-04-05 16:31:21.854 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:31:21.858 +02:00 [INF] Request finished in 4.8625ms 200 application/javascript; charset=utf-8
+2022-04-05 16:31:22.144 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:31:22.299 +02:00 [INF] Request finished in 155.5945ms 200 application/json;charset=utf-8
+2022-04-05 16:31:57.825 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:31:58.564 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:31:58.565 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:31:58.566 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:31:58.626 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:31:59.020 +02:00 [INF] Request finished in 401.1663ms 200 text/html;charset=utf-8
+2022-04-05 16:31:59.048 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:31:59.054 +02:00 [INF] Request finished in 5.608ms 200 application/javascript; charset=utf-8
+2022-04-05 16:31:59.339 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:31:59.493 +02:00 [INF] Request finished in 154.35ms 200 application/json;charset=utf-8
+2022-04-05 16:34:30.823 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:34:31.405 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:34:31.406 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:34:31.406 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:34:31.463 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:34:31.769 +02:00 [INF] Request finished in 309.8955ms 200 text/html;charset=utf-8
+2022-04-05 16:34:31.782 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:34:31.799 +02:00 [INF] Request finished in 17.2945ms 200 application/javascript; charset=utf-8
+2022-04-05 16:34:32.063 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:34:32.209 +02:00 [INF] Request finished in 146.3634ms 200 application/json;charset=utf-8
+2022-04-05 16:35:02.022 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 16:35:02.691 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 16:35:02.691 +02:00 [INF] Hosting environment: Development
+2022-04-05 16:35:02.691 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 16:35:02.743 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 16:35:03.092 +02:00 [INF] Request finished in 353.5947ms 200 text/html;charset=utf-8
+2022-04-05 16:35:03.128 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 16:35:03.133 +02:00 [INF] Request finished in 5.028ms 200 application/javascript; charset=utf-8
+2022-04-05 16:35:03.417 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 16:35:03.567 +02:00 [INF] Request finished in 150.756ms 200 application/json;charset=utf-8
+2022-04-05 23:08:18.128 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 23:09:39.147 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 23:09:41.013 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-05 23:09:41.980 +02:00 [INF] Executed DbCommand (68ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:09:42.127 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:09:42.129 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:09:42.131 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:09:42.151 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__role_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__role_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:09:42.369 +02:00 [ERR] Failed executing DbCommand (27ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (Size = 450), @p10='?' (DbType = DateTime), @p11='?' (DbType = Int32), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (DbType = Boolean), @p16='?' (Size = 450), @p17='?' (DbType = DateTime), @p18='?' (DbType = Int32), @p19='?' (Size = 4000), @p20='?' (Size = 4000), @p21='?' (DbType = Boolean), @p22='?' (DbType = Boolean), @p23='?' (Size = 450), @p24='?' (DbType = DateTime), @p25='?' (DbType = Int32), @p26='?' (Size = 4000), @p27='?' (Size = 4000), @p28='?' (DbType = Boolean), @p29='?' (DbType = Boolean), @p30='?' (Size = 450), @p31='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO [Movies] ([Id], [Description], [Image], [IsActive], [IsExpired], [Name], [StartDate])
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9, @p10),
+(@p11, @p12, @p13, @p14, @p15, @p16, @p17),
+(@p18, @p19, @p20, @p21, @p22, @p23, @p24),
+(@p25, @p26, @p27, @p28, @p29, @p30, @p31);
+2022-04-05 23:09:42.407 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'MoviesManagement.PersistanceDB.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2022-04-05 23:13:24.742 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 23:13:26.166 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-05 23:13:26.894 +02:00 [INF] Executed DbCommand (68ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:13:27.032 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:13:27.034 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:13:27.036 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:13:27.050 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__role_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__role_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:13:27.069 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__role_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:13:27.070 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__role_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:13:27.124 +02:00 [INF] Executed DbCommand (50ms) [Parameters=[@__user_UserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @__user_UserName_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:14:18.605 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 23:14:18.605 +02:00 [INF] Hosting environment: Development
+2022-04-05 23:14:18.605 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 23:14:18.640 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 23:14:18.916 +02:00 [INF] Request finished in 280.8823ms 200 text/html;charset=utf-8
+2022-04-05 23:14:18.931 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 23:14:18.936 +02:00 [INF] Request finished in 5.1094ms 200 application/javascript; charset=utf-8
+2022-04-05 23:14:19.181 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 23:14:19.320 +02:00 [INF] Request finished in 139.0745ms 200 application/json;charset=utf-8
+2022-04-05 23:14:26.366 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/api/Movie  
+2022-04-05 23:14:26.419 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.MovieController.GetAll (MoviesManagement.API)'
+2022-04-05 23:14:26.446 +02:00 [INF] Route matched with {action = "GetAll", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MoviesManagement.API.Controllers.MovieController (MoviesManagement.API).
+2022-04-05 23:14:26.486 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-05 23:14:26.541 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Description], [m].[Image], [m].[IsActive], [m].[IsExpired], [m].[Name], [m].[StartDate]
+FROM [Movies] AS [m]
+WHERE ([m].[IsActive] = CAST(1 AS bit)) AND ([m].[IsExpired] <> CAST(1 AS bit))
+2022-04-05 23:14:26.652 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesManagement.API.Models.DTO.MovieDTO, MoviesManagement.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-05 23:14:26.665 +02:00 [INF] Executed action MoviesManagement.API.Controllers.MovieController.GetAll (MoviesManagement.API) in 214.2392ms
+2022-04-05 23:14:26.666 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.MovieController.GetAll (MoviesManagement.API)'
+2022-04-05 23:14:26.669 +02:00 [INF] HTTP GET /api/Movie responded 200 in 293.9112 ms
+2022-04-05 23:14:26.671 +02:00 [INF] 200 Succeed!
+2022-04-05 23:14:26.673 +02:00 [INF] Request finished in 308.0425ms 200 application/json; charset=utf-8
+2022-04-05 23:14:38.718 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 23:14:40.148 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-05 23:14:40.844 +02:00 [INF] Executed DbCommand (75ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:14:40.990 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:14:40.993 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:14:40.994 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:14:53.237 +02:00 [INF] Executed DbCommand (17ms) [Parameters=[@__role_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__role_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:14:57.257 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__role_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__role_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:15:00.863 +02:00 [INF] Executed DbCommand (18ms) [Parameters=[@__role_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__role_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:16:13.940 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__user_UserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @__user_UserName_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:16:14.151 +02:00 [ERR] Failed executing DbCommand (20ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256), @p4='?' (Size = 450), @p5='?' (Size = 4000), @p6='?' (Size = 256), @p7='?' (Size = 256), @p8='?' (Size = 450), @p9='?' (Size = 4000), @p10='?' (Size = 256), @p11='?' (Size = 256), @p12='?' (Size = 450), @p13='?' (DbType = Int32), @p14='?' (Size = 4000), @p15='?' (Size = 256), @p16='?' (DbType = Boolean), @p17='?' (DbType = Boolean), @p18='?' (DbType = DateTimeOffset), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 4000), @p22='?' (Size = 4000), @p23='?' (Size = 4000), @p24='?' (DbType = Boolean), @p25='?' (Size = 4000), @p26='?' (DbType = Boolean), @p27='?' (Size = 256), @p28='?' (DbType = Int32), @p29='?' (Size = 4000), @p30='?' (Size = 4000), @p31='?' (DbType = Boolean), @p32='?' (DbType = Boolean), @p33='?' (Size = 450), @p34='?' (DbType = DateTime), @p35='?' (DbType = Int32), @p36='?' (Size = 4000), @p37='?' (Size = 4000), @p38='?' (DbType = Boolean), @p39='?' (DbType = Boolean), @p40='?' (Size = 450), @p41='?' (DbType = DateTime), @p42='?' (DbType = Int32), @p43='?' (Size = 4000), @p44='?' (Size = 4000), @p45='?' (DbType = Boolean), @p46='?' (DbType = Boolean), @p47='?' (Size = 450), @p48='?' (DbType = DateTime), @p49='?' (DbType = Int32), @p50='?' (Size = 4000), @p51='?' (Size = 4000), @p52='?' (DbType = Boolean), @p53='?' (DbType = Boolean), @p54='?' (Size = 450), @p55='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3),
+(@p4, @p5, @p6, @p7),
+(@p8, @p9, @p10, @p11);
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [Password], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27);
+INSERT INTO [Movies] ([Id], [Description], [Image], [IsActive], [IsExpired], [Name], [StartDate])
+VALUES (@p28, @p29, @p30, @p31, @p32, @p33, @p34),
+(@p35, @p36, @p37, @p38, @p39, @p40, @p41),
+(@p42, @p43, @p44, @p45, @p46, @p47, @p48),
+(@p49, @p50, @p51, @p52, @p53, @p54, @p55);
+2022-04-05 23:16:14.202 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'MoviesManagement.PersistanceDB.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Movies' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:20a7f48a-9e2e-4712-8274-65be089fd54d
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Movies' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:20a7f48a-9e2e-4712-8274-65be089fd54d
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2022-04-05 23:16:37.800 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 23:16:39.477 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-05 23:16:40.212 +02:00 [INF] Executed DbCommand (64ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:16:40.446 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:16:40.448 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:16:40.449 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:17:06.735 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 23:17:08.303 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-05 23:17:08.996 +02:00 [INF] Executed DbCommand (61ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:17:09.178 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:17:09.180 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:17:09.181 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:17:09.339 +02:00 [ERR] Failed executing DbCommand (9ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (Size = 450), @p6='?' (DbType = DateTime), @p7='?' (DbType = Int32), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean), @p12='?' (Size = 450), @p13='?' (DbType = DateTime), @p14='?' (DbType = Int32), @p15='?' (Size = 4000), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (DbType = Boolean), @p19='?' (Size = 450), @p20='?' (DbType = DateTime), @p21='?' (DbType = Int32), @p22='?' (Size = 4000), @p23='?' (Size = 4000), @p24='?' (DbType = Boolean), @p25='?' (DbType = Boolean), @p26='?' (Size = 450), @p27='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Movies] ([Id], [Description], [Image], [IsActive], [IsExpired], [Name], [StartDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6),
+(@p7, @p8, @p9, @p10, @p11, @p12, @p13),
+(@p14, @p15, @p16, @p17, @p18, @p19, @p20),
+(@p21, @p22, @p23, @p24, @p25, @p26, @p27);
+2022-04-05 23:17:09.433 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'MoviesManagement.PersistanceDB.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Movies' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:738770bf-0d1b-480d-a386-f0edcdce204c
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Movies' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:738770bf-0d1b-480d-a386-f0edcdce204c
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2022-04-05 23:20:45.815 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 23:20:48.141 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-05 23:20:48.533 +02:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-04-05 23:20:48.573 +02:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-04-05 23:20:48.576 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-04-05 23:20:48.577 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-04-05 23:20:48.591 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-04-05 23:20:48.655 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-04-05 23:20:48.764 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 23:20:48.764 +02:00 [INF] Hosting environment: Development
+2022-04-05 23:20:48.764 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 23:20:48.805 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 23:20:49.076 +02:00 [INF] Request finished in 276.4506ms 200 text/html;charset=utf-8
+2022-04-05 23:20:49.090 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 23:20:49.101 +02:00 [INF] Request finished in 11.6197ms 200 application/javascript; charset=utf-8
+2022-04-05 23:20:49.338 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 23:20:49.466 +02:00 [INF] Request finished in 128.6127ms 200 application/json;charset=utf-8
+2022-04-05 23:21:11.705 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 23:21:13.143 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-05 23:21:13.517 +02:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-04-05 23:21:13.554 +02:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-04-05 23:21:13.557 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-04-05 23:21:13.558 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-04-05 23:21:13.568 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-04-05 23:21:13.586 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-04-05 23:21:13.664 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-05 23:21:13.664 +02:00 [INF] Hosting environment: Development
+2022-04-05 23:21:13.664 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-05 23:21:13.692 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-05 23:21:13.940 +02:00 [INF] Request finished in 247.1366ms 200 text/html;charset=utf-8
+2022-04-05 23:21:13.941 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-05 23:21:13.958 +02:00 [INF] Request finished in 16.176ms 200 application/javascript; charset=utf-8
+2022-04-05 23:21:14.137 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-05 23:21:14.290 +02:00 [INF] Request finished in 153.0053ms 200 application/json;charset=utf-8
+2022-04-05 23:21:43.389 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 23:21:44.805 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-05 23:21:45.187 +02:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-04-05 23:21:45.225 +02:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-04-05 23:21:45.228 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-04-05 23:21:45.229 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-04-05 23:21:45.242 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-04-05 23:21:45.262 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-04-05 23:21:55.164 +02:00 [INF] Executed DbCommand (53ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:21:59.668 +02:00 [INF] Executed DbCommand (23ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:22:45.312 +02:00 [INF] Executed DbCommand (22ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:22:49.059 +02:00 [INF] Executed DbCommand (58ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:22:58.186 +02:00 [INF] Executed DbCommand (24ms) [Parameters=[@__role_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__role_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:23:02.272 +02:00 [INF] Executed DbCommand (22ms) [Parameters=[@__role_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__role_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:23:05.146 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[@__role_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__role_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:23:08.677 +02:00 [INF] Executed DbCommand (20ms) [Parameters=[@__user_UserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @__user_UserName_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:23:15.370 +02:00 [ERR] Failed executing DbCommand (10ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256), @p4='?' (Size = 450), @p5='?' (Size = 4000), @p6='?' (Size = 256), @p7='?' (Size = 256), @p8='?' (Size = 450), @p9='?' (Size = 4000), @p10='?' (Size = 256), @p11='?' (Size = 256), @p12='?' (Size = 450), @p13='?' (DbType = Int32), @p14='?' (Size = 4000), @p15='?' (Size = 256), @p16='?' (DbType = Boolean), @p17='?' (DbType = Boolean), @p18='?' (DbType = DateTimeOffset), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 4000), @p22='?' (Size = 4000), @p23='?' (Size = 4000), @p24='?' (DbType = Boolean), @p25='?' (Size = 4000), @p26='?' (DbType = Boolean), @p27='?' (Size = 256), @p28='?' (DbType = Int32), @p29='?' (Size = 4000), @p30='?' (Size = 4000), @p31='?' (DbType = Boolean), @p32='?' (DbType = Boolean), @p33='?' (Size = 450), @p34='?' (DbType = DateTime), @p35='?' (DbType = Int32), @p36='?' (Size = 4000), @p37='?' (Size = 4000), @p38='?' (DbType = Boolean), @p39='?' (DbType = Boolean), @p40='?' (Size = 450), @p41='?' (DbType = DateTime), @p42='?' (DbType = Int32), @p43='?' (Size = 4000), @p44='?' (Size = 4000), @p45='?' (DbType = Boolean), @p46='?' (DbType = Boolean), @p47='?' (Size = 450), @p48='?' (DbType = DateTime), @p49='?' (DbType = Int32), @p50='?' (Size = 4000), @p51='?' (Size = 4000), @p52='?' (DbType = Boolean), @p53='?' (DbType = Boolean), @p54='?' (Size = 450), @p55='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3),
+(@p4, @p5, @p6, @p7),
+(@p8, @p9, @p10, @p11);
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [Password], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27);
+INSERT INTO [Movies] ([Id], [Description], [Image], [IsActive], [IsExpired], [Name], [StartDate])
+VALUES (@p28, @p29, @p30, @p31, @p32, @p33, @p34),
+(@p35, @p36, @p37, @p38, @p39, @p40, @p41),
+(@p42, @p43, @p44, @p45, @p46, @p47, @p48),
+(@p49, @p50, @p51, @p52, @p53, @p54, @p55);
+2022-04-05 23:23:15.427 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'MoviesManagement.PersistanceDB.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Movies' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:02bb32f0-8cb4-4bca-a033-5ff2993a26e9
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Movies' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:02bb32f0-8cb4-4bca-a033-5ff2993a26e9
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2022-04-05 23:23:32.002 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-05 23:23:33.448 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-05 23:23:33.851 +02:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-04-05 23:23:33.899 +02:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-04-05 23:23:33.903 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-04-05 23:23:33.903 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-04-05 23:23:33.914 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-04-05 23:23:33.933 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-04-05 23:23:37.309 +02:00 [INF] Executed DbCommand (39ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:23:37.453 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:23:37.457 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:23:37.459 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__movie_Name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Movies] AS [m]
+        WHERE [m].[Name] = @__movie_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:23:42.342 +02:00 [INF] Executed DbCommand (21ms) [Parameters=[@__role_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__role_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:23:44.565 +02:00 [INF] Executed DbCommand (23ms) [Parameters=[@__role_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__role_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:23:46.450 +02:00 [INF] Executed DbCommand (17ms) [Parameters=[@__role_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]
+        WHERE [a].[Name] = @__role_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-05 23:23:49.135 +02:00 [INF] Executed DbCommand (18ms) [Parameters=[@__user_UserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @__user_UserName_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END

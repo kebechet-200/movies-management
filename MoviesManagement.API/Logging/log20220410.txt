@@ -1,0 +1,1082 @@
+2022-04-10 15:12:11.906 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 15:12:13.048 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 15:12:13.049 +02:00 [INF] Hosting environment: Development
+2022-04-10 15:12:13.055 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 15:12:13.121 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:13.121 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:13.292 +02:00 [INF] Request finished in 179.5969ms 200 text/html;charset=utf-8
+2022-04-10 15:12:13.661 +02:00 [INF] Request finished in 550.1062ms 200 text/html;charset=utf-8
+2022-04-10 15:12:13.698 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 15:12:13.720 +02:00 [INF] Request finished in 22.279ms 200 application/javascript; charset=utf-8
+2022-04-10 15:12:14.197 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 15:12:14.440 +02:00 [INF] Request finished in 243.4413ms 200 application/json;charset=utf-8
+2022-04-10 15:12:16.346 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:16.346 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:16.351 +02:00 [INF] Request finished in 4.8201ms 200 text/html;charset=utf-8
+2022-04-10 15:12:16.351 +02:00 [INF] Request finished in 4.8202ms 200 text/html;charset=utf-8
+2022-04-10 15:12:28.533 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:28.533 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:28.537 +02:00 [INF] Request finished in 3.6645ms 200 text/html;charset=utf-8
+2022-04-10 15:12:28.538 +02:00 [INF] Request finished in 3.6689ms 200 text/html;charset=utf-8
+2022-04-10 15:12:29.019 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:29.023 +02:00 [INF] Request finished in 4.1144ms 200 text/html;charset=utf-8
+2022-04-10 15:12:38.651 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:38.652 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:38.654 +02:00 [INF] Request finished in 2.8785ms 200 text/html;charset=utf-8
+2022-04-10 15:12:38.654 +02:00 [INF] Request finished in 3.0129ms 200 text/html;charset=utf-8
+2022-04-10 15:12:39.123 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:39.125 +02:00 [INF] Request finished in 4.7192ms 200 text/html;charset=utf-8
+2022-04-10 15:12:48.716 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:48.716 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:48.718 +02:00 [INF] Request finished in 2.3636ms 200 text/html;charset=utf-8
+2022-04-10 15:12:48.718 +02:00 [INF] Request finished in 2.3282ms 200 text/html;charset=utf-8
+2022-04-10 15:12:49.496 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:49.499 +02:00 [INF] Request finished in 2.3539ms 200 text/html;charset=utf-8
+2022-04-10 15:12:58.758 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:58.759 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:58.761 +02:00 [INF] Request finished in 2.1339ms 200 text/html;charset=utf-8
+2022-04-10 15:12:58.762 +02:00 [INF] Request finished in 2.4478ms 200 text/html;charset=utf-8
+2022-04-10 15:12:59.601 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:12:59.603 +02:00 [INF] Request finished in 2.0689ms 200 text/html;charset=utf-8
+2022-04-10 15:13:17.547 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 15:13:18.026 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 15:13:18.034 +02:00 [INF] Hosting environment: Development
+2022-04-10 15:13:18.034 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 15:13:18.146 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:13:18.146 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:13:18.523 +02:00 [INF] Request finished in 382.1875ms 200 text/html;charset=utf-8
+2022-04-10 15:13:20.676 +02:00 [INF] Request finished in 2530.777ms 200 text/html;charset=utf-8
+2022-04-10 15:13:20.694 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 15:13:20.700 +02:00 [INF] Request finished in 6.483ms 200 application/javascript; charset=utf-8
+2022-04-10 15:13:22.050 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 15:13:22.252 +02:00 [INF] Request finished in 202.9796ms 200 application/json;charset=utf-8
+2022-04-10 15:13:26.551 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:13:26.551 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:13:26.559 +02:00 [INF] Request finished in 8.3001ms 200 text/html;charset=utf-8
+2022-04-10 15:13:26.559 +02:00 [INF] Request finished in 8.7374ms 200 text/html;charset=utf-8
+2022-04-10 15:13:38.559 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:13:38.559 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:13:38.562 +02:00 [INF] Request finished in 3.4589ms 200 text/html;charset=utf-8
+2022-04-10 15:13:38.562 +02:00 [INF] Request finished in 3.4587ms 200 text/html;charset=utf-8
+2022-04-10 15:13:39.245 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:13:39.248 +02:00 [INF] Request finished in 3.1253ms 200 text/html;charset=utf-8
+2022-04-10 15:13:48.646 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:13:48.646 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:13:48.649 +02:00 [INF] Request finished in 3.595ms 200 text/html;charset=utf-8
+2022-04-10 15:13:48.651 +02:00 [INF] Request finished in 4.4242ms 200 text/html;charset=utf-8
+2022-04-10 15:13:49.329 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:13:49.331 +02:00 [INF] Request finished in 2.1178ms 200 text/html;charset=utf-8
+2022-04-10 15:13:58.702 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:13:58.702 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:13:58.704 +02:00 [INF] Request finished in 2.5701ms 200 text/html;charset=utf-8
+2022-04-10 15:13:58.704 +02:00 [INF] Request finished in 2.4669ms 200 text/html;charset=utf-8
+2022-04-10 15:13:59.456 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:13:59.458 +02:00 [INF] Request finished in 2.0344ms 200 text/html;charset=utf-8
+2022-04-10 15:14:08.762 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:14:08.762 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:14:08.764 +02:00 [INF] Request finished in 2.1993ms 200 text/html;charset=utf-8
+2022-04-10 15:14:08.764 +02:00 [INF] Request finished in 2.1993ms 200 text/html;charset=utf-8
+2022-04-10 15:14:09.514 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:14:09.516 +02:00 [INF] Request finished in 1.6662ms 200 text/html;charset=utf-8
+2022-04-10 15:14:18.823 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:14:18.823 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:14:18.825 +02:00 [INF] Request finished in 1.7927ms 200 text/html;charset=utf-8
+2022-04-10 15:14:18.825 +02:00 [INF] Request finished in 1.982ms 200 text/html;charset=utf-8
+2022-04-10 15:14:19.595 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:14:19.596 +02:00 [INF] Request finished in 1.474ms 200 text/html;charset=utf-8
+2022-04-10 15:14:28.872 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:14:28.872 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:14:28.873 +02:00 [INF] Request finished in 1.6572ms 200 text/html;charset=utf-8
+2022-04-10 15:14:28.873 +02:00 [INF] Request finished in 1.6618ms 200 text/html;charset=utf-8
+2022-04-10 15:14:29.665 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:14:29.667 +02:00 [INF] Request finished in 1.7631ms 200 text/html;charset=utf-8
+2022-04-10 15:14:43.756 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:14:43.757 +02:00 [INF] Request finished in 0.9084ms 200 text/html;charset=utf-8
+2022-04-10 15:22:53.124 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 15:22:53.798 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 15:22:53.799 +02:00 [INF] Hosting environment: Development
+2022-04-10 15:22:53.799 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 15:22:53.873 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:22:54.331 +02:00 [INF] Request finished in 470.9243ms 200 text/html;charset=utf-8
+2022-04-10 15:22:54.819 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 15:22:54.826 +02:00 [INF] Request finished in 7.9238ms 200 application/javascript; charset=utf-8
+2022-04-10 15:22:55.308 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 15:22:55.492 +02:00 [INF] Request finished in 183.3402ms 200 application/json;charset=utf-8
+2022-04-10 15:22:56.583 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:22:56.594 +02:00 [INF] Request finished in 10.1734ms 200 text/html;charset=utf-8
+2022-04-10 15:22:56.646 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:22:56.646 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:22:56.647 +02:00 [INF] Request finished in 1.1669ms 200 text/html;charset=utf-8
+2022-04-10 15:22:56.647 +02:00 [INF] Request finished in 1.2815ms 200 text/html;charset=utf-8
+2022-04-10 15:23:18.355 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:23:18.360 +02:00 [INF] Request finished in 5.1759ms 200 text/html;charset=utf-8
+2022-04-10 15:23:18.513 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:23:18.521 +02:00 [INF] Request finished in 8.0992ms 200 text/html;charset=utf-8
+2022-04-10 15:23:18.552 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:23:18.553 +02:00 [INF] Request finished in 1.1729ms 200 text/html;charset=utf-8
+2022-04-10 15:23:28.499 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:23:28.502 +02:00 [INF] Request finished in 2.9528ms 200 text/html;charset=utf-8
+2022-04-10 15:23:31.629 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:23:31.632 +02:00 [INF] Request finished in 3.259ms 200 text/html;charset=utf-8
+2022-04-10 15:23:31.639 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:23:31.640 +02:00 [INF] Request finished in 0.9352ms 200 text/html;charset=utf-8
+2022-04-10 15:23:38.617 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:23:38.620 +02:00 [INF] Request finished in 3.2724ms 200 text/html;charset=utf-8
+2022-04-10 15:23:41.701 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:23:41.701 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:23:41.704 +02:00 [INF] Request finished in 2.9744ms 200 text/html;charset=utf-8
+2022-04-10 15:23:41.704 +02:00 [INF] Request finished in 2.9194ms 200 text/html;charset=utf-8
+2022-04-10 15:23:48.756 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:23:48.758 +02:00 [INF] Request finished in 2.1466ms 200 text/html;charset=utf-8
+2022-04-10 15:23:51.776 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:23:51.776 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:23:51.778 +02:00 [INF] Request finished in 2.9098ms 200 text/html;charset=utf-8
+2022-04-10 15:23:51.779 +02:00 [INF] Request finished in 2.6201ms 200 text/html;charset=utf-8
+2022-04-10 15:23:58.839 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:23:58.842 +02:00 [INF] Request finished in 3.4659ms 200 text/html;charset=utf-8
+2022-04-10 15:24:01.826 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:01.828 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:01.828 +02:00 [INF] Request finished in 2.066ms 200 text/html;charset=utf-8
+2022-04-10 15:24:01.829 +02:00 [INF] Request finished in 1.6608ms 200 text/html;charset=utf-8
+2022-04-10 15:24:08.946 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:08.948 +02:00 [INF] Request finished in 1.7759ms 200 text/html;charset=utf-8
+2022-04-10 15:24:11.879 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:11.880 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:11.881 +02:00 [INF] Request finished in 2.4133ms 200 text/html;charset=utf-8
+2022-04-10 15:24:11.881 +02:00 [INF] Request finished in 1.5572ms 200 text/html;charset=utf-8
+2022-04-10 15:24:19.017 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:19.019 +02:00 [INF] Request finished in 2.339ms 200 text/html;charset=utf-8
+2022-04-10 15:24:21.942 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:21.942 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:21.944 +02:00 [INF] Request finished in 1.7423ms 200 text/html;charset=utf-8
+2022-04-10 15:24:21.945 +02:00 [INF] Request finished in 2.5314ms 200 text/html;charset=utf-8
+2022-04-10 15:24:29.144 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:29.145 +02:00 [INF] Request finished in 1.1937ms 200 text/html;charset=utf-8
+2022-04-10 15:24:31.992 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:31.993 +02:00 [INF] Request finished in 1.1453ms 200 text/html;charset=utf-8
+2022-04-10 15:24:31.993 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:31.994 +02:00 [INF] Request finished in 1.2037ms 200 text/html;charset=utf-8
+2022-04-10 15:24:39.190 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:39.192 +02:00 [INF] Request finished in 1.8463ms 200 text/html;charset=utf-8
+2022-04-10 15:24:42.066 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:42.066 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:42.068 +02:00 [INF] Request finished in 1.6094ms 200 text/html;charset=utf-8
+2022-04-10 15:24:42.068 +02:00 [INF] Request finished in 1.6714ms 200 text/html;charset=utf-8
+2022-04-10 15:24:49.270 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:49.271 +02:00 [INF] Request finished in 1.1363ms 200 text/html;charset=utf-8
+2022-04-10 15:24:52.123 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:52.123 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:52.124 +02:00 [INF] Request finished in 1.7802ms 200 text/html;charset=utf-8
+2022-04-10 15:24:52.125 +02:00 [INF] Request finished in 1.9117ms 200 text/html;charset=utf-8
+2022-04-10 15:24:59.331 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:24:59.332 +02:00 [INF] Request finished in 1.7112ms 200 text/html;charset=utf-8
+2022-04-10 15:25:02.180 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:02.181 +02:00 [INF] Request finished in 1.2356ms 200 text/html;charset=utf-8
+2022-04-10 15:25:02.182 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:02.183 +02:00 [INF] Request finished in 0.816ms 200 text/html;charset=utf-8
+2022-04-10 15:25:09.384 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:09.385 +02:00 [INF] Request finished in 1.0365ms 200 text/html;charset=utf-8
+2022-04-10 15:25:12.226 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:12.226 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:12.227 +02:00 [INF] Request finished in 0.7832ms 200 text/html;charset=utf-8
+2022-04-10 15:25:12.228 +02:00 [INF] Request finished in 0.8803ms 200 text/html;charset=utf-8
+2022-04-10 15:25:19.473 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:19.474 +02:00 [INF] Request finished in 0.8903ms 200 text/html;charset=utf-8
+2022-04-10 15:25:22.275 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:22.275 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:22.276 +02:00 [INF] Request finished in 0.9608ms 200 text/html;charset=utf-8
+2022-04-10 15:25:22.276 +02:00 [INF] Request finished in 0.9899ms 200 text/html;charset=utf-8
+2022-04-10 15:25:42.509 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 15:25:43.514 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 15:25:43.524 +02:00 [INF] Hosting environment: Development
+2022-04-10 15:25:43.524 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 15:25:43.599 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:44.047 +02:00 [INF] Request finished in 455.2816ms 200 text/html;charset=utf-8
+2022-04-10 15:25:44.108 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 15:25:44.114 +02:00 [INF] Request finished in 5.987ms 200 application/javascript; charset=utf-8
+2022-04-10 15:25:44.423 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 15:25:44.701 +02:00 [INF] Request finished in 281.7993ms 200 application/json;charset=utf-8
+2022-04-10 15:25:46.656 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:46.656 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:46.664 +02:00 [INF] Request finished in 8.3987ms 200 text/html;charset=utf-8
+2022-04-10 15:25:46.664 +02:00 [INF] Request finished in 8.3984ms 200 text/html;charset=utf-8
+2022-04-10 15:25:46.668 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:46.676 +02:00 [INF] Request finished in 8.2018ms 200 text/html;charset=utf-8
+2022-04-10 15:25:58.610 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:58.614 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:58.615 +02:00 [INF] Request finished in 4.4595ms 200 text/html;charset=utf-8
+2022-04-10 15:25:58.618 +02:00 [INF] Request finished in 3.4939ms 200 text/html;charset=utf-8
+2022-04-10 15:25:59.018 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:25:59.022 +02:00 [INF] Request finished in 3.2959ms 200 text/html;charset=utf-8
+2022-04-10 15:26:08.868 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:08.868 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:08.874 +02:00 [INF] Request finished in 4.8493ms 200 text/html;charset=utf-8
+2022-04-10 15:26:08.874 +02:00 [INF] Request finished in 5.4963ms 200 text/html;charset=utf-8
+2022-04-10 15:26:09.271 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:09.274 +02:00 [INF] Request finished in 3.3024ms 200 text/html;charset=utf-8
+2022-04-10 15:26:18.934 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:18.935 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:18.938 +02:00 [INF] Request finished in 2.8538ms 200 text/html;charset=utf-8
+2022-04-10 15:26:18.938 +02:00 [INF] Request finished in 2.8546ms 200 text/html;charset=utf-8
+2022-04-10 15:26:19.373 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:19.375 +02:00 [INF] Request finished in 2.3646ms 200 text/html;charset=utf-8
+2022-04-10 15:26:28.997 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:29.000 +02:00 [INF] Request finished in 2.3641ms 200 text/html;charset=utf-8
+2022-04-10 15:26:29.004 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:29.006 +02:00 [INF] Request finished in 2.2415ms 200 text/html;charset=utf-8
+2022-04-10 15:26:29.424 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:29.426 +02:00 [INF] Request finished in 1.8419ms 200 text/html;charset=utf-8
+2022-04-10 15:26:39.076 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:39.076 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:39.079 +02:00 [INF] Request finished in 2.8079ms 200 text/html;charset=utf-8
+2022-04-10 15:26:39.079 +02:00 [INF] Request finished in 2.4475ms 200 text/html;charset=utf-8
+2022-04-10 15:26:39.540 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:39.542 +02:00 [INF] Request finished in 1.9458ms 200 text/html;charset=utf-8
+2022-04-10 15:26:49.133 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:49.133 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:49.135 +02:00 [INF] Request finished in 1.8792ms 200 text/html;charset=utf-8
+2022-04-10 15:26:49.135 +02:00 [INF] Request finished in 1.9756ms 200 text/html;charset=utf-8
+2022-04-10 15:26:49.606 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:49.607 +02:00 [INF] Request finished in 1.3164ms 200 text/html;charset=utf-8
+2022-04-10 15:26:59.168 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:59.170 +02:00 [INF] Request finished in 1.2854ms 200 text/html;charset=utf-8
+2022-04-10 15:26:59.170 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:59.171 +02:00 [INF] Request finished in 1.1504ms 200 text/html;charset=utf-8
+2022-04-10 15:26:59.661 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:26:59.663 +02:00 [INF] Request finished in 2.384ms 200 text/html;charset=utf-8
+2022-04-10 15:27:21.188 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 15:27:21.951 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 15:27:21.952 +02:00 [INF] Hosting environment: Development
+2022-04-10 15:27:21.952 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 15:27:22.034 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:27:22.749 +02:00 [INF] Request finished in 720.651ms 200 text/html;charset=utf-8
+2022-04-10 15:27:23.222 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 15:27:23.231 +02:00 [INF] Request finished in 9.8747ms 200 application/javascript; charset=utf-8
+2022-04-10 15:27:24.345 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:27:24.350 +02:00 [INF] Request finished in 5.1884ms 200 text/html;charset=utf-8
+2022-04-10 15:27:25.084 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:27:25.084 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:27:25.091 +02:00 [INF] Request finished in 6.4647ms 200 text/html;charset=utf-8
+2022-04-10 15:27:25.091 +02:00 [INF] Request finished in 6.5479ms 200 text/html;charset=utf-8
+2022-04-10 15:27:26.268 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 15:27:26.466 +02:00 [INF] Request finished in 198.8673ms 200 application/json;charset=utf-8
+2022-04-10 15:27:37.066 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:27:37.066 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:27:37.069 +02:00 [INF] Request finished in 2.8359ms 200 text/html;charset=utf-8
+2022-04-10 15:27:37.069 +02:00 [INF] Request finished in 2.8432ms 200 text/html;charset=utf-8
+2022-04-10 15:27:37.516 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:27:37.520 +02:00 [INF] Request finished in 4.1677ms 200 text/html;charset=utf-8
+2022-04-10 15:27:56.036 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 15:27:56.776 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 15:27:56.777 +02:00 [INF] Hosting environment: Development
+2022-04-10 15:27:56.777 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 15:27:56.826 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:27:57.236 +02:00 [INF] Request finished in 416.5482ms 200 text/html;charset=utf-8
+2022-04-10 15:27:57.278 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 15:27:57.283 +02:00 [INF] Request finished in 4.7561ms 200 application/javascript; charset=utf-8
+2022-04-10 15:27:59.157 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:27:59.173 +02:00 [INF] Request finished in 16.4614ms 200 text/html;charset=utf-8
+2022-04-10 15:27:59.759 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:27:59.759 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:27:59.764 +02:00 [INF] Request finished in 5.0204ms 200 text/html;charset=utf-8
+2022-04-10 15:27:59.764 +02:00 [INF] Request finished in 5.2955ms 200 text/html;charset=utf-8
+2022-04-10 15:28:00.679 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 15:28:00.836 +02:00 [INF] Request finished in 157.4581ms 200 application/json;charset=utf-8
+2022-04-10 15:28:11.640 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:11.640 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:11.643 +02:00 [INF] Request finished in 3.1508ms 200 text/html;charset=utf-8
+2022-04-10 15:28:11.644 +02:00 [INF] Request finished in 4.2697ms 200 text/html;charset=utf-8
+2022-04-10 15:28:12.214 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:12.217 +02:00 [INF] Request finished in 2.6362ms 200 text/html;charset=utf-8
+2022-04-10 15:28:21.803 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:21.805 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:21.808 +02:00 [INF] Request finished in 5.0099ms 200 text/html;charset=utf-8
+2022-04-10 15:28:21.811 +02:00 [INF] Request finished in 6.2224ms 200 text/html;charset=utf-8
+2022-04-10 15:28:22.302 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:22.304 +02:00 [INF] Request finished in 2.0369ms 200 text/html;charset=utf-8
+2022-04-10 15:28:32.961 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:32.964 +02:00 [INF] Request finished in 3.2068ms 200 text/html;charset=utf-8
+2022-04-10 15:28:33.853 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:33.855 +02:00 [INF] Request finished in 2.3258ms 200 text/html;charset=utf-8
+2022-04-10 15:28:33.860 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:33.861 +02:00 [INF] Request finished in 1.0122ms 200 text/html;charset=utf-8
+2022-04-10 15:28:43.930 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:43.930 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:43.936 +02:00 [INF] Request finished in 5.679ms 200 text/html;charset=utf-8
+2022-04-10 15:28:43.941 +02:00 [INF] Request finished in 2.7134ms 200 text/html;charset=utf-8
+2022-04-10 15:28:43.975 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:43.977 +02:00 [INF] Request finished in 1.5439ms 200 text/html;charset=utf-8
+2022-04-10 15:28:53.980 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:53.982 +02:00 [INF] Request finished in 1.8429ms 200 text/html;charset=utf-8
+2022-04-10 15:28:53.984 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:53.986 +02:00 [INF] Request finished in 2.5084ms 200 text/html;charset=utf-8
+2022-04-10 15:28:54.050 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:28:54.052 +02:00 [INF] Request finished in 1.6422ms 200 text/html;charset=utf-8
+2022-04-10 15:29:04.038 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:04.038 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:04.039 +02:00 [INF] Request finished in 1.7126ms 200 text/html;charset=utf-8
+2022-04-10 15:29:04.041 +02:00 [INF] Request finished in 3.4812ms 200 text/html;charset=utf-8
+2022-04-10 15:29:04.141 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:04.142 +02:00 [INF] Request finished in 1.4586ms 200 text/html;charset=utf-8
+2022-04-10 15:29:14.080 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:14.081 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:14.082 +02:00 [INF] Request finished in 1.2295ms 200 text/html;charset=utf-8
+2022-04-10 15:29:14.083 +02:00 [INF] Request finished in 1.6648ms 200 text/html;charset=utf-8
+2022-04-10 15:29:14.194 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:14.196 +02:00 [INF] Request finished in 2.2011ms 200 text/html;charset=utf-8
+2022-04-10 15:29:24.134 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:24.134 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:24.135 +02:00 [INF] Request finished in 1.6067ms 200 text/html;charset=utf-8
+2022-04-10 15:29:24.136 +02:00 [INF] Request finished in 2.2025ms 200 text/html;charset=utf-8
+2022-04-10 15:29:24.283 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:24.284 +02:00 [INF] Request finished in 1.2931ms 200 text/html;charset=utf-8
+2022-04-10 15:29:34.176 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:34.181 +02:00 [INF] Request finished in 4.518ms 200 text/html;charset=utf-8
+2022-04-10 15:29:34.181 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:34.182 +02:00 [INF] Request finished in 0.9176ms 200 text/html;charset=utf-8
+2022-04-10 15:29:34.339 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:34.340 +02:00 [INF] Request finished in 0.879ms 200 text/html;charset=utf-8
+2022-04-10 15:29:44.236 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:44.237 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:44.238 +02:00 [INF] Request finished in 1.6554ms 200 text/html;charset=utf-8
+2022-04-10 15:29:44.238 +02:00 [INF] Request finished in 0.7505ms 200 text/html;charset=utf-8
+2022-04-10 15:29:44.404 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:44.406 +02:00 [INF] Request finished in 1.6262ms 200 text/html;charset=utf-8
+2022-04-10 15:29:54.272 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:54.274 +02:00 [INF] Request finished in 2.0012ms 200 text/html;charset=utf-8
+2022-04-10 15:29:54.274 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:54.276 +02:00 [INF] Request finished in 1.4991ms 200 text/html;charset=utf-8
+2022-04-10 15:29:54.457 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:29:54.458 +02:00 [INF] Request finished in 0.8722ms 200 text/html;charset=utf-8
+2022-04-10 15:30:04.314 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:30:04.314 +02:00 [INF] Request finished in 0.8511ms 200 text/html;charset=utf-8
+2022-04-10 15:30:04.315 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:30:04.316 +02:00 [INF] Request finished in 0.6678ms 200 text/html;charset=utf-8
+2022-04-10 15:30:04.520 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:30:04.521 +02:00 [INF] Request finished in 0.8337ms 200 text/html;charset=utf-8
+2022-04-10 15:30:14.350 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:30:14.350 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:30:14.351 +02:00 [INF] Request finished in 1.0072ms 200 text/html;charset=utf-8
+2022-04-10 15:30:14.351 +02:00 [INF] Request finished in 0.9818ms 200 text/html;charset=utf-8
+2022-04-10 15:30:14.562 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:30:14.562 +02:00 [INF] Request finished in 0.7759ms 200 text/html;charset=utf-8
+2022-04-10 15:30:24.408 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:30:24.413 +02:00 [INF] Request finished in 5.0051ms 200 text/html;charset=utf-8
+2022-04-10 15:30:24.414 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:30:24.415 +02:00 [INF] Request finished in 0.8073ms 200 text/html;charset=utf-8
+2022-04-10 15:30:24.785 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:30:24.787 +02:00 [INF] Request finished in 1.5916ms 200 text/html;charset=utf-8
+2022-04-10 15:31:31.763 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 15:31:32.521 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 15:31:32.521 +02:00 [INF] Hosting environment: Development
+2022-04-10 15:31:32.522 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 15:31:32.571 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:31:32.919 +02:00 [INF] Request finished in 353.5883ms 200 text/html;charset=utf-8
+2022-04-10 15:31:32.958 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 15:31:32.964 +02:00 [INF] Request finished in 6.3653ms 200 application/javascript; charset=utf-8
+2022-04-10 15:31:34.815 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:31:34.819 +02:00 [INF] Request finished in 4.4573ms 200 text/html;charset=utf-8
+2022-04-10 15:31:35.267 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:31:35.267 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:31:35.272 +02:00 [INF] Request finished in 5.0703ms 200 text/html;charset=utf-8
+2022-04-10 15:31:35.272 +02:00 [INF] Request finished in 5.1558ms 200 text/html;charset=utf-8
+2022-04-10 15:31:36.122 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 15:31:36.283 +02:00 [INF] Request finished in 161.7297ms 200 application/json;charset=utf-8
+2022-04-10 15:31:47.142 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:31:47.142 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:31:47.145 +02:00 [INF] Request finished in 3.3133ms 200 text/html;charset=utf-8
+2022-04-10 15:31:47.145 +02:00 [INF] Request finished in 3.3134ms 200 text/html;charset=utf-8
+2022-04-10 15:31:47.817 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:31:47.820 +02:00 [INF] Request finished in 2.5102ms 200 text/html;charset=utf-8
+2022-04-10 15:31:57.269 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:31:57.269 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:31:57.272 +02:00 [INF] Request finished in 2.456ms 200 text/html;charset=utf-8
+2022-04-10 15:31:57.280 +02:00 [INF] Request finished in 10.1637ms 200 text/html;charset=utf-8
+2022-04-10 15:31:57.904 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:31:57.906 +02:00 [INF] Request finished in 2.1183ms 200 text/html;charset=utf-8
+2022-04-10 15:32:07.345 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:07.346 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:07.348 +02:00 [INF] Request finished in 3.1969ms 200 text/html;charset=utf-8
+2022-04-10 15:32:07.348 +02:00 [INF] Request finished in 2.2149ms 200 text/html;charset=utf-8
+2022-04-10 15:32:08.012 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:08.014 +02:00 [INF] Request finished in 2.1052ms 200 text/html;charset=utf-8
+2022-04-10 15:32:17.415 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:17.415 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:17.421 +02:00 [INF] Request finished in 2.8892ms 200 text/html;charset=utf-8
+2022-04-10 15:32:17.421 +02:00 [INF] Request finished in 2.9055ms 200 text/html;charset=utf-8
+2022-04-10 15:32:18.088 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:18.090 +02:00 [INF] Request finished in 1.7915ms 200 text/html;charset=utf-8
+2022-04-10 15:32:27.475 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:27.478 +02:00 [INF] Request finished in 3.2221ms 200 text/html;charset=utf-8
+2022-04-10 15:32:27.480 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:27.482 +02:00 [INF] Request finished in 1.6838ms 200 text/html;charset=utf-8
+2022-04-10 15:32:28.209 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:28.213 +02:00 [INF] Request finished in 3.6543ms 200 text/html;charset=utf-8
+2022-04-10 15:32:37.585 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:37.585 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:37.587 +02:00 [INF] Request finished in 1.9444ms 200 text/html;charset=utf-8
+2022-04-10 15:32:37.589 +02:00 [INF] Request finished in 3.7976ms 200 text/html;charset=utf-8
+2022-04-10 15:32:38.391 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:38.393 +02:00 [INF] Request finished in 2.252ms 200 text/html;charset=utf-8
+2022-04-10 15:32:47.625 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:47.627 +02:00 [INF] Request finished in 1.2418ms 200 text/html;charset=utf-8
+2022-04-10 15:32:47.627 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:47.629 +02:00 [INF] Request finished in 1.2133ms 200 text/html;charset=utf-8
+2022-04-10 15:32:48.473 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:48.475 +02:00 [INF] Request finished in 1.3768ms 200 text/html;charset=utf-8
+2022-04-10 15:32:57.678 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:57.678 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:57.680 +02:00 [INF] Request finished in 1.4616ms 200 text/html;charset=utf-8
+2022-04-10 15:32:57.680 +02:00 [INF] Request finished in 1.4801ms 200 text/html;charset=utf-8
+2022-04-10 15:32:58.567 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:32:58.569 +02:00 [INF] Request finished in 1.9891ms 200 text/html;charset=utf-8
+2022-04-10 15:33:07.721 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:07.721 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:07.723 +02:00 [INF] Request finished in 2.0322ms 200 text/html;charset=utf-8
+2022-04-10 15:33:07.723 +02:00 [INF] Request finished in 2.0297ms 200 text/html;charset=utf-8
+2022-04-10 15:33:08.623 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:08.625 +02:00 [INF] Request finished in 1.5869ms 200 text/html;charset=utf-8
+2022-04-10 15:33:17.785 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:17.785 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:17.788 +02:00 [INF] Request finished in 2.6703ms 200 text/html;charset=utf-8
+2022-04-10 15:33:17.791 +02:00 [INF] Request finished in 5.4218ms 200 text/html;charset=utf-8
+2022-04-10 15:33:18.754 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:18.755 +02:00 [INF] Request finished in 0.9119ms 200 text/html;charset=utf-8
+2022-04-10 15:33:27.838 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:27.838 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:27.839 +02:00 [INF] Request finished in 1.1662ms 200 text/html;charset=utf-8
+2022-04-10 15:33:27.839 +02:00 [INF] Request finished in 1.5827ms 200 text/html;charset=utf-8
+2022-04-10 15:33:28.874 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:28.875 +02:00 [INF] Request finished in 0.942ms 200 text/html;charset=utf-8
+2022-04-10 15:33:37.905 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:37.905 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:37.905 +02:00 [INF] Request finished in 0.9279ms 200 text/html;charset=utf-8
+2022-04-10 15:33:37.905 +02:00 [INF] Request finished in 0.9489ms 200 text/html;charset=utf-8
+2022-04-10 15:33:38.965 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:38.965 +02:00 [INF] Request finished in 0.6655ms 200 text/html;charset=utf-8
+2022-04-10 15:33:47.964 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:47.964 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:47.965 +02:00 [INF] Request finished in 1.0738ms 200 text/html;charset=utf-8
+2022-04-10 15:33:47.965 +02:00 [INF] Request finished in 1.1453ms 200 text/html;charset=utf-8
+2022-04-10 15:33:49.038 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:49.039 +02:00 [INF] Request finished in 1.1622ms 200 text/html;charset=utf-8
+2022-04-10 15:33:58.006 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:58.006 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:58.007 +02:00 [INF] Request finished in 0.9044ms 200 text/html;charset=utf-8
+2022-04-10 15:33:58.008 +02:00 [INF] Request finished in 1.5317ms 200 text/html;charset=utf-8
+2022-04-10 15:33:59.159 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:33:59.160 +02:00 [INF] Request finished in 0.9531ms 200 text/html;charset=utf-8
+2022-04-10 15:34:08.039 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:34:08.039 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:34:08.040 +02:00 [INF] Request finished in 0.8203ms 200 text/html;charset=utf-8
+2022-04-10 15:34:08.040 +02:00 [INF] Request finished in 0.9763ms 200 text/html;charset=utf-8
+2022-04-10 15:34:09.241 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:34:09.241 +02:00 [INF] Request finished in 0.7726ms 200 text/html;charset=utf-8
+2022-04-10 15:34:27.565 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 15:34:28.473 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 15:34:28.474 +02:00 [INF] Hosting environment: Development
+2022-04-10 15:34:28.474 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 15:34:28.542 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:34:28.903 +02:00 [INF] Request finished in 369.7738ms 200 text/html;charset=utf-8
+2022-04-10 15:34:29.096 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 15:34:29.104 +02:00 [INF] Request finished in 8.0304ms 200 application/javascript; charset=utf-8
+2022-04-10 15:34:30.611 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 15:34:30.787 +02:00 [INF] Request finished in 176.3007ms 200 application/json;charset=utf-8
+2022-04-10 15:34:30.939 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:34:30.945 +02:00 [INF] Request finished in 6.5516ms 200 text/html;charset=utf-8
+2022-04-10 15:34:31.311 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:34:31.313 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:34:31.326 +02:00 [INF] Request finished in 12.9067ms 200 text/html;charset=utf-8
+2022-04-10 15:34:31.319 +02:00 [INF] Request finished in 7.7266ms 200 text/html;charset=utf-8
+2022-04-10 15:34:43.091 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:34:43.091 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:34:43.094 +02:00 [INF] Request finished in 3.8139ms 200 text/html;charset=utf-8
+2022-04-10 15:34:43.094 +02:00 [INF] Request finished in 3.7447ms 200 text/html;charset=utf-8
+2022-04-10 15:34:43.562 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:34:43.564 +02:00 [INF] Request finished in 1.7874ms 200 text/html;charset=utf-8
+2022-04-10 15:34:53.216 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:34:53.217 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:34:53.219 +02:00 [INF] Request finished in 3.3236ms 200 text/html;charset=utf-8
+2022-04-10 15:34:53.221 +02:00 [INF] Request finished in 3.8097ms 200 text/html;charset=utf-8
+2022-04-10 15:34:53.683 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:34:53.685 +02:00 [INF] Request finished in 2.5955ms 200 text/html;charset=utf-8
+2022-04-10 15:35:03.330 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:03.331 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:03.333 +02:00 [INF] Request finished in 2.2436ms 200 text/html;charset=utf-8
+2022-04-10 15:35:03.333 +02:00 [INF] Request finished in 3.1031ms 200 text/html;charset=utf-8
+2022-04-10 15:35:03.737 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:03.739 +02:00 [INF] Request finished in 2.3305ms 200 text/html;charset=utf-8
+2022-04-10 15:35:13.373 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:13.373 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:13.375 +02:00 [INF] Request finished in 2.3658ms 200 text/html;charset=utf-8
+2022-04-10 15:35:13.375 +02:00 [INF] Request finished in 2.3439ms 200 text/html;charset=utf-8
+2022-04-10 15:35:13.829 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:13.833 +02:00 [INF] Request finished in 2.4913ms 200 text/html;charset=utf-8
+2022-04-10 15:35:23.433 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:23.433 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:23.435 +02:00 [INF] Request finished in 1.7907ms 200 text/html;charset=utf-8
+2022-04-10 15:35:23.435 +02:00 [INF] Request finished in 1.7079ms 200 text/html;charset=utf-8
+2022-04-10 15:35:23.862 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:23.864 +02:00 [INF] Request finished in 1.4366ms 200 text/html;charset=utf-8
+2022-04-10 15:35:33.469 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:33.469 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:33.470 +02:00 [INF] Request finished in 1.415ms 200 text/html;charset=utf-8
+2022-04-10 15:35:33.471 +02:00 [INF] Request finished in 1.4139ms 200 text/html;charset=utf-8
+2022-04-10 15:35:33.930 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:33.931 +02:00 [INF] Request finished in 1.1622ms 200 text/html;charset=utf-8
+2022-04-10 15:35:43.522 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:43.522 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:43.523 +02:00 [INF] Request finished in 1.4614ms 200 text/html;charset=utf-8
+2022-04-10 15:35:43.523 +02:00 [INF] Request finished in 1.6148ms 200 text/html;charset=utf-8
+2022-04-10 15:35:44.006 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:35:44.007 +02:00 [INF] Request finished in 1.0969ms 200 text/html;charset=utf-8
+2022-04-10 15:36:45.866 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 15:36:46.828 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 15:36:46.843 +02:00 [INF] Hosting environment: Development
+2022-04-10 15:36:46.843 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 15:36:46.925 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:36:47.428 +02:00 [INF] Request finished in 512.3192ms 200 text/html;charset=utf-8
+2022-04-10 15:36:47.457 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 15:36:47.474 +02:00 [INF] Request finished in 17.0621ms 200 application/javascript; charset=utf-8
+2022-04-10 15:36:47.947 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 15:36:48.142 +02:00 [INF] Request finished in 195.6762ms 200 application/json;charset=utf-8
+2022-04-10 15:36:49.957 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:36:49.961 +02:00 [INF] Request finished in 4.8041ms 200 text/html;charset=utf-8
+2022-04-10 15:37:02.365 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:37:02.370 +02:00 [INF] Request finished in 4.4056ms 200 text/html;charset=utf-8
+2022-04-10 15:37:12.471 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:37:12.474 +02:00 [INF] Request finished in 2.703ms 200 text/html;charset=utf-8
+2022-04-10 15:37:22.588 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:37:22.592 +02:00 [INF] Request finished in 3.8368ms 200 text/html;charset=utf-8
+2022-04-10 15:37:32.637 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:37:32.640 +02:00 [INF] Request finished in 2.7478ms 200 text/html;charset=utf-8
+2022-04-10 15:37:42.743 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:37:42.746 +02:00 [INF] Request finished in 3.139ms 200 text/html;charset=utf-8
+2022-04-10 15:37:52.801 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:37:52.804 +02:00 [INF] Request finished in 2.7731ms 200 text/html;charset=utf-8
+2022-04-10 15:38:02.884 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:38:02.887 +02:00 [INF] Request finished in 3.0537ms 200 text/html;charset=utf-8
+2022-04-10 15:38:12.941 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:38:12.943 +02:00 [INF] Request finished in 2.1731ms 200 text/html;charset=utf-8
+2022-04-10 15:38:23.010 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:38:23.012 +02:00 [INF] Request finished in 2.2872ms 200 text/html;charset=utf-8
+2022-04-10 15:38:33.045 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:38:33.048 +02:00 [INF] Request finished in 2.8466ms 200 text/html;charset=utf-8
+2022-04-10 15:38:43.127 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:38:43.129 +02:00 [INF] Request finished in 1.9762ms 200 text/html;charset=utf-8
+2022-04-10 15:45:26.141 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 15:45:26.992 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 15:45:26.993 +02:00 [INF] Hosting environment: Development
+2022-04-10 15:45:26.993 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 15:45:27.077 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:45:27.454 +02:00 [INF] Request finished in 384.3912ms 200 text/html;charset=utf-8
+2022-04-10 15:45:27.506 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 15:45:27.510 +02:00 [INF] Request finished in 4.6877ms 200 application/javascript; charset=utf-8
+2022-04-10 15:45:27.861 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 15:45:28.021 +02:00 [INF] Request finished in 160.0746ms 200 application/json;charset=utf-8
+2022-04-10 15:45:29.041 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:45:29.045 +02:00 [INF] Request finished in 4.6014ms 200 text/html;charset=utf-8
+2022-04-10 15:45:41.010 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:45:41.016 +02:00 [INF] Request finished in 5.9948ms 200 text/html;charset=utf-8
+2022-04-10 15:45:51.108 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:45:51.111 +02:00 [INF] Request finished in 2.9585ms 200 text/html;charset=utf-8
+2022-04-10 15:46:01.191 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:46:01.196 +02:00 [INF] Request finished in 4.2592ms 200 text/html;charset=utf-8
+2022-04-10 15:46:11.281 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:46:11.284 +02:00 [INF] Request finished in 2.8367ms 200 text/html;charset=utf-8
+2022-04-10 15:46:21.349 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:46:21.354 +02:00 [INF] Request finished in 4.3673ms 200 text/html;charset=utf-8
+2022-04-10 15:46:31.436 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:46:31.440 +02:00 [INF] Request finished in 4.0939ms 200 text/html;charset=utf-8
+2022-04-10 15:46:41.492 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:46:41.494 +02:00 [INF] Request finished in 1.9944ms 200 text/html;charset=utf-8
+2022-04-10 15:46:55.114 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 15:46:55.942 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 15:46:55.943 +02:00 [INF] Hosting environment: Development
+2022-04-10 15:46:55.944 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 15:46:56.035 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:46:56.552 +02:00 [INF] Request finished in 526.8ms 200 text/html;charset=utf-8
+2022-04-10 15:46:56.605 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 15:46:56.610 +02:00 [INF] Request finished in 4.9955ms 200 application/javascript; charset=utf-8
+2022-04-10 15:46:56.958 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 15:46:57.112 +02:00 [INF] Request finished in 154.2639ms 200 application/json;charset=utf-8
+2022-04-10 15:46:58.081 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:46:58.089 +02:00 [INF] Request finished in 8.9541ms 200 text/html;charset=utf-8
+2022-04-10 15:47:10.227 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:47:10.231 +02:00 [INF] Request finished in 4.27ms 200 text/html;charset=utf-8
+2022-04-10 15:47:20.354 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:47:20.357 +02:00 [INF] Request finished in 3.0682ms 200 text/html;charset=utf-8
+2022-04-10 15:47:30.459 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:47:30.464 +02:00 [INF] Request finished in 4.9976ms 200 text/html;charset=utf-8
+2022-04-10 15:47:40.559 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:47:40.562 +02:00 [INF] Request finished in 3.2118ms 200 text/html;charset=utf-8
+2022-04-10 15:47:50.617 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:47:50.619 +02:00 [INF] Request finished in 2.3369ms 200 text/html;charset=utf-8
+2022-04-10 15:48:00.673 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:48:00.675 +02:00 [INF] Request finished in 2.5506ms 200 text/html;charset=utf-8
+2022-04-10 15:48:10.709 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:48:10.711 +02:00 [INF] Request finished in 2.1939ms 200 text/html;charset=utf-8
+2022-04-10 15:48:20.773 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:48:20.775 +02:00 [INF] Request finished in 2.2878ms 200 text/html;charset=utf-8
+2022-04-10 15:48:30.872 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:48:30.889 +02:00 [INF] Request finished in 17.0327ms 200 text/html;charset=utf-8
+2022-04-10 15:48:40.940 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:48:40.942 +02:00 [INF] Request finished in 2.0941ms 200 text/html;charset=utf-8
+2022-04-10 15:48:50.985 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:48:50.987 +02:00 [INF] Request finished in 1.9801ms 200 text/html;charset=utf-8
+2022-04-10 15:49:01.065 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:49:01.067 +02:00 [INF] Request finished in 1.7424ms 200 text/html;charset=utf-8
+2022-04-10 15:49:11.114 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:49:11.115 +02:00 [INF] Request finished in 1.499ms 200 text/html;charset=utf-8
+2022-04-10 15:49:21.153 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:49:21.155 +02:00 [INF] Request finished in 1.7785ms 200 text/html;charset=utf-8
+2022-04-10 15:49:31.224 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:49:31.226 +02:00 [INF] Request finished in 1.4414ms 200 text/html;charset=utf-8
+2022-04-10 15:49:41.288 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:49:41.290 +02:00 [INF] Request finished in 1.7586ms 200 text/html;charset=utf-8
+2022-04-10 15:49:51.369 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:49:51.371 +02:00 [INF] Request finished in 1.2773ms 200 text/html;charset=utf-8
+2022-04-10 15:50:01.417 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:50:01.418 +02:00 [INF] Request finished in 1.2088ms 200 text/html;charset=utf-8
+2022-04-10 15:50:11.479 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:50:11.480 +02:00 [INF] Request finished in 1.574ms 200 text/html;charset=utf-8
+2022-04-10 15:50:21.527 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:50:21.530 +02:00 [INF] Request finished in 2.6162ms 200 text/html;charset=utf-8
+2022-04-10 15:50:31.571 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:50:31.572 +02:00 [INF] Request finished in 1.3245ms 200 text/html;charset=utf-8
+2022-04-10 15:50:41.623 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:50:41.624 +02:00 [INF] Request finished in 1.1159ms 200 text/html;charset=utf-8
+2022-04-10 15:50:51.680 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 15:50:51.681 +02:00 [INF] Request finished in 1.2383ms 200 text/html;charset=utf-8
+2022-04-10 20:14:14.812 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 20:14:15.723 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 20:14:15.723 +02:00 [INF] Hosting environment: Development
+2022-04-10 20:14:15.723 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 20:14:15.976 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:14:16.536 +02:00 [INF] Request finished in 569.3052ms 200 text/html;charset=utf-8
+2022-04-10 20:14:16.706 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 20:14:16.714 +02:00 [INF] Request finished in 8.3662ms 200 application/javascript; charset=utf-8
+2022-04-10 20:14:18.344 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:14:18.348 +02:00 [INF] Request finished in 4.542ms 200 text/html;charset=utf-8
+2022-04-10 20:14:18.455 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 20:14:18.615 +02:00 [INF] Request finished in 160.0671ms 200 application/json;charset=utf-8
+2022-04-10 20:14:31.061 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:14:31.066 +02:00 [INF] Request finished in 4.6442ms 200 text/html;charset=utf-8
+2022-04-10 20:14:41.225 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:14:41.229 +02:00 [INF] Request finished in 3.9969ms 200 text/html;charset=utf-8
+2022-04-10 20:14:51.293 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:14:51.297 +02:00 [INF] Request finished in 4.3792ms 200 text/html;charset=utf-8
+2022-04-10 20:15:01.386 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:15:01.388 +02:00 [INF] Request finished in 2.8113ms 200 text/html;charset=utf-8
+2022-04-10 20:15:11.475 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:15:11.478 +02:00 [INF] Request finished in 3.0766ms 200 text/html;charset=utf-8
+2022-04-10 20:15:26.279 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 20:15:27.220 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 20:15:27.225 +02:00 [INF] Hosting environment: Development
+2022-04-10 20:15:27.225 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 20:15:27.267 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:15:27.662 +02:00 [INF] Request finished in 401.8358ms 200 text/html;charset=utf-8
+2022-04-10 20:15:27.699 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 20:15:27.709 +02:00 [INF] Request finished in 9.3796ms 200 application/javascript; charset=utf-8
+2022-04-10 20:15:29.630 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:15:29.634 +02:00 [INF] Request finished in 4.0364ms 200 text/html;charset=utf-8
+2022-04-10 20:15:30.085 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 20:15:30.244 +02:00 [INF] Request finished in 159.537ms 200 application/json;charset=utf-8
+2022-04-10 20:16:32.359 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:16:32.370 +02:00 [INF] Request finished in 11.395ms 200 text/html;charset=utf-8
+2022-04-10 20:16:43.195 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:16:43.203 +02:00 [INF] Request finished in 7.8679ms 200 text/html;charset=utf-8
+2022-04-10 20:16:53.298 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:16:53.302 +02:00 [INF] Request finished in 4.2417ms 200 text/html;charset=utf-8
+2022-04-10 20:17:03.363 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:17:03.366 +02:00 [INF] Request finished in 3.8913ms 200 text/html;charset=utf-8
+2022-04-10 20:17:17.138 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:17:17.142 +02:00 [INF] Request finished in 3.7975ms 200 text/html;charset=utf-8
+2022-04-10 20:19:02.895 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 20:19:03.725 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 20:19:03.726 +02:00 [INF] Hosting environment: Development
+2022-04-10 20:19:03.726 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 20:19:03.794 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:19:05.580 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:19:05.595 +02:00 [INF] Request finished in 13.6948ms 200 text/html;charset=utf-8
+2022-04-10 20:19:07.831 +02:00 [INF] Request finished in 4043.0809ms 200 text/html;charset=utf-8
+2022-04-10 20:19:09.069 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 20:19:09.079 +02:00 [INF] Request finished in 10.2323ms 200 application/javascript; charset=utf-8
+2022-04-10 20:19:11.018 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 20:19:11.262 +02:00 [INF] Request finished in 244.7058ms 200 application/json;charset=utf-8
+2022-04-10 20:20:04.532 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 20:20:05.402 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 20:20:05.402 +02:00 [INF] Hosting environment: Development
+2022-04-10 20:20:05.403 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 20:20:05.502 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:20:05.898 +02:00 [INF] Request finished in 405.6069ms 200 text/html;charset=utf-8
+2022-04-10 20:20:06.082 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 20:20:06.090 +02:00 [INF] Request finished in 8.7342ms 200 application/javascript; charset=utf-8
+2022-04-10 20:20:07.691 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:20:07.733 +02:00 [INF] Request finished in 42.5886ms 200 text/html;charset=utf-8
+2022-04-10 20:20:08.327 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 20:20:08.500 +02:00 [INF] Request finished in 173.3194ms 200 application/json;charset=utf-8
+2022-04-10 20:25:00.720 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 20:25:02.405 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 20:25:02.412 +02:00 [INF] Hosting environment: Development
+2022-04-10 20:25:02.413 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 20:25:02.719 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:25:03.679 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:25:03.693 +02:00 [INF] Request finished in 13.179ms 200 text/html;charset=utf-8
+2022-04-10 20:25:06.306 +02:00 [INF] Request finished in 3595.9181ms 200 text/html;charset=utf-8
+2022-04-10 20:25:08.061 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 20:25:08.071 +02:00 [INF] Request finished in 10.5634ms 200 application/javascript; charset=utf-8
+2022-04-10 20:25:11.296 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 20:25:11.430 +02:00 [INF] Request finished in 133.65ms 200 application/json;charset=utf-8
+2022-04-10 20:27:25.971 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 20:27:27.008 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 20:27:27.009 +02:00 [INF] Hosting environment: Development
+2022-04-10 20:27:27.009 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 20:27:27.090 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:27:27.509 +02:00 [INF] Request finished in 428.5185ms 200 text/html;charset=utf-8
+2022-04-10 20:27:27.644 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 20:27:27.649 +02:00 [INF] Request finished in 4.9959ms 200 application/javascript; charset=utf-8
+2022-04-10 20:27:30.111 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:27:30.116 +02:00 [INF] Request finished in 5.6105ms 200 text/html;charset=utf-8
+2022-04-10 20:27:30.846 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 20:27:31.026 +02:00 [INF] Request finished in 180.5448ms 200 application/json;charset=utf-8
+2022-04-10 20:28:23.117 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:28:23.130 +02:00 [INF] Request finished in 13.3062ms 200 text/html;charset=utf-8
+2022-04-10 20:28:33.361 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:28:33.365 +02:00 [INF] Request finished in 3.8603ms 200 text/html;charset=utf-8
+2022-04-10 20:29:25.416 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 20:29:26.351 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 20:29:26.353 +02:00 [INF] Hosting environment: Development
+2022-04-10 20:29:26.353 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 20:29:26.420 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:29:26.888 +02:00 [INF] Request finished in 487.7321ms 200 text/html;charset=utf-8
+2022-04-10 20:29:27.053 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 20:29:27.062 +02:00 [INF] Request finished in 9.593ms 200 application/javascript; charset=utf-8
+2022-04-10 20:29:28.896 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:29:28.901 +02:00 [INF] Request finished in 5.6925ms 200 text/html;charset=utf-8
+2022-04-10 20:29:30.603 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 20:29:30.782 +02:00 [INF] Request finished in 179.8431ms 200 application/json;charset=utf-8
+2022-04-10 20:30:57.798 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 20:30:58.579 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 20:30:58.580 +02:00 [INF] Hosting environment: Development
+2022-04-10 20:30:58.580 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 20:30:58.683 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:30:59.111 +02:00 [INF] Request finished in 439.3517ms 200 text/html;charset=utf-8
+2022-04-10 20:30:59.258 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 20:30:59.265 +02:00 [INF] Request finished in 6.5349ms 200 application/javascript; charset=utf-8
+2022-04-10 20:31:01.218 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:31:01.245 +02:00 [INF] Request finished in 27.187ms 200 text/html;charset=utf-8
+2022-04-10 20:31:01.919 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 20:31:02.083 +02:00 [INF] Request finished in 163.757ms 200 application/json;charset=utf-8
+2022-04-10 20:31:24.135 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:31:24.144 +02:00 [INF] Request finished in 8.4512ms 200 text/html;charset=utf-8
+2022-04-10 20:31:56.479 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:31:56.490 +02:00 [INF] Request finished in 11.8001ms 200 text/html;charset=utf-8
+2022-04-10 20:32:12.022 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:32:12.030 +02:00 [INF] Request finished in 4.1002ms 200 text/html;charset=utf-8
+2022-04-10 20:32:24.634 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:32:24.638 +02:00 [INF] Request finished in 4.479ms 200 text/html;charset=utf-8
+2022-04-10 20:32:34.697 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 20:32:34.699 +02:00 [INF] Request finished in 2.312ms 200 text/html;charset=utf-8
+2022-04-10 22:23:57.721 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 22:23:58.497 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 22:23:58.511 +02:00 [INF] Hosting environment: Development
+2022-04-10 22:23:58.511 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 22:23:58.614 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:23:59.526 +02:00 [INF] Request finished in 916.0769ms 200 text/html;charset=utf-8
+2022-04-10 22:23:59.610 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 22:23:59.626 +02:00 [INF] Request finished in 15.4685ms 200 application/javascript; charset=utf-8
+2022-04-10 22:24:00.076 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 22:24:00.308 +02:00 [INF] Request finished in 232.5553ms 200 application/json;charset=utf-8
+2022-04-10 22:24:01.579 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:24:01.591 +02:00 [INF] Request finished in 11.7127ms 200 text/html;charset=utf-8
+2022-04-10 22:24:20.508 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:24:20.513 +02:00 [INF] Request finished in 4.5975ms 200 text/html;charset=utf-8
+2022-04-10 22:24:30.702 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:24:30.706 +02:00 [INF] Request finished in 4.0623ms 200 text/html;charset=utf-8
+2022-04-10 22:24:42.809 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:24:42.814 +02:00 [INF] Request finished in 4.4711ms 200 text/html;charset=utf-8
+2022-04-10 22:24:59.612 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:24:59.618 +02:00 [INF] Request finished in 6.0995ms 200 text/html;charset=utf-8
+2022-04-10 22:25:15.907 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:25:15.911 +02:00 [INF] Request finished in 3.6936ms 200 text/html;charset=utf-8
+2022-04-10 22:25:25.974 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:25:25.980 +02:00 [INF] Request finished in 5.5877ms 200 text/html;charset=utf-8
+2022-04-10 22:25:36.096 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:25:36.099 +02:00 [INF] Request finished in 3.1671ms 200 text/html;charset=utf-8
+2022-04-10 22:25:46.156 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:25:46.159 +02:00 [INF] Request finished in 2.4625ms 200 text/html;charset=utf-8
+2022-04-10 22:25:56.296 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:25:56.300 +02:00 [INF] Request finished in 3.5601ms 200 text/html;charset=utf-8
+2022-04-10 22:26:06.361 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:26:06.363 +02:00 [INF] Request finished in 1.884ms 200 text/html;charset=utf-8
+2022-04-10 22:26:16.424 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:26:16.426 +02:00 [INF] Request finished in 1.8519ms 200 text/html;charset=utf-8
+2022-04-10 22:26:26.550 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:26:26.552 +02:00 [INF] Request finished in 2.1842ms 200 text/html;charset=utf-8
+2022-04-10 22:26:36.608 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:26:36.610 +02:00 [INF] Request finished in 1.9078ms 200 text/html;charset=utf-8
+2022-04-10 22:26:46.681 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:26:46.682 +02:00 [INF] Request finished in 1.7607ms 200 text/html;charset=utf-8
+2022-04-10 22:26:56.749 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:26:56.751 +02:00 [INF] Request finished in 2.0732ms 200 text/html;charset=utf-8
+2022-04-10 22:27:13.262 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 22:27:14.154 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 22:27:14.155 +02:00 [INF] Hosting environment: Development
+2022-04-10 22:27:14.155 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 22:27:14.247 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:27:14.647 +02:00 [INF] Request finished in 411.3937ms 200 text/html;charset=utf-8
+2022-04-10 22:27:14.696 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 22:27:14.701 +02:00 [INF] Request finished in 4.9715ms 200 application/javascript; charset=utf-8
+2022-04-10 22:27:16.267 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 22:27:16.435 +02:00 [INF] Request finished in 169.2931ms 200 application/json;charset=utf-8
+2022-04-10 22:27:16.814 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:27:16.817 +02:00 [INF] Request finished in 3.7293ms 200 text/html;charset=utf-8
+2022-04-10 22:27:29.444 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:27:29.448 +02:00 [INF] Request finished in 4.3555ms 200 text/html;charset=utf-8
+2022-04-10 22:27:39.582 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:27:39.585 +02:00 [INF] Request finished in 3.1663ms 200 text/html;charset=utf-8
+2022-04-10 22:27:49.686 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:27:49.690 +02:00 [INF] Request finished in 3.5807ms 200 text/html;charset=utf-8
+2022-04-10 22:27:59.766 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:27:59.770 +02:00 [INF] Request finished in 4.109ms 200 text/html;charset=utf-8
+2022-04-10 22:28:09.844 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:28:09.847 +02:00 [INF] Request finished in 3.3189ms 200 text/html;charset=utf-8
+2022-04-10 22:28:19.914 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:28:19.917 +02:00 [INF] Request finished in 3.2127ms 200 text/html;charset=utf-8
+2022-04-10 22:28:30.011 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:28:30.013 +02:00 [INF] Request finished in 2.2454ms 200 text/html;charset=utf-8
+2022-04-10 22:28:40.096 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:28:40.098 +02:00 [INF] Request finished in 2.39ms 200 text/html;charset=utf-8
+2022-04-10 22:28:50.158 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:28:50.160 +02:00 [INF] Request finished in 2.3505ms 200 text/html;charset=utf-8
+2022-04-10 22:29:02.068 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:29:02.075 +02:00 [INF] Request finished in 6.7617ms 200 text/html;charset=utf-8
+2022-04-10 22:29:58.300 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 22:29:59.717 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 22:29:59.718 +02:00 [INF] Hosting environment: Development
+2022-04-10 22:29:59.718 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 22:29:59.829 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:30:00.533 +02:00 [INF] Request finished in 714.226ms 200 text/html;charset=utf-8
+2022-04-10 22:30:00.635 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 22:30:00.643 +02:00 [INF] Request finished in 7.912ms 200 application/javascript; charset=utf-8
+2022-04-10 22:30:02.018 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:30:02.022 +02:00 [INF] Request finished in 4.77ms 200 text/html;charset=utf-8
+2022-04-10 22:30:05.384 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 22:30:05.539 +02:00 [INF] Request finished in 156.455ms 200 application/json;charset=utf-8
+2022-04-10 22:30:17.851 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:30:17.854 +02:00 [INF] Request finished in 4.0103ms 200 text/html;charset=utf-8
+2022-04-10 22:30:30.679 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:30:30.685 +02:00 [INF] Request finished in 6.1393ms 200 text/html;charset=utf-8
+2022-04-10 22:30:43.555 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:30:43.559 +02:00 [INF] Request finished in 3.7465ms 200 text/html;charset=utf-8
+2022-04-10 22:30:53.631 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:30:53.634 +02:00 [INF] Request finished in 3.0562ms 200 text/html;charset=utf-8
+2022-04-10 22:31:03.728 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:31:03.731 +02:00 [INF] Request finished in 3.3274ms 200 text/html;charset=utf-8
+2022-04-10 22:31:16.262 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:31:16.265 +02:00 [INF] Request finished in 3.0842ms 200 text/html;charset=utf-8
+2022-04-10 22:31:44.610 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:31:44.614 +02:00 [INF] Request finished in 7.4295ms 200 text/html;charset=utf-8
+2022-04-10 22:32:14.412 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:32:14.423 +02:00 [INF] Request finished in 7.6065ms 200 text/html;charset=utf-8
+2022-04-10 22:32:24.506 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:32:24.508 +02:00 [INF] Request finished in 2.5376ms 200 text/html;charset=utf-8
+2022-04-10 22:32:34.580 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:32:34.582 +02:00 [INF] Request finished in 2.3286ms 200 text/html;charset=utf-8
+2022-04-10 22:32:44.650 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:32:44.652 +02:00 [INF] Request finished in 2.0994ms 200 text/html;charset=utf-8
+2022-04-10 22:32:54.703 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:32:54.705 +02:00 [INF] Request finished in 1.923ms 200 text/html;charset=utf-8
+2022-04-10 22:33:04.888 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:33:04.890 +02:00 [INF] Request finished in 2.1555ms 200 text/html;charset=utf-8
+2022-04-10 22:33:15.050 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:33:15.059 +02:00 [INF] Request finished in 9.6439ms 200 text/html;charset=utf-8
+2022-04-10 22:33:25.146 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:33:25.149 +02:00 [INF] Request finished in 2.8343ms 200 text/html;charset=utf-8
+2022-04-10 22:33:35.199 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:33:35.201 +02:00 [INF] Request finished in 1.4858ms 200 text/html;charset=utf-8
+2022-04-10 22:33:45.278 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:33:45.279 +02:00 [INF] Request finished in 1.4446ms 200 text/html;charset=utf-8
+2022-04-10 22:33:55.365 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:33:55.366 +02:00 [INF] Request finished in 1.4211ms 200 text/html;charset=utf-8
+2022-04-10 22:34:05.420 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:34:05.422 +02:00 [INF] Request finished in 1.3092ms 200 text/html;charset=utf-8
+2022-04-10 22:34:15.501 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:34:15.503 +02:00 [INF] Request finished in 2.074ms 200 text/html;charset=utf-8
+2022-04-10 22:34:25.585 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:34:25.588 +02:00 [INF] Request finished in 3.0823ms 200 text/html;charset=utf-8
+2022-04-10 22:34:35.716 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:34:35.717 +02:00 [INF] Request finished in 1.6263ms 200 text/html;charset=utf-8
+2022-04-10 22:35:07.334 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 22:35:08.452 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 22:35:08.452 +02:00 [INF] Hosting environment: Development
+2022-04-10 22:35:08.452 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 22:35:08.529 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:35:09.550 +02:00 [INF] Request finished in 1029.2846ms 200 text/html;charset=utf-8
+2022-04-10 22:35:11.590 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:35:11.637 +02:00 [INF] Request finished in 47.3544ms 200 text/html;charset=utf-8
+2022-04-10 22:35:11.783 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 22:35:11.789 +02:00 [INF] Request finished in 5.7297ms 200 application/javascript; charset=utf-8
+2022-04-10 22:35:15.345 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 22:35:15.536 +02:00 [INF] Request finished in 190.6432ms 200 application/json;charset=utf-8
+2022-04-10 22:35:25.050 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:35:25.054 +02:00 [INF] Request finished in 4.1169ms 200 text/html;charset=utf-8
+2022-04-10 22:35:35.206 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:35:35.210 +02:00 [INF] Request finished in 3.6675ms 200 text/html;charset=utf-8
+2022-04-10 22:35:47.380 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:35:47.387 +02:00 [INF] Request finished in 7.6887ms 200 text/html;charset=utf-8
+2022-04-10 22:36:01.064 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:36:01.069 +02:00 [INF] Request finished in 5.6028ms 200 text/html;charset=utf-8
+2022-04-10 22:36:14.254 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:36:14.260 +02:00 [INF] Request finished in 5.338ms 200 text/html;charset=utf-8
+2022-04-10 22:36:24.423 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:36:24.426 +02:00 [INF] Request finished in 3.1709ms 200 text/html;charset=utf-8
+2022-04-10 22:36:34.497 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:36:34.499 +02:00 [INF] Request finished in 1.7522ms 200 text/html;charset=utf-8
+2022-04-10 22:36:44.571 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:36:44.577 +02:00 [INF] Request finished in 6.0216ms 200 text/html;charset=utf-8
+2022-04-10 22:36:54.648 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:36:54.651 +02:00 [INF] Request finished in 2.6695ms 200 text/html;charset=utf-8
+2022-04-10 22:37:04.742 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:37:04.746 +02:00 [INF] Request finished in 2.4686ms 200 text/html;charset=utf-8
+2022-04-10 22:37:14.838 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:37:14.841 +02:00 [INF] Request finished in 2.1448ms 200 text/html;charset=utf-8
+2022-04-10 22:38:52.312 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 22:38:53.043 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 22:38:53.044 +02:00 [INF] Hosting environment: Development
+2022-04-10 22:38:53.044 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 22:38:53.112 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:38:53.510 +02:00 [INF] Request finished in 406.8155ms 200 text/html;charset=utf-8
+2022-04-10 22:38:54.027 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 22:38:54.042 +02:00 [INF] Request finished in 15.8711ms 200 application/javascript; charset=utf-8
+2022-04-10 22:38:55.468 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:38:55.476 +02:00 [INF] Request finished in 8.698ms 200 text/html;charset=utf-8
+2022-04-10 22:38:57.331 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 22:38:57.512 +02:00 [INF] Request finished in 180.7461ms 200 application/json;charset=utf-8
+2022-04-10 22:39:09.073 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:39:09.076 +02:00 [INF] Request finished in 3.0889ms 200 text/html;charset=utf-8
+2022-04-10 22:39:19.197 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 22:39:19.200 +02:00 [INF] Request finished in 3.5804ms 200 text/html;charset=utf-8
+2022-04-10 23:02:17.454 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 23:02:18.350 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 23:02:18.366 +02:00 [INF] Hosting environment: Development
+2022-04-10 23:02:18.366 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 23:02:18.461 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:02:18.894 +02:00 [INF] Request finished in 442.5823ms 200 text/html;charset=utf-8
+2022-04-10 23:02:19.314 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 23:02:19.323 +02:00 [INF] Request finished in 9.8314ms 200 application/javascript; charset=utf-8
+2022-04-10 23:02:20.825 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:02:20.829 +02:00 [INF] Request finished in 4.5752ms 200 text/html;charset=utf-8
+2022-04-10 23:02:22.589 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 23:02:22.766 +02:00 [INF] Request finished in 176.8608ms 200 application/json;charset=utf-8
+2022-04-10 23:02:36.299 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:02:36.302 +02:00 [INF] Request finished in 3.5293ms 200 text/html;charset=utf-8
+2022-04-10 23:02:46.462 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:02:46.465 +02:00 [INF] Request finished in 3.6338ms 200 text/html;charset=utf-8
+2022-04-10 23:14:10.178 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-10 23:14:11.152 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-10 23:14:11.153 +02:00 [INF] Hosting environment: Development
+2022-04-10 23:14:11.153 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-10 23:14:11.236 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:14:11.605 +02:00 [INF] Request finished in 380.1329ms 200 text/html;charset=utf-8
+2022-04-10 23:14:11.722 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-10 23:14:11.729 +02:00 [INF] Request finished in 7.0996ms 200 application/javascript; charset=utf-8
+2022-04-10 23:14:13.229 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-10 23:14:13.392 +02:00 [INF] Request finished in 163.2548ms 200 application/json;charset=utf-8
+2022-04-10 23:14:13.977 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:14:13.986 +02:00 [INF] Request finished in 9.2685ms 200 text/html;charset=utf-8
+2022-04-10 23:14:26.256 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:14:26.262 +02:00 [INF] Request finished in 5.5665ms 200 text/html;charset=utf-8
+2022-04-10 23:14:36.400 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:14:36.406 +02:00 [INF] Request finished in 6.2148ms 200 text/html;charset=utf-8
+2022-04-10 23:14:47.311 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:14:47.314 +02:00 [INF] Request finished in 3.1355ms 200 text/html;charset=utf-8
+2022-04-10 23:15:06.466 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:15:06.469 +02:00 [INF] Request finished in 3.6668ms 200 text/html;charset=utf-8
+2022-04-10 23:17:23.436 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:17:23.449 +02:00 [INF] Request finished in 9.7909ms 200 text/html;charset=utf-8
+2022-04-10 23:17:35.391 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:17:35.394 +02:00 [INF] Request finished in 3.2096ms 200 text/html;charset=utf-8
+2022-04-10 23:17:45.483 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:17:45.486 +02:00 [INF] Request finished in 4.2372ms 200 text/html;charset=utf-8
+2022-04-10 23:17:55.579 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:17:55.581 +02:00 [INF] Request finished in 2.5032ms 200 text/html;charset=utf-8
+2022-04-10 23:18:05.645 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:18:05.647 +02:00 [INF] Request finished in 2.0344ms 200 text/html;charset=utf-8
+2022-04-10 23:18:15.722 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:18:15.724 +02:00 [INF] Request finished in 2.4063ms 200 text/html;charset=utf-8
+2022-04-10 23:18:25.798 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:18:25.800 +02:00 [INF] Request finished in 2.1173ms 200 text/html;charset=utf-8
+2022-04-10 23:18:35.869 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:18:35.871 +02:00 [INF] Request finished in 2.1073ms 200 text/html;charset=utf-8
+2022-04-10 23:18:45.920 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:18:45.922 +02:00 [INF] Request finished in 2.5893ms 200 text/html;charset=utf-8
+2022-04-10 23:18:55.982 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:18:55.985 +02:00 [INF] Request finished in 3.351ms 200 text/html;charset=utf-8
+2022-04-10 23:19:06.041 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:19:06.043 +02:00 [INF] Request finished in 1.5992ms 200 text/html;charset=utf-8
+2022-04-10 23:19:16.111 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:19:16.113 +02:00 [INF] Request finished in 1.9003ms 200 text/html;charset=utf-8
+2022-04-10 23:19:26.156 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:19:26.157 +02:00 [INF] Request finished in 1.2907ms 200 text/html;charset=utf-8
+2022-04-10 23:19:36.257 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:19:36.258 +02:00 [INF] Request finished in 1.2714ms 200 text/html;charset=utf-8
+2022-04-10 23:19:46.315 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:19:46.316 +02:00 [INF] Request finished in 1.3169ms 200 text/html;charset=utf-8
+2022-04-10 23:19:56.353 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:19:56.355 +02:00 [INF] Request finished in 1.5926ms 200 text/html;charset=utf-8
+2022-04-10 23:20:06.441 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:20:06.442 +02:00 [INF] Request finished in 1.5523ms 200 text/html;charset=utf-8
+2022-04-10 23:20:16.497 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:20:16.499 +02:00 [INF] Request finished in 1.5111ms 200 text/html;charset=utf-8
+2022-04-10 23:20:26.562 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:20:26.563 +02:00 [INF] Request finished in 1.0442ms 200 text/html;charset=utf-8
+2022-04-10 23:20:36.617 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:20:36.619 +02:00 [INF] Request finished in 1.7815ms 200 text/html;charset=utf-8
+2022-04-10 23:20:46.718 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:20:46.719 +02:00 [INF] Request finished in 1.7102ms 200 text/html;charset=utf-8
+2022-04-10 23:20:56.788 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:20:56.790 +02:00 [INF] Request finished in 2.0148ms 200 text/html;charset=utf-8
+2022-04-10 23:21:06.900 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:21:06.903 +02:00 [INF] Request finished in 2.8625ms 200 text/html;charset=utf-8
+2022-04-10 23:21:16.945 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:21:16.946 +02:00 [INF] Request finished in 1.5615ms 200 text/html;charset=utf-8
+2022-04-10 23:21:27.038 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:21:27.040 +02:00 [INF] Request finished in 1.979ms 200 text/html;charset=utf-8
+2022-04-10 23:21:37.110 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:21:37.114 +02:00 [INF] Request finished in 4.1323ms 200 text/html;charset=utf-8
+2022-04-10 23:21:47.168 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:21:47.169 +02:00 [INF] Request finished in 1.1937ms 200 text/html;charset=utf-8
+2022-04-10 23:21:57.216 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:21:57.217 +02:00 [INF] Request finished in 0.7078ms 200 text/html;charset=utf-8
+2022-04-10 23:22:07.285 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:22:07.287 +02:00 [INF] Request finished in 1.5042ms 200 text/html;charset=utf-8
+2022-04-10 23:22:17.358 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:22:17.359 +02:00 [INF] Request finished in 1.1198ms 200 text/html;charset=utf-8
+2022-04-10 23:22:27.463 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:22:27.467 +02:00 [INF] Request finished in 3.5611ms 200 text/html;charset=utf-8
+2022-04-10 23:22:37.560 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:22:37.561 +02:00 [INF] Request finished in 0.8952ms 200 text/html;charset=utf-8
+2022-04-10 23:22:47.626 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:22:47.627 +02:00 [INF] Request finished in 0.9566ms 200 text/html;charset=utf-8
+2022-04-10 23:22:57.674 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:22:57.675 +02:00 [INF] Request finished in 1.0158ms 200 text/html;charset=utf-8
+2022-04-10 23:23:07.729 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:23:07.730 +02:00 [INF] Request finished in 0.8113ms 200 text/html;charset=utf-8
+2022-04-10 23:23:17.790 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:23:17.791 +02:00 [INF] Request finished in 0.9952ms 200 text/html;charset=utf-8
+2022-04-10 23:23:27.839 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:23:27.839 +02:00 [INF] Request finished in 0.5734ms 200 text/html;charset=utf-8
+2022-04-10 23:23:37.911 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:23:37.912 +02:00 [INF] Request finished in 0.8661ms 200 text/html;charset=utf-8
+2022-04-10 23:23:47.969 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:23:47.970 +02:00 [INF] Request finished in 0.676ms 200 text/html;charset=utf-8
+2022-04-10 23:23:58.018 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:23:58.023 +02:00 [INF] Request finished in 5.1732ms 200 text/html;charset=utf-8
+2022-04-10 23:24:08.069 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:24:08.069 +02:00 [INF] Request finished in 0.77ms 200 text/html;charset=utf-8
+2022-04-10 23:24:18.229 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:24:18.231 +02:00 [INF] Request finished in 1.3205ms 200 text/html;charset=utf-8
+2022-04-10 23:24:28.286 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-10 23:24:28.287 +02:00 [INF] Request finished in 1.4866ms 200 text/html;charset=utf-8

@@ -1,0 +1,327 @@
+2022-04-03 14:28:59.818 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 14:29:00.531 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 14:29:00.531 +02:00 [INF] Hosting environment: Development
+2022-04-03 14:29:00.531 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 14:29:00.569 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 14:29:01.905 +02:00 [INF] Request finished in 1340.5456ms 200 text/html;charset=utf-8
+2022-04-03 14:29:01.945 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 14:29:01.950 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 14:29:01.963 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui-bundle.js  
+2022-04-03 14:29:01.970 +02:00 [INF] Request finished in 24.4189ms 200 application/javascript; charset=utf-8
+2022-04-03 14:29:01.974 +02:00 [INF] The file /swagger-ui.css was not modified
+2022-04-03 14:29:01.975 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui-standalone-preset.js  
+2022-04-03 14:29:01.978 +02:00 [INF] Request finished in 28.1516ms 304 text/css
+2022-04-03 14:29:01.980 +02:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2022-04-03 14:29:01.980 +02:00 [INF] The file /swagger-ui-bundle.js was not modified
+2022-04-03 14:29:01.980 +02:00 [INF] Request finished in 4.7371ms 304 application/javascript
+2022-04-03 14:29:01.980 +02:00 [INF] Request finished in 16.7381ms 304 application/javascript
+2022-04-03 14:29:03.062 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-16x16.png  
+2022-04-03 14:29:03.086 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2022-04-03 14:29:03.087 +02:00 [INF] Request finished in 24.9878ms 0 image/png
+2022-04-03 14:29:03.641 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 14:29:03.853 +02:00 [INF] Request finished in 212.1969ms 200 application/json;charset=utf-8
+2022-04-03 14:37:45.789 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 14:37:46.405 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 14:37:46.405 +02:00 [INF] Hosting environment: Development
+2022-04-03 14:37:46.405 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 14:37:46.450 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 14:37:46.938 +02:00 [INF] Request finished in 495.5498ms 200 text/html;charset=utf-8
+2022-04-03 14:37:47.730 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 14:37:47.764 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 14:37:47.765 +02:00 [INF] Request finished in 34.6867ms 0 text/css
+2022-04-03 14:37:47.791 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 14:37:47.799 +02:00 [INF] Request finished in 7.8144ms 200 application/javascript; charset=utf-8
+2022-04-03 14:41:06.118 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 14:41:06.627 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 14:41:06.631 +02:00 [INF] Hosting environment: Development
+2022-04-03 14:41:06.631 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 14:41:06.668 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 14:42:06.416 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 14:42:07.165 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 14:42:07.167 +02:00 [INF] Hosting environment: Development
+2022-04-03 14:42:07.167 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 14:42:07.253 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 14:42:07.602 +02:00 [INF] Request finished in 359.7354ms 200 text/html;charset=utf-8
+2022-04-03 14:42:07.765 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 14:42:07.775 +02:00 [INF] Request finished in 10.4279ms 200 application/javascript; charset=utf-8
+2022-04-03 14:42:08.327 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 14:42:08.503 +02:00 [INF] Request finished in 176.2743ms 200 application/json;charset=utf-8
+2022-04-03 14:46:50.615 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 14:46:51.124 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 14:46:51.125 +02:00 [INF] Hosting environment: Development
+2022-04-03 14:46:51.125 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 14:46:51.179 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 14:46:51.486 +02:00 [INF] Request finished in 313.7102ms 200 text/html;charset=utf-8
+2022-04-03 14:46:51.555 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 14:46:51.560 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 14:46:51.564 +02:00 [INF] Request finished in 8.8502ms 200 application/javascript; charset=utf-8
+2022-04-03 14:46:51.585 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 14:46:51.586 +02:00 [INF] Request finished in 25.8759ms 0 text/css
+2022-04-03 14:46:52.106 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 14:46:52.271 +02:00 [INF] Request finished in 164.5037ms 200 application/json;charset=utf-8
+2022-04-03 14:50:49.246 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 14:50:49.780 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 14:50:49.781 +02:00 [INF] Hosting environment: Development
+2022-04-03 14:50:49.781 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 14:50:49.823 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 14:50:50.248 +02:00 [INF] Request finished in 430.4128ms 200 text/html;charset=utf-8
+2022-04-03 14:50:50.353 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 14:50:50.356 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 14:50:50.362 +02:00 [INF] Request finished in 6.1926ms 200 application/javascript; charset=utf-8
+2022-04-03 14:50:50.385 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 14:50:50.385 +02:00 [INF] Request finished in 31.962ms 0 text/css
+2022-04-03 14:50:50.849 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 14:50:51.015 +02:00 [INF] Request finished in 166.6893ms 200 application/json;charset=utf-8
+2022-04-03 14:54:13.322 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 14:54:13.941 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 14:54:13.949 +02:00 [INF] Hosting environment: Development
+2022-04-03 14:54:13.949 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 14:54:13.995 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 14:54:14.555 +02:00 [INF] Request finished in 563.9689ms 200 text/html;charset=utf-8
+2022-04-03 14:54:15.028 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 14:54:15.055 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 14:54:15.055 +02:00 [INF] Request finished in 29.7485ms 0 text/css
+2022-04-03 14:54:15.115 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 14:54:15.122 +02:00 [INF] Request finished in 6.8708ms 200 application/javascript; charset=utf-8
+2022-04-03 14:54:15.348 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-16x16.png  
+2022-04-03 14:54:15.350 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2022-04-03 14:54:15.351 +02:00 [INF] Request finished in 2.6846ms 0 image/png
+2022-04-03 14:54:15.408 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 14:54:15.539 +02:00 [INF] Request finished in 130.5766ms 200 application/json;charset=utf-8
+2022-04-03 14:56:00.020 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 14:56:00.581 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 14:56:00.582 +02:00 [INF] Hosting environment: Development
+2022-04-03 14:56:00.582 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 14:56:00.615 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 14:56:00.948 +02:00 [INF] Request finished in 338.1356ms 200 text/html;charset=utf-8
+2022-04-03 14:56:01.027 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 14:56:01.037 +02:00 [INF] Request finished in 9.5941ms 200 application/javascript; charset=utf-8
+2022-04-03 14:56:01.565 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 14:56:01.723 +02:00 [INF] Request finished in 158.705ms 200 application/json;charset=utf-8
+2022-04-03 15:00:27.154 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 15:00:27.689 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 15:00:27.699 +02:00 [INF] Hosting environment: Development
+2022-04-03 15:00:27.699 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 15:00:27.740 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 15:00:28.308 +02:00 [INF] Request finished in 573.3348ms 200 text/html;charset=utf-8
+2022-04-03 15:00:28.427 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 15:00:28.429 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 15:00:28.438 +02:00 [INF] Request finished in 8.6177ms 200 application/javascript; charset=utf-8
+2022-04-03 15:00:28.460 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 15:00:28.460 +02:00 [INF] Request finished in 33.2046ms 0 text/css
+2022-04-03 15:00:29.299 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 15:00:29.417 +02:00 [INF] Request finished in 118.1337ms 200 application/json;charset=utf-8
+2022-04-03 15:03:00.393 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 15:03:00.918 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 15:03:00.927 +02:00 [INF] Hosting environment: Development
+2022-04-03 15:03:00.927 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 15:03:00.970 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 15:03:01.283 +02:00 [INF] Request finished in 320.642ms 200 text/html;charset=utf-8
+2022-04-03 15:03:01.384 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 15:03:01.385 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 15:03:01.391 +02:00 [INF] Request finished in 6.4642ms 200 application/javascript; charset=utf-8
+2022-04-03 15:03:01.418 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 15:03:01.419 +02:00 [INF] Request finished in 33.6217ms 0 text/css
+2022-04-03 15:03:01.727 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 15:03:01.885 +02:00 [INF] Request finished in 158.2385ms 200 application/json;charset=utf-8
+2022-04-03 15:12:11.077 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 15:12:11.701 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 15:12:11.701 +02:00 [INF] Hosting environment: Development
+2022-04-03 15:12:11.701 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 15:12:11.740 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 15:12:12.109 +02:00 [INF] Request finished in 375.1926ms 200 text/html;charset=utf-8
+2022-04-03 15:12:12.222 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 15:12:12.233 +02:00 [INF] Request finished in 11.0304ms 200 application/javascript; charset=utf-8
+2022-04-03 15:12:12.477 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-16x16.png  
+2022-04-03 15:12:12.519 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2022-04-03 15:12:12.519 +02:00 [INF] Request finished in 43.2296ms 0 image/png
+2022-04-03 15:12:12.605 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 15:12:12.751 +02:00 [INF] Request finished in 145.7589ms 200 application/json;charset=utf-8
+2022-04-03 15:13:20.114 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 15:13:20.699 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 15:13:20.700 +02:00 [INF] Hosting environment: Development
+2022-04-03 15:13:20.708 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 15:13:20.785 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 15:13:21.108 +02:00 [INF] Request finished in 363.9714ms 200 text/html;charset=utf-8
+2022-04-03 15:13:21.228 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 15:13:21.252 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 15:13:21.252 +02:00 [INF] Request finished in 25.1429ms 0 text/css
+2022-04-03 15:13:21.279 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 15:13:21.289 +02:00 [INF] Request finished in 9.5689ms 200 application/javascript; charset=utf-8
+2022-04-03 15:13:21.498 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-16x16.png  
+2022-04-03 15:13:21.502 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2022-04-03 15:13:21.503 +02:00 [INF] Request finished in 6.76ms 0 image/png
+2022-04-03 15:13:21.578 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 15:13:21.707 +02:00 [INF] Request finished in 129.2637ms 200 application/json;charset=utf-8
+2022-04-03 15:15:20.907 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 15:15:21.479 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 15:15:21.480 +02:00 [INF] Hosting environment: Development
+2022-04-03 15:15:21.480 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 15:15:21.539 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 15:15:21.827 +02:00 [INF] Request finished in 295.2995ms 200 text/html;charset=utf-8
+2022-04-03 15:15:21.900 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 15:15:21.914 +02:00 [INF] Request finished in 14.0939ms 200 application/javascript; charset=utf-8
+2022-04-03 15:15:22.264 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 15:15:22.393 +02:00 [INF] Request finished in 129.9743ms 200 application/json;charset=utf-8
+2022-04-03 15:16:52.874 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 15:16:53.453 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 15:16:53.454 +02:00 [INF] Hosting environment: Development
+2022-04-03 15:16:53.454 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 15:16:53.508 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 15:16:54.441 +02:00 [INF] Request finished in 939.9368ms 200 text/html;charset=utf-8
+2022-04-03 15:16:54.630 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 15:16:54.631 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 15:16:54.677 +02:00 [INF] Request finished in 47.5385ms 200 application/javascript; charset=utf-8
+2022-04-03 15:16:54.709 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 15:16:54.709 +02:00 [INF] Request finished in 78.5641ms 0 text/css
+2022-04-03 15:16:55.676 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 15:16:55.846 +02:00 [INF] Request finished in 170.6402ms 200 application/json;charset=utf-8
+2022-04-03 15:18:12.824 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 15:18:13.370 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 15:18:13.372 +02:00 [INF] Hosting environment: Development
+2022-04-03 15:18:13.375 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 15:18:13.412 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 15:18:14.909 +02:00 [INF] Request finished in 1502.8367ms 200 text/html;charset=utf-8
+2022-04-03 15:18:15.349 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 15:18:15.351 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 15:18:15.413 +02:00 [INF] Request finished in 64.1841ms 200 application/javascript; charset=utf-8
+2022-04-03 15:18:15.454 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 15:18:15.455 +02:00 [INF] Request finished in 103.7972ms 0 text/css
+2022-04-03 15:18:15.596 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-16x16.png  
+2022-04-03 15:18:15.607 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2022-04-03 15:18:15.607 +02:00 [INF] Request finished in 10.748ms 0 image/png
+2022-04-03 15:18:15.614 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 15:18:15.838 +02:00 [INF] Request finished in 224.6771ms 200 application/json;charset=utf-8
+2022-04-03 15:19:57.016 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 15:19:58.831 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 15:19:58.840 +02:00 [INF] Hosting environment: Development
+2022-04-03 15:19:58.840 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 15:19:58.905 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 15:19:59.302 +02:00 [INF] Request finished in 407.4998ms 200 text/html;charset=utf-8
+2022-04-03 15:19:59.486 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 15:19:59.493 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 15:19:59.498 +02:00 [INF] Request finished in 11.9754ms 200 application/javascript; charset=utf-8
+2022-04-03 15:19:59.521 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 15:19:59.522 +02:00 [INF] Request finished in 28.0904ms 0 text/css
+2022-04-03 15:20:00.091 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 15:20:00.282 +02:00 [INF] Request finished in 191.1566ms 200 application/json;charset=utf-8
+2022-04-03 15:22:29.289 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 15:22:29.831 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 15:22:29.839 +02:00 [INF] Hosting environment: Development
+2022-04-03 15:22:29.839 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 15:22:29.886 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 15:22:32.788 +02:00 [INF] Request finished in 2906.9573ms 200 text/html;charset=utf-8
+2022-04-03 15:22:33.183 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 15:22:33.184 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 15:22:33.189 +02:00 [INF] Request finished in 5.6691ms 200 application/javascript; charset=utf-8
+2022-04-03 15:22:33.214 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 15:22:33.214 +02:00 [INF] Request finished in 29.9859ms 0 text/css
+2022-04-03 15:22:33.596 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 15:22:33.699 +02:00 [INF] Request finished in 103.3982ms 200 application/json;charset=utf-8
+2022-04-03 15:31:44.749 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 15:31:45.585 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 15:31:45.588 +02:00 [INF] Hosting environment: Development
+2022-04-03 15:31:45.588 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 15:31:45.647 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 15:31:46.019 +02:00 [INF] Request finished in 379.2991ms 200 text/html;charset=utf-8
+2022-04-03 15:31:46.421 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 15:31:46.455 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 15:31:46.455 +02:00 [INF] Request finished in 34.4967ms 0 text/css
+2022-04-03 15:31:46.476 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 15:31:46.483 +02:00 [INF] Request finished in 6.9685ms 200 application/javascript; charset=utf-8
+2022-04-03 15:31:47.358 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-03 15:31:47.363 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-03 15:31:47.364 +02:00 [INF] Request finished in 5.8544ms 0 image/png
+2022-04-03 15:31:47.474 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 15:31:47.650 +02:00 [INF] Request finished in 176.1616ms 200 application/json;charset=utf-8
+2022-04-03 15:34:30.496 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 15:34:31.078 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 15:34:31.081 +02:00 [INF] Hosting environment: Development
+2022-04-03 15:34:31.081 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 15:34:31.136 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 15:34:31.456 +02:00 [INF] Request finished in 328.1109ms 200 text/html;charset=utf-8
+2022-04-03 15:34:31.549 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 15:34:31.560 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 15:34:31.561 +02:00 [INF] Request finished in 12.0958ms 200 application/javascript; charset=utf-8
+2022-04-03 15:34:31.583 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 15:34:31.583 +02:00 [INF] Request finished in 23.4686ms 0 text/css
+2022-04-03 15:34:32.085 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 15:34:32.233 +02:00 [INF] Request finished in 148.9029ms 200 application/json;charset=utf-8
+2022-04-03 15:36:02.975 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 15:36:03.540 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 15:36:03.543 +02:00 [INF] Hosting environment: Development
+2022-04-03 15:36:03.553 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 15:36:03.597 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 15:36:04.038 +02:00 [INF] Request finished in 447.0351ms 200 text/html;charset=utf-8
+2022-04-03 15:36:04.847 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 15:36:04.851 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 15:36:04.857 +02:00 [INF] Request finished in 10.3181ms 200 application/javascript; charset=utf-8
+2022-04-03 15:36:04.876 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 15:36:04.877 +02:00 [INF] Request finished in 25.319ms 0 text/css
+2022-04-03 15:36:05.287 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 15:36:05.413 +02:00 [INF] Request finished in 126.3902ms 200 application/json;charset=utf-8
+2022-04-03 15:39:15.999 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 15:39:16.553 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 15:39:16.553 +02:00 [INF] Hosting environment: Development
+2022-04-03 15:39:16.553 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 15:39:16.591 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 15:39:16.906 +02:00 [INF] Request finished in 321.2067ms 200 text/html;charset=utf-8
+2022-04-03 15:39:16.981 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 15:39:16.992 +02:00 [INF] Request finished in 10.3491ms 200 application/javascript; charset=utf-8
+2022-04-03 15:39:17.376 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-03 15:39:17.399 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-03 15:39:17.399 +02:00 [INF] Request finished in 23.7727ms 0 image/png
+2022-04-03 15:39:17.474 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 15:39:17.603 +02:00 [INF] Request finished in 129.1001ms 200 application/json;charset=utf-8
+2022-04-03 15:41:44.830 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 15:41:45.416 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 15:41:45.422 +02:00 [INF] Hosting environment: Development
+2022-04-03 15:41:45.422 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 15:41:45.459 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 15:41:46.241 +02:00 [INF] Request finished in 787.902ms 200 text/html;charset=utf-8
+2022-04-03 15:41:46.676 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 15:41:46.708 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 15:41:46.709 +02:00 [INF] Request finished in 33.1101ms 0 text/css
+2022-04-03 15:41:46.733 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 15:41:46.742 +02:00 [INF] Request finished in 9.3983ms 200 application/javascript; charset=utf-8
+2022-04-03 15:41:47.033 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-03 15:41:47.037 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-03 15:41:47.039 +02:00 [INF] Request finished in 6.4624ms 0 image/png
+2022-04-03 15:41:47.109 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 15:41:47.237 +02:00 [INF] Request finished in 128.2508ms 200 application/json;charset=utf-8
+2022-04-03 16:45:42.521 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 16:45:43.216 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 16:45:43.239 +02:00 [INF] Hosting environment: Development
+2022-04-03 16:45:43.239 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 16:45:43.514 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 16:45:45.404 +02:00 [INF] Request finished in 1899.6642ms 200 text/html;charset=utf-8
+2022-04-03 16:45:46.064 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 16:45:46.071 +02:00 [INF] Request finished in 7.4928ms 200 application/javascript; charset=utf-8
+2022-04-03 16:45:52.208 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 16:45:52.354 +02:00 [INF] Request finished in 146.0874ms 200 application/json;charset=utf-8
+2022-04-03 16:47:09.820 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 16:47:10.360 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 16:47:10.367 +02:00 [INF] Hosting environment: Development
+2022-04-03 16:47:10.367 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 16:47:10.403 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 16:47:10.730 +02:00 [INF] Request finished in 333.0039ms 200 text/html;charset=utf-8
+2022-04-03 16:47:10.792 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 16:47:10.821 +02:00 [INF] Request finished in 28.7116ms 200 application/javascript; charset=utf-8
+2022-04-03 16:47:11.214 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-03 16:47:11.236 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-03 16:47:11.236 +02:00 [INF] Request finished in 22.4224ms 0 image/png
+2022-04-03 16:47:11.318 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 16:47:11.449 +02:00 [INF] Request finished in 130.3184ms 200 application/json;charset=utf-8
+2022-04-03 16:48:02.085 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-03 16:48:02.685 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-03 16:48:02.685 +02:00 [INF] Hosting environment: Development
+2022-04-03 16:48:02.685 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-03 16:48:02.722 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-03 16:48:03.037 +02:00 [INF] Request finished in 322.0665ms 200 text/html;charset=utf-8
+2022-04-03 16:48:03.129 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-03 16:48:03.139 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/swagger-ui.css  
+2022-04-03 16:48:03.139 +02:00 [INF] Request finished in 10.7193ms 200 application/javascript; charset=utf-8
+2022-04-03 16:48:03.170 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-03 16:48:03.170 +02:00 [INF] Request finished in 31.2688ms 0 text/css
+2022-04-03 16:48:03.616 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-03 16:48:03.763 +02:00 [INF] Request finished in 147.3631ms 200 application/json;charset=utf-8

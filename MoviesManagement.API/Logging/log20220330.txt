@@ -1,0 +1,76 @@
+2022-03-30 23:21:00.266 +02:00 [FTL] Application Failed
+2022-03-30 23:22:27.387 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-03-30 23:22:28.027 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-30 23:22:28.028 +02:00 [INF] Hosting environment: Development
+2022-03-30 23:22:28.028 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-03-30 23:22:28.095 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-03-30 23:22:28.482 +02:00 [INF] Request finished in 395.3998ms 200 text/html;charset=utf-8
+2022-03-30 23:22:28.575 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-03-30 23:22:28.585 +02:00 [INF] Request finished in 9.6073ms 200 application/javascript; charset=utf-8
+2022-03-30 23:22:28.832 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-03-30 23:22:29.088 +02:00 [INF] Request finished in 257.24ms 200 application/json;charset=utf-8
+2022-03-30 23:22:32.271 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/api/Movie  
+2022-03-30 23:22:32.587 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.MovieController.GetAll (MoviesManagement.API)'
+2022-03-30 23:22:32.643 +02:00 [INF] Route matched with {action = "GetAll", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MoviesManagement.API.Controllers.MovieController (MoviesManagement.API).
+2022-03-30 23:22:33.974 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-03-30 23:22:34.858 +02:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Description], [m].[Image], [m].[IsActive], [m].[IsExpired], [m].[Name], [m].[StartDate]
+FROM [Movies] AS [m]
+WHERE ([m].[IsActive] = CAST(1 AS bit)) AND ([m].[IsExpired] <> CAST(1 AS bit))
+2022-03-30 23:22:35.148 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesManagement.API.Models.DTO.MovieDTO, MoviesManagement.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-30 23:22:35.171 +02:00 [INF] Executed action MoviesManagement.API.Controllers.MovieController.GetAll (MoviesManagement.API) in 2511.6009ms
+2022-03-30 23:22:35.174 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.MovieController.GetAll (MoviesManagement.API)'
+2022-03-30 23:22:35.180 +02:00 [INF] HTTP GET /api/Movie responded 200 in 2900.6621 ms
+2022-03-30 23:22:35.857 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'MoviesManagement.API.Global_Exceptions.ApiExceptionHandling.HandleException(MoviesManagement.Services.Exceptions.TicketDoesNotExistException)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , ApiExceptionHandling , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at MoviesManagement.API.Global_Exceptions.ApiExceptionHandling..ctor(HttpContext context, Exception exception) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API\Global Exceptions\ApiExceptionHandling.cs:line 36
+   at MoviesManagement.API.Infrastructure.Middlewares.HandleExceptionsMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API\Infrastructure\Middlewares\HandleExceptionsMiddleware.cs:line 46
+   at MoviesManagement.API.Infrastructure.Middlewares.HandleExceptionsMiddleware.Invoke(HttpContext context) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API\Infrastructure\Middlewares\HandleExceptionsMiddleware.cs:line 40
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-30 23:22:35.915 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2022-03-30 23:22:35.922 +02:00 [ERR] Connection ID "18014398515387564041", Request ID "8000000a-0001-fa00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'MoviesManagement.API.Global_Exceptions.ApiExceptionHandling.HandleException(MoviesManagement.Services.Exceptions.TicketDoesNotExistException)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , ApiExceptionHandling , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at MoviesManagement.API.Global_Exceptions.ApiExceptionHandling..ctor(HttpContext context, Exception exception) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API\Global Exceptions\ApiExceptionHandling.cs:line 36
+   at MoviesManagement.API.Infrastructure.Middlewares.HandleExceptionsMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API\Infrastructure\Middlewares\HandleExceptionsMiddleware.cs:line 46
+   at MoviesManagement.API.Infrastructure.Middlewares.HandleExceptionsMiddleware.Invoke(HttpContext context) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API\Infrastructure\Middlewares\HandleExceptionsMiddleware.cs:line 40
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapWhenMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2022-03-30 23:22:35.931 +02:00 [INF] Request finished in 3660.8729ms 200 application/json; charset=utf-8
+2022-03-30 23:22:43.076 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/api/Movie/6  
+2022-03-30 23:22:43.085 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.MovieController.Get (MoviesManagement.API)'
+2022-03-30 23:22:43.108 +02:00 [INF] Route matched with {action = "Get", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32) on controller MoviesManagement.API.Controllers.MovieController (MoviesManagement.API).
+2022-03-30 23:22:43.150 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-03-30 23:22:43.260 +02:00 [INF] Executed DbCommand (35ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Description], [m].[Image], [m].[IsActive], [m].[IsExpired], [m].[Name], [m].[StartDate]
+FROM [Movies] AS [m]
+WHERE (([m].[Id] = @__id_0) AND ([m].[IsActive] = CAST(1 AS bit))) AND ([m].[IsExpired] <> CAST(1 AS bit))
+2022-03-30 23:22:43.408 +02:00 [INF] Executed action MoviesManagement.API.Controllers.MovieController.Get (MoviesManagement.API) in 299.8874ms
+2022-03-30 23:22:43.408 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.MovieController.Get (MoviesManagement.API)'
+2022-03-30 23:22:43.409 +02:00 [ERR] HTTP GET /api/Movie/6 responded 500 in 330.2768 ms
+MoviesManagement.Services.Exceptions.MovieIsNotAvailableAtCinema: თქვენ მიერ არჩეული ფილმი ამ დროისთვის მიუწვდომელია
+   at MoviesManagement.Services.Implementations.MovieService.GetAsync(Int32 id) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.Services\Implementations\MovieService.cs:line 34
+   at MoviesManagement.API.Controllers.MovieController.Get(Int32 id) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API\Controllers\MovieController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-03-30 23:22:43.817 +02:00 [INF] Request finished in 741.709ms 400 application/json

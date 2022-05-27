@@ -1,0 +1,23 @@
+﻿@model List<MovieViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4 col-md-10 m-auto">
+@foreach (var movie in Model)
+{
+    <div class="column">
+        <div class="card">
+        <img class="card-img-top" src=@movie.Image alt="Card image cap" style="height:400px; width:auto;">
+            <div class="card-body">
+                    <h5 class="card-title text-center">@movie.Name</h5>
+            </div>
+            <div class="card-footer text-center">
+                <a class="btn btn-lg btn-block btn-outline-primary" asp-controller="Movie" asp-action="MakeActive" asp-route-id=@movie.Id>გააქტიურება</a> 
+            </div>
+        </div>
+    </div>
+}
+</div>

@@ -1,0 +1,51 @@
+﻿@using MoviesManagement.Services.Enum
+@model MovieViewModel;
+
+<div class="row justify-align-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card m-6">
+            <div class="card-header text-center">
+                <h1>@Model.Name</h1>
+            </div>
+
+            <div class="card-body text-center">
+                <img class="card-img-top" style="width:auto; height:400px;" src=@Model.Image />
+                <h4 class="card-text">@Model.Description</h4>
+                <h4 class="cardalert-info">@Model.StartDate</h4>
+            </div>
+            @if(ViewBag.UserId != null)
+            {
+                @if(ViewBag.UserTicket.State == TicketStatus.Cancelled) 
+                {
+                    <div class="card-footer">
+                        <a class="btn btn-primary" asp-controller="Ticket" asp-action="Buy" asp-route-id="@Model.Id">ყიდვა</a>
+                        <a class="btn btn-primary float-end" asp-controller="Ticket" asp-action="Reserve" asp-route-id="@Model.Id">დაჯავშნა</a>
+                    </div>
+                }
+                else if(ViewBag.UserTicket.State == TicketStatus.Bought)
+                {
+                    <div class="card-footer text-center">
+                        <a class="btn btn-dark">შეძენილია</a>
+                    </div>
+                }
+                else
+                {
+                    <div class="card-footer">
+                        <a class="btn btn-primary" asp-controller="Ticket" asp-action="Buy" asp-route-id="@Model.Id">ყიდვა</a>
+                        <a class="btn btn-primary float-end" asp-controller="Ticket" asp-action="Cancel" asp-route-id="@Model.Id">გაუქმება</a>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="card-footer">
+                    <a class="btn btn-primary" asp-controller="Ticket" asp-action="Buy" asp-route-id="@Model.Id">ყიდვა</a>
+                    <a class="btn btn-primary float-end" asp-controller="Ticket" asp-action="Reserve" asp-route-id="@Model.Id">დაჯავშნა</a>
+                </div>
+            }
+            
+                
+        </div>
+    </div>
+</div>
+

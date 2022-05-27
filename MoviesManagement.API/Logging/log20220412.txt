@@ -1,0 +1,457 @@
+2022-04-12 12:09:15.120 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-12 12:09:15.700 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-12 12:09:15.701 +02:00 [INF] Hosting environment: Development
+2022-04-12 12:09:15.701 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-12 12:09:15.781 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-12 12:09:16.309 +02:00 [INF] Request finished in 533.8881ms 200 text/html;charset=utf-8
+2022-04-12 12:09:16.382 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-12 12:09:16.492 +02:00 [INF] Request finished in 109.9946ms 200 application/javascript; charset=utf-8
+2022-04-12 12:09:16.764 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-12 12:09:16.966 +02:00 [INF] Request finished in 202.4745ms 200 application/json;charset=utf-8
+2022-04-12 12:09:42.636 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/User/Login application/json 55
+2022-04-12 12:09:42.641 +02:00 [INF] 200 Succeed!
+2022-04-12 12:09:42.790 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-12 12:09:42.792 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.UserController.Login (MoviesManagement.API)'
+2022-04-12 12:09:42.848 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MoviesManagement.API.Models.Request.AccountLoginDTO) on controller MoviesManagement.API.Controllers.UserController (MoviesManagement.API).
+2022-04-12 12:09:44.470 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-12 12:09:45.722 +02:00 [INF] Executed DbCommand (64ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-04-12 12:09:45.829 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-04-12 12:09:45.943 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2022-04-12 12:09:45.996 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2022-04-12 12:09:46.020 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2022-04-12 12:09:46.037 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2022-04-12 12:09:46.053 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2022-04-12 12:09:46.687 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2022-04-12 12:09:46.696 +02:00 [INF] Executed action MoviesManagement.API.Controllers.UserController.Login (MoviesManagement.API) in 3841.7604ms
+2022-04-12 12:09:46.696 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.UserController.Login (MoviesManagement.API)'
+2022-04-12 12:09:46.700 +02:00 [INF] HTTP POST /api/User/Login responded 200 in 4054.4900 ms
+2022-04-12 12:09:46.705 +02:00 [INF] Request finished in 4073.3899ms 200 text/plain; charset=utf-8
+2022-04-12 12:10:08.556 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/Ticket/Reserve application/json 1
+2022-04-12 12:10:08.558 +02:00 [INF] 200 Succeed!
+2022-04-12 12:10:08.582 +02:00 [INF] Authorization was successful.
+2022-04-12 12:10:08.583 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API)'
+2022-04-12 12:10:08.589 +02:00 [INF] Route matched with {action = "Reserve", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Reserve(Int32) on controller MoviesManagement.API.Controllers.TicketController (MoviesManagement.API).
+2022-04-12 12:10:08.637 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-12 12:10:14.965 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Description], [m].[Image], [m].[IsActive], [m].[IsExpired], [m].[Name], [m].[StartDate]
+FROM [Movies] AS [m]
+WHERE [m].[Id] = @__id_0
+2022-04-12 12:10:15.777 +02:00 [INF] Executed action MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API) in 7187.4574ms
+2022-04-12 12:10:15.880 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API)'
+2022-04-12 12:10:16.240 +02:00 [ERR] HTTP POST /api/Ticket/Reserve responded 500 in 7682.0124 ms
+MoviesManagement.Services.Exceptions.MovieStartLessThanOneHourException: ფილმი მალე დაიწყება
+   at MoviesManagement.Services.Implementations.TicketService.TicketReservationAsync(TicketModel ticket) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.Services\Implementations\TicketService.cs:line 65
+   at MoviesManagement.API.Controllers.TicketController.Reserve(Int32 movieId) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API\Controllers\TicketController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-04-12 12:10:16.890 +02:00 [INF] Request finished in 8338.1207ms 500 application/json
+2022-04-12 12:10:22.468 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/Ticket/Reserve application/json 1
+2022-04-12 12:10:22.468 +02:00 [INF] 200 Succeed!
+2022-04-12 12:10:22.475 +02:00 [INF] Authorization was successful.
+2022-04-12 12:10:22.475 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API)'
+2022-04-12 12:10:22.477 +02:00 [INF] Route matched with {action = "Reserve", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Reserve(Int32) on controller MoviesManagement.API.Controllers.TicketController (MoviesManagement.API).
+2022-04-12 12:10:22.492 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-12 12:10:27.789 +02:00 [INF] Executed DbCommand (40ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Description], [m].[Image], [m].[IsActive], [m].[IsExpired], [m].[Name], [m].[StartDate]
+FROM [Movies] AS [m]
+WHERE [m].[Id] = @__id_0
+2022-04-12 12:10:28.592 +02:00 [INF] Executed action MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API) in 6114.8628ms
+2022-04-12 12:10:28.755 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API)'
+2022-04-12 12:10:29.217 +02:00 [ERR] HTTP POST /api/Ticket/Reserve responded 500 in 6748.2479 ms
+MoviesManagement.Services.Exceptions.MovieStartLessThanOneHourException: ფილმი მალე დაიწყება
+   at MoviesManagement.Services.Implementations.TicketService.TicketReservationAsync(TicketModel ticket) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.Services\Implementations\TicketService.cs:line 65
+   at MoviesManagement.API.Controllers.TicketController.Reserve(Int32 movieId) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API\Controllers\TicketController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-04-12 12:10:29.511 +02:00 [INF] Request finished in 7043.2801ms 500 application/json
+2022-04-12 12:10:34.833 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/Ticket/Reserve application/json 1
+2022-04-12 12:10:34.834 +02:00 [INF] 200 Succeed!
+2022-04-12 12:10:34.861 +02:00 [INF] Authorization was successful.
+2022-04-12 12:10:34.862 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API)'
+2022-04-12 12:10:34.863 +02:00 [INF] Route matched with {action = "Reserve", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Reserve(Int32) on controller MoviesManagement.API.Controllers.TicketController (MoviesManagement.API).
+2022-04-12 12:10:34.865 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-12 12:10:41.309 +02:00 [INF] Executed DbCommand (40ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Description], [m].[Image], [m].[IsActive], [m].[IsExpired], [m].[Name], [m].[StartDate]
+FROM [Movies] AS [m]
+WHERE [m].[Id] = @__id_0
+2022-04-12 12:10:41.953 +02:00 [INF] Executed action MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API) in 7090.2999ms
+2022-04-12 12:10:42.036 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API)'
+2022-04-12 12:10:42.364 +02:00 [ERR] HTTP POST /api/Ticket/Reserve responded 500 in 7530.1949 ms
+MoviesManagement.Services.Exceptions.MovieStartLessThanOneHourException: ფილმი მალე დაიწყება
+   at MoviesManagement.Services.Implementations.TicketService.TicketReservationAsync(TicketModel ticket) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.Services\Implementations\TicketService.cs:line 65
+   at MoviesManagement.API.Controllers.TicketController.Reserve(Int32 movieId) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API\Controllers\TicketController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-04-12 12:10:42.589 +02:00 [INF] Request finished in 7756.2734ms 500 application/json
+2022-04-12 12:10:52.655 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/Ticket/Reserve application/json 1
+2022-04-12 12:10:52.656 +02:00 [INF] 200 Succeed!
+2022-04-12 12:10:52.658 +02:00 [INF] Authorization was successful.
+2022-04-12 12:10:52.658 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API)'
+2022-04-12 12:10:52.658 +02:00 [INF] Route matched with {action = "Reserve", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Reserve(Int32) on controller MoviesManagement.API.Controllers.TicketController (MoviesManagement.API).
+2022-04-12 12:10:52.660 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-12 12:10:55.687 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Description], [m].[Image], [m].[IsActive], [m].[IsExpired], [m].[Name], [m].[StartDate]
+FROM [Movies] AS [m]
+WHERE [m].[Id] = @__id_0
+2022-04-12 12:10:56.308 +02:00 [INF] Executed action MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API) in 3649.1154ms
+2022-04-12 12:10:56.388 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API)'
+2022-04-12 12:10:56.599 +02:00 [ERR] HTTP POST /api/Ticket/Reserve responded 500 in 3943.4068 ms
+MoviesManagement.Services.Exceptions.MovieStartLessThanOneHourException: ფილმი მალე დაიწყება
+   at MoviesManagement.Services.Implementations.TicketService.TicketReservationAsync(TicketModel ticket) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.Services\Implementations\TicketService.cs:line 65
+   at MoviesManagement.API.Controllers.TicketController.Reserve(Int32 movieId) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API\Controllers\TicketController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-04-12 12:10:56.914 +02:00 [INF] Request finished in 4258.6413ms 500 application/json
+2022-04-12 12:11:58.925 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/Ticket/Reserve application/json 1
+2022-04-12 12:11:58.926 +02:00 [INF] 200 Succeed!
+2022-04-12 12:11:58.933 +02:00 [INF] Authorization was successful.
+2022-04-12 12:11:58.933 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API)'
+2022-04-12 12:11:58.934 +02:00 [INF] Route matched with {action = "Reserve", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Reserve(Int32) on controller MoviesManagement.API.Controllers.TicketController (MoviesManagement.API).
+2022-04-12 12:11:58.934 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-12 12:12:15.263 +02:00 [INF] Executed DbCommand (42ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Description], [m].[Image], [m].[IsActive], [m].[IsExpired], [m].[Name], [m].[StartDate]
+FROM [Movies] AS [m]
+WHERE [m].[Id] = @__id_0
+2022-04-12 12:13:21.681 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'MoviesManagement.PersistanceDB.AppDbContext'.
+System.Threading.ThreadAbortException: System error.
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.Threading.ThreadAbortException: System error.
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2022-04-12 12:14:47.118 +02:00 [INF] Executed action MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API) in 168183.9565ms
+2022-04-12 12:14:47.198 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API)'
+2022-04-12 12:14:47.414 +02:00 [ERR] HTTP POST /api/Ticket/Reserve responded 500 in 168487.8465 ms
+MoviesManagement.Services.Exceptions.MovieStartLessThanOneHourException: ფილმი მალე დაიწყება
+   at MoviesManagement.Services.Implementations.TicketService.TicketReservationAsync(TicketModel ticket) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.Services\Implementations\TicketService.cs:line 65
+   at MoviesManagement.API.Controllers.TicketController.Reserve(Int32 movieId) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API\Controllers\TicketController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-04-12 12:14:47.717 +02:00 [INF] Request finished in 168791.6064ms 500 application/json
+2022-04-12 12:14:50.645 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/Ticket/Reserve application/json 1
+2022-04-12 12:14:50.645 +02:00 [INF] 200 Succeed!
+2022-04-12 12:14:50.648 +02:00 [INF] Authorization was successful.
+2022-04-12 12:14:50.648 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API)'
+2022-04-12 12:14:50.648 +02:00 [INF] Route matched with {action = "Reserve", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Reserve(Int32) on controller MoviesManagement.API.Controllers.TicketController (MoviesManagement.API).
+2022-04-12 12:14:50.650 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-12 12:15:02.190 +02:00 [INF] Executed DbCommand (35ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Description], [m].[Image], [m].[IsActive], [m].[IsExpired], [m].[Name], [m].[StartDate]
+FROM [Movies] AS [m]
+WHERE [m].[Id] = @__id_0
+2022-04-12 12:15:07.029 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ticket_UserId_0='?' (Size = 450), @__ticket_MovieId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Tickets] AS [t]
+        WHERE (([t].[UserId] = @__ticket_UserId_0) AND ([t].[MovieId] = @__ticket_MovieId_1)) AND ([t].[State] = 1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-12 12:15:08.738 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Tickets] ([MovieId], [State], [UserId])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Tickets]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-04-12 12:15:12.587 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2022-04-12 12:15:12.588 +02:00 [INF] Executed action MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API) in 21939.7149ms
+2022-04-12 12:15:12.588 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.TicketController.Reserve (MoviesManagement.API)'
+2022-04-12 12:15:12.588 +02:00 [INF] HTTP POST /api/Ticket/Reserve responded 200 in 21942.9203 ms
+2022-04-12 12:15:12.589 +02:00 [INF] Request finished in 21944.2398ms 200 text/plain; charset=utf-8
+2022-04-12 12:15:23.132 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/Ticket/Cancel application/json 1
+2022-04-12 12:15:23.133 +02:00 [INF] 200 Succeed!
+2022-04-12 12:15:23.136 +02:00 [INF] Authorization was successful.
+2022-04-12 12:15:23.136 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.TicketController.Cancel (MoviesManagement.API)'
+2022-04-12 12:15:23.148 +02:00 [INF] Route matched with {action = "Cancel", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Cancel(Int32) on controller MoviesManagement.API.Controllers.TicketController (MoviesManagement.API).
+2022-04-12 12:15:23.148 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-12 12:15:23.159 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__ticket_UserId_0='?' (Size = 450), @__ticket_MovieId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Tickets] AS [t]
+        WHERE (([t].[UserId] = @__ticket_UserId_0) AND ([t].[MovieId] = @__ticket_MovieId_1)) AND ([t].[State] = 1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-12 12:15:23.179 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[@__ticket_UserId_0='?' (Size = 450), @__ticket_MovieId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Tickets] AS [t]
+        WHERE (([t].[UserId] = @__ticket_UserId_0) AND ([t].[MovieId] = @__ticket_MovieId_1)) AND ([t].[State] = 0)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-12 12:15:23.787 +02:00 [INF] Executed action MoviesManagement.API.Controllers.TicketController.Cancel (MoviesManagement.API) in 639.5767ms
+2022-04-12 12:15:23.877 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.TicketController.Cancel (MoviesManagement.API)'
+2022-04-12 12:15:24.135 +02:00 [ERR] HTTP POST /api/Ticket/Cancel responded 500 in 1001.7971 ms
+MoviesManagement.Services.Exceptions.TicketDoesNotExistException: თქვენ არ დაგიჯავშნიათ ბილეთი, შესაბამისად ვერ გააუქმებთ
+   at MoviesManagement.Services.Implementations.TicketService.CancelTicketAsync(TicketModel ticket) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.Services\Implementations\TicketService.cs:line 54
+   at MoviesManagement.API.Controllers.TicketController.Cancel(Int32 movieId) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API\Controllers\TicketController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-04-12 12:15:24.359 +02:00 [INF] Request finished in 1226.7143ms 404 application/json
+2022-04-12 12:15:28.677 +02:00 [INF] Request starting HTTP/2.0 POST https://localhost:44376/api/Ticket/Cancel application/json 1
+2022-04-12 12:15:28.678 +02:00 [INF] 200 Succeed!
+2022-04-12 12:15:28.680 +02:00 [INF] Authorization was successful.
+2022-04-12 12:15:28.680 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.TicketController.Cancel (MoviesManagement.API)'
+2022-04-12 12:15:28.680 +02:00 [INF] Route matched with {action = "Cancel", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Cancel(Int32) on controller MoviesManagement.API.Controllers.TicketController (MoviesManagement.API).
+2022-04-12 12:15:28.681 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-12 12:15:28.688 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ticket_UserId_0='?' (Size = 450), @__ticket_MovieId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Tickets] AS [t]
+        WHERE (([t].[UserId] = @__ticket_UserId_0) AND ([t].[MovieId] = @__ticket_MovieId_1)) AND ([t].[State] = 1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-12 12:15:28.709 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__ticket_UserId_0='?' (Size = 450), @__ticket_MovieId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[MovieId], [t].[State], [t].[UserId]
+FROM [Tickets] AS [t]
+WHERE ([t].[UserId] = @__ticket_UserId_0) AND ([t].[MovieId] = @__ticket_MovieId_1)
+2022-04-12 12:15:28.761 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Tickets] SET [MovieId] = @p0, [State] = @p1, [UserId] = @p2
+WHERE [Id] = @p3;
+SELECT @@ROWCOUNT;
+2022-04-12 12:15:28.797 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2022-04-12 12:15:28.798 +02:00 [INF] Executed action MoviesManagement.API.Controllers.TicketController.Cancel (MoviesManagement.API) in 117.3965ms
+2022-04-12 12:15:28.798 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.TicketController.Cancel (MoviesManagement.API)'
+2022-04-12 12:15:28.798 +02:00 [INF] HTTP POST /api/Ticket/Cancel responded 200 in 120.4360 ms
+2022-04-12 12:15:28.799 +02:00 [INF] Request finished in 121.9996ms 200 text/plain; charset=utf-8
+2022-04-12 12:15:38.387 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/api/Movie  
+2022-04-12 12:15:38.387 +02:00 [INF] 200 Succeed!
+2022-04-12 12:15:38.389 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.MovieController.GetAll (MoviesManagement.API)'
+2022-04-12 12:15:38.396 +02:00 [INF] Route matched with {action = "GetAll", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MoviesManagement.API.Controllers.MovieController (MoviesManagement.API).
+2022-04-12 12:15:38.396 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-12 12:15:38.434 +02:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Description], [m].[Image], [m].[IsActive], [m].[IsExpired], [m].[Name], [m].[StartDate]
+FROM [Movies] AS [m]
+WHERE ([m].[IsActive] = CAST(1 AS bit)) AND ([m].[IsExpired] <> CAST(1 AS bit))
+2022-04-12 12:15:38.452 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MoviesManagement.API.Models.DTO.MovieDTO, MoviesManagement.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-12 12:15:38.462 +02:00 [INF] Executed action MoviesManagement.API.Controllers.MovieController.GetAll (MoviesManagement.API) in 66.2095ms
+2022-04-12 12:15:38.462 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.MovieController.GetAll (MoviesManagement.API)'
+2022-04-12 12:15:38.463 +02:00 [INF] HTTP GET /api/Movie responded 200 in 75.0321 ms
+2022-04-12 12:15:38.463 +02:00 [INF] Request finished in 76.7564ms 200 application/json; charset=utf-8
+2022-04-12 12:16:01.712 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/api/Movie/1  
+2022-04-12 12:16:01.712 +02:00 [INF] 200 Succeed!
+2022-04-12 12:16:01.720 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.MovieController.Get (MoviesManagement.API)'
+2022-04-12 12:16:01.726 +02:00 [INF] Route matched with {action = "Get", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32) on controller MoviesManagement.API.Controllers.MovieController (MoviesManagement.API).
+2022-04-12 12:16:01.728 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-12 12:16:01.820 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Description], [t].[Image], [t].[IsActive], [t].[IsExpired], [t].[Name], [t].[StartDate], [t0].[Id], [t0].[MovieId], [t0].[State], [t0].[UserId]
+FROM (
+    SELECT TOP(2) [m].[Id], [m].[Description], [m].[Image], [m].[IsActive], [m].[IsExpired], [m].[Name], [m].[StartDate]
+    FROM [Movies] AS [m]
+    WHERE (([m].[Id] = @__id_0) AND ([m].[IsActive] = CAST(1 AS bit))) AND ([m].[IsExpired] <> CAST(1 AS bit))
+) AS [t]
+LEFT JOIN [Tickets] AS [t0] ON [t].[Id] = [t0].[MovieId]
+ORDER BY [t].[Id], [t0].[Id]
+2022-04-12 12:16:02.415 +02:00 [INF] Executed action MoviesManagement.API.Controllers.MovieController.Get (MoviesManagement.API) in 688.7856ms
+2022-04-12 12:16:02.494 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.MovieController.Get (MoviesManagement.API)'
+2022-04-12 12:16:02.750 +02:00 [ERR] HTTP GET /api/Movie/1 responded 500 in 1036.3595 ms
+MoviesManagement.Services.Exceptions.MovieIsNotAvailableAtCinema: თქვენ მიერ არჩეული ფილმი ამ დროისთვის მიუწვდომელია
+   at MoviesManagement.Services.Implementations.MovieService.GetActiveAsync(Int32 id) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.Services\Implementations\MovieService.cs:line 35
+   at MoviesManagement.API.Controllers.MovieController.Get(Int32 id) in C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API\Controllers\MovieController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-04-12 12:16:02.951 +02:00 [INF] Request finished in 1239.3249ms 400 application/json
+2022-04-12 12:16:13.491 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/api/Movie/3  
+2022-04-12 12:16:13.492 +02:00 [INF] 200 Succeed!
+2022-04-12 12:16:13.493 +02:00 [INF] Executing endpoint 'MoviesManagement.API.Controllers.MovieController.Get (MoviesManagement.API)'
+2022-04-12 12:16:13.494 +02:00 [INF] Route matched with {action = "Get", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32) on controller MoviesManagement.API.Controllers.MovieController (MoviesManagement.API).
+2022-04-12 12:16:13.495 +02:00 [INF] Entity Framework Core 5.0.14 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-04-12 12:16:13.502 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Description], [t].[Image], [t].[IsActive], [t].[IsExpired], [t].[Name], [t].[StartDate], [t0].[Id], [t0].[MovieId], [t0].[State], [t0].[UserId]
+FROM (
+    SELECT TOP(2) [m].[Id], [m].[Description], [m].[Image], [m].[IsActive], [m].[IsExpired], [m].[Name], [m].[StartDate]
+    FROM [Movies] AS [m]
+    WHERE (([m].[Id] = @__id_0) AND ([m].[IsActive] = CAST(1 AS bit))) AND ([m].[IsExpired] <> CAST(1 AS bit))
+) AS [t]
+LEFT JOIN [Tickets] AS [t0] ON [t].[Id] = [t0].[MovieId]
+ORDER BY [t].[Id], [t0].[Id]
+2022-04-12 12:16:13.516 +02:00 [INF] Executing ObjectResult, writing value of type 'MoviesManagement.API.Models.DTO.MovieDTO'.
+2022-04-12 12:16:13.517 +02:00 [INF] Executed action MoviesManagement.API.Controllers.MovieController.Get (MoviesManagement.API) in 22.7899ms
+2022-04-12 12:16:13.517 +02:00 [INF] Executed endpoint 'MoviesManagement.API.Controllers.MovieController.Get (MoviesManagement.API)'
+2022-04-12 12:16:13.517 +02:00 [INF] HTTP GET /api/Movie/3 responded 200 in 25.1814 ms
+2022-04-12 12:16:13.518 +02:00 [INF] Request finished in 26.1719ms 200 application/json; charset=utf-8
+2022-04-12 17:41:03.234 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-12 17:41:04.130 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-12 17:41:04.131 +02:00 [INF] Hosting environment: Development
+2022-04-12 17:41:04.131 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-12 17:41:04.213 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:41:04.691 +02:00 [INF] Request finished in 489.8243ms 200 text/html;charset=utf-8
+2022-04-12 17:41:04.738 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-12 17:41:04.745 +02:00 [INF] Request finished in 7.7171ms 200 application/javascript; charset=utf-8
+2022-04-12 17:41:05.194 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-12 17:41:05.265 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/favicon-32x32.png  
+2022-04-12 17:41:05.298 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-12 17:41:05.298 +02:00 [INF] Request finished in 33.3925ms 200 image/png
+2022-04-12 17:41:05.375 +02:00 [INF] Request finished in 181.5488ms 200 application/json;charset=utf-8
+2022-04-12 17:56:21.471 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-12 17:56:24.287 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-12 17:56:24.288 +02:00 [INF] Hosting environment: Development
+2022-04-12 17:56:24.312 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\LashaSuliashvili\Final Project\MoviesManagement.API\MoviesManagement.API
+2022-04-12 17:56:24.520 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:56:28.073 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:56:28.112 +02:00 [INF] Request finished in 36.5813ms 200 text/html;charset=utf-8
+2022-04-12 17:56:32.441 +02:00 [INF] Request finished in 7949.5771ms 200 text/html;charset=utf-8
+2022-04-12 17:56:32.534 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/_framework/aspnetcore-browser-refresh.js  
+2022-04-12 17:56:32.540 +02:00 [INF] Request finished in 5.9891ms 200 application/javascript; charset=utf-8
+2022-04-12 17:56:37.063 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2022-04-12 17:56:37.272 +02:00 [INF] Request finished in 212.7571ms 200 application/json;charset=utf-8
+2022-04-12 17:56:46.126 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:56:46.132 +02:00 [INF] Request finished in 6.2746ms 200 text/html;charset=utf-8
+2022-04-12 17:56:56.302 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:56:56.308 +02:00 [INF] Request finished in 6.0111ms 200 text/html;charset=utf-8
+2022-04-12 17:57:06.389 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:57:06.393 +02:00 [INF] Request finished in 4.912ms 200 text/html;charset=utf-8
+2022-04-12 17:57:16.504 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:57:16.508 +02:00 [INF] Request finished in 4.1472ms 200 text/html;charset=utf-8
+2022-04-12 17:57:26.618 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:57:26.630 +02:00 [INF] Request finished in 12.9409ms 200 text/html;charset=utf-8
+2022-04-12 17:57:36.724 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:57:36.726 +02:00 [INF] Request finished in 2.6211ms 200 text/html;charset=utf-8
+2022-04-12 17:57:46.848 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:57:46.851 +02:00 [INF] Request finished in 2.9888ms 200 text/html;charset=utf-8
+2022-04-12 17:57:56.938 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:57:56.941 +02:00 [INF] Request finished in 2.7886ms 200 text/html;charset=utf-8
+2022-04-12 17:58:07.041 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:58:07.046 +02:00 [INF] Request finished in 4.7139ms 200 text/html;charset=utf-8
+2022-04-12 17:58:17.132 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:58:17.136 +02:00 [INF] Request finished in 3.5981ms 200 text/html;charset=utf-8
+2022-04-12 17:58:27.236 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:58:27.238 +02:00 [INF] Request finished in 1.9161ms 200 text/html;charset=utf-8
+2022-04-12 17:58:37.325 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:58:37.327 +02:00 [INF] Request finished in 2.0526ms 200 text/html;charset=utf-8
+2022-04-12 17:58:47.405 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:58:47.409 +02:00 [INF] Request finished in 4.0402ms 200 text/html;charset=utf-8
+2022-04-12 17:58:57.534 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:58:57.537 +02:00 [INF] Request finished in 2.9154ms 200 text/html;charset=utf-8
+2022-04-12 17:59:07.596 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:59:07.598 +02:00 [INF] Request finished in 3.8093ms 200 text/html;charset=utf-8
+2022-04-12 17:59:17.676 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:59:17.678 +02:00 [INF] Request finished in 2.1292ms 200 text/html;charset=utf-8
+2022-04-12 17:59:27.741 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:59:27.746 +02:00 [INF] Request finished in 4.9319ms 200 text/html;charset=utf-8
+2022-04-12 17:59:37.857 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:59:37.861 +02:00 [INF] Request finished in 4.5499ms 200 text/html;charset=utf-8
+2022-04-12 17:59:47.924 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:59:47.926 +02:00 [INF] Request finished in 2.26ms 200 text/html;charset=utf-8
+2022-04-12 17:59:57.985 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 17:59:57.986 +02:00 [INF] Request finished in 1.41ms 200 text/html;charset=utf-8
+2022-04-12 18:00:08.047 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 18:00:08.049 +02:00 [INF] Request finished in 2.4436ms 200 text/html;charset=utf-8
+2022-04-12 18:00:18.117 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 18:00:18.119 +02:00 [INF] Request finished in 2.7198ms 200 text/html;charset=utf-8
+2022-04-12 18:00:28.187 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 18:00:28.189 +02:00 [INF] Request finished in 1.3141ms 200 text/html;charset=utf-8
+2022-04-12 18:00:38.260 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 18:00:38.261 +02:00 [INF] Request finished in 1.3428ms 200 text/html;charset=utf-8
+2022-04-12 18:00:48.345 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 18:00:48.347 +02:00 [INF] Request finished in 1.7196ms 200 text/html;charset=utf-8
+2022-04-12 18:00:58.441 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 18:00:58.448 +02:00 [INF] Request finished in 6.9912ms 200 text/html;charset=utf-8
+2022-04-12 18:01:08.508 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 18:01:08.510 +02:00 [INF] Request finished in 2.197ms 200 text/html;charset=utf-8
+2022-04-12 18:01:18.563 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 18:01:18.564 +02:00 [INF] Request finished in 1.2489ms 200 text/html;charset=utf-8
+2022-04-12 18:01:28.625 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 18:01:28.626 +02:00 [INF] Request finished in 1.7919ms 200 text/html;charset=utf-8
+2022-04-12 18:01:38.705 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 18:01:38.707 +02:00 [INF] Request finished in 2.2238ms 200 text/html;charset=utf-8
+2022-04-12 18:01:48.766 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 18:01:48.767 +02:00 [INF] Request finished in 1.2167ms 200 text/html;charset=utf-8
+2022-04-12 18:01:58.843 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44376/swagger/index.html  
+2022-04-12 18:01:58.844 +02:00 [INF] Request finished in 0.888ms 200 text/html;charset=utf-8
