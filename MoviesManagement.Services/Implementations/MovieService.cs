@@ -52,20 +52,14 @@ namespace MoviesManagement.Services.Implementations
             return movie.Adapt<MovieModel>();
         }
 
-        public async Task UpdateAsync(MovieModel model)
-        {
+        public async Task UpdateAsync(MovieModel model) =>
             await _repo.UpdateAsync(model.Adapt<Movie>());
-        }
 
-        public async Task DeleteAsync(int id)
-        {
+        public async Task DeleteAsync(int id) =>
             await _repo.DeleteAsync(id);
-        }
 
-        public async Task CreateAsync(MovieModel model)
-        {
+        public async Task CreateAsync(MovieModel model) =>
             await _repo.CreateAsync(model.Adapt<Movie>());
-        }
 
         public async Task<List<MovieModel>> GetAllNonActiveAsync()
         {
@@ -73,9 +67,7 @@ namespace MoviesManagement.Services.Implementations
             return nonActiveMovies.Adapt<List<MovieModel>>();
         }
 
-        public async Task MakeActive(int id)
-        {
+        public async Task MakeActive(int id) =>
             await _repo.MakeActive(id);
-        }
     }
 }

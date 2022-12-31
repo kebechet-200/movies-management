@@ -23,10 +23,8 @@ namespace MoviesManagement.Data.Ef.Repositories
             return await _repo.Table.Where(x => x.IsActive && !x.IsExpired).ToListAsync();
         }
 
-        public async Task<List<Movie>> GetAllAsync()
-        {
-            return await _repo.Table.Where(x => !x.IsExpired).ToListAsync();
-        }
+        public async Task<List<Movie>> GetAllAsync() =>
+            await _repo.Table.Where(x => !x.IsExpired).ToListAsync();
 
         public async Task<DateTime> MovieStartDate(int id)
         {
@@ -34,23 +32,18 @@ namespace MoviesManagement.Data.Ef.Repositories
             return movie.StartDate;
         }
 
-        public async Task<Movie> GetAsync(int id)
-        {
-            return await _repo.Table.AsNoTracking().Include(x => x.Tickets).SingleOrDefaultAsync(x => x.Id == id && !x.IsExpired);
-        }
+        public async Task<Movie> GetAsync(int id) =>
+            await _repo.Table.Include(x => x.Tickets).SingleOrDefaultAsync(x => x.Id == id && !x.IsExpired);
 
-        public async Task<Movie> GetActiveAsync(int id)
-        {
-            return await _repo.Table.Include(x => x.Tickets).SingleOrDefaultAsync(x => x.Id == id && x.IsActive && !x.IsExpired);
-        }
+        public async Task<Movie> GetActiveAsync(int id) =>
+             await _repo.Table.Include(x => x.Tickets).SingleOrDefaultAsync(x => x.Id == id && x.IsActive && !x.IsExpired);
 
         public async Task MovieExpiration()
         {
-            var movies = await _repo.Table.
+            var movies = _repo.Table.
                 Include(x => x.Tickets).
                 AsNoTracking().
-                Where(x => DateTime.Now >= x.StartDate).
-                ToListAsync();
+                Where(x => DateTime.Now >= x.StartDate);
 
             foreach (var movie in movies)
             {
@@ -59,15 +52,11 @@ namespace MoviesManagement.Data.Ef.Repositories
             }
         }
 
-        public async Task UpdateAsync(Movie movie)
-        {
+        public async Task UpdateAsync(Movie movie) =>
             await _repo.UpdateAsync(movie);
-        }
 
-        public async Task<List<Movie>> GetAllNonActiveAsync()
-        {
-            return await _repo.Table.Where(x => !x.IsActive && !x.IsExpired).ToListAsync();
-        }
+        public async Task<List<Movie>> GetAllNonActiveAsync() =>
+            await _repo.Table.Where(x => !x.IsActive && !x.IsExpired).ToListAsync();
 
         public async Task DeleteAsync(int id)
         {
@@ -75,10 +64,8 @@ namespace MoviesManagement.Data.Ef.Repositories
             await _repo.RemoveAsync(movie);
         }
 
-        public async Task CreateAsync(Movie movie)
-        {
+        public async Task CreateAsync(Movie movie) =>
             await _repo.AddAsync(movie);
-        }
 
         public async Task MakeActive(int id)
         {

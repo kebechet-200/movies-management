@@ -4,6 +4,7 @@ using System.Text;
 
 namespace MoviesManagement.Domain.Enum
 {
+    [Flags]
     public enum TicketEnum
     {
         Bought,

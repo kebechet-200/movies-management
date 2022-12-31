@@ -52,15 +52,11 @@ namespace MoviesManagement.Data.Ef.Repositories
             return userTicket.Id;
         }
 
-        public bool UserHasTicket(Movie movie, string userId)
-        {
-            return movie.Tickets.Any(x => x.UserId == userId);
-        }
+        public bool UserHasTicket(Movie movie, string userId) =>
+            movie.Tickets.Any(x => x.UserId == userId);
 
-        public async Task<Movie> GetMovie(int id)
-        {
-            return await _movieRepo.GetAsync(id);
-        }
+        public async Task<Movie> GetMovie(int id) =>
+            await _movieRepo.GetAsync(id);
 
 
         public async Task TicketReservationAsync(Ticket ticket)
@@ -77,15 +73,11 @@ namespace MoviesManagement.Data.Ef.Repositories
                 await _repo.AddAsync(ticket);
         }
 
-        public async Task<bool> TicketBoughtExist(Ticket ticket)
-        {
-            return await _repo.AnyAsync(x => x.UserId == ticket.UserId && x.MovieId == ticket.MovieId && x.State == TicketEnum.Bought);
-        }
+        public async Task<bool> TicketBoughtExist(Ticket ticket) =>
+            await _repo.AnyAsync(x => x.UserId == ticket.UserId && x.MovieId == ticket.MovieId && x.State == TicketEnum.Bought);
 
-        public async Task<bool> TicketReserveExist(Ticket ticket)
-        {
-            return await _repo.AnyAsync(x => x.UserId == ticket.UserId && x.MovieId == ticket.MovieId && x.State == TicketEnum.Reserved);
-        }
+        public async Task<bool> TicketReserveExist(Ticket ticket) =>
+            await _repo.AnyAsync(x => x.UserId == ticket.UserId && x.MovieId == ticket.MovieId && x.State == TicketEnum.Reserved);
 
         public async Task CancelExpiredMovieTickets()
         {

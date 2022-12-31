@@ -44,9 +44,7 @@ namespace MoviesManagement.Web.Controllers
             else
                 movies = new Dictionary<int, string>();
 
-
-            string userId = string.Empty;
-
+            string userId;
             try
             {
                 userId = await _userService.AuthenticateAsync(model.Adapt<UserModel>());

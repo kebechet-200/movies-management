@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using MoviesManagement.Data.Repository_Interfaces;
 using MoviesManagement.Domain.POCO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
@@ -26,6 +27,7 @@ namespace MoviesManagement.Data.Ef.Repositories
 
         public async Task<bool> CreateAsync(User user, string password)
         {
+            user.Id = Guid.NewGuid().ToString();
             var register = await _userManager.CreateAsync(user, password);
 
             if (register.Succeeded)
@@ -42,15 +44,11 @@ namespace MoviesManagement.Data.Ef.Repositories
             return false;   
         }
 
-        public async Task<bool> Exists(string userId)
-        {
-            return await _userManager.FindByIdAsync(userId) != null;
-        }
+        public async Task<bool> Exists(string userId) =>
+            await _userManager.FindByIdAsync(userId) != null;
 
-        public async Task<bool> ExistsName(string username)
-        {
-            return await _userManager.FindByNameAsync(username) != null;
-        }
+        public async Task<bool> ExistsName(string username) =>
+            await _userManager.FindByNameAsync(username) != null;
 
         public async Task<(bool isRegistered,string UserId)> LoginAsync(User user, string password)
         {
@@ -68,15 +66,11 @@ namespace MoviesManagement.Data.Ef.Repositories
             return (true,entity.Id);
         }
 
-        public async Task SignoutAsync()
-        {
+        public async Task SignoutAsync() =>
             await _signInManager.SignOutAsync();
-        }
 
-        public async Task<List<User>> GetAllAsync()
-        {
-            return await _baseRepository.Table.ToListAsync();
-        }
+        public async Task<List<User>> GetAllAsync() =>
+            await _baseRepository.Table.ToListAsync();
 
         public async Task<List<UserRoles>> GetAllUserWithRoles()
         {
@@ -107,10 +101,8 @@ namespace MoviesManagement.Data.Ef.Repositories
             return new List<string>(await _userManager.GetRolesAsync(user));
         }
 
-        public async Task<User> GetAsync(string id)
-        {
-            return await _baseRepository.Table.AsNoTracking().SingleOrDefaultAsync(x => x.Id == id);
-        }
+        public async Task<User> GetAsync(string id) =>
+            await _baseRepository.Table.AsNoTracking().SingleOrDefaultAsync(x => x.Id == id);
 
         public async Task<User> GetUserWithTicketsAsync(string id)
         {
@@ -119,10 +111,8 @@ namespace MoviesManagement.Data.Ef.Repositories
                 .SingleOrDefaultAsync(x => x.Id == id);
         }
 
-        public async Task UpdateAsync(User user)
-        {
+        public async Task UpdateAsync(User user) =>
             await _baseRepository.UpdateAsync(user);
-        }
 
         public async Task DeleteAsync(string id)
         {
@@ -131,10 +121,8 @@ namespace MoviesManagement.Data.Ef.Repositories
                 await _baseRepository.RemoveAsync(user);
         }
 
-        public async Task<List<IdentityRole>> GetRoles()
-        {
-            return await _roleManager.Roles.ToListAsync();
-        }
+        public async Task<List<IdentityRole>> GetRoles() =>
+            await _roleManager.Roles.ToListAsync();
         public async Task<bool> IsInRole(string userName, string roleName)
         {
             var user = await _userManager.FindByNameAsync(userName);

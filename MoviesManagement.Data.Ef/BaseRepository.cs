@@ -31,20 +31,14 @@ namespace MoviesManagement.Data.Ef
             
         }
 
-        public async Task<bool> AnyAsync(Expression<Func<T,bool>> expression)
-        {
-            return await _dbSet.AnyAsync(expression); // takes an expression as a parameter, derived class decides how to find an entity.
-        }
+        public async Task<bool> AnyAsync(Expression<Func<T,bool>> expression) =>
+            await _dbSet.AnyAsync(expression); // takes an expression as a parameter, derived class decides how to find an entity.
 
-        public async Task<List<T>> GetAllAsync()
-        {
-            return await _dbSet.ToListAsync();
-        }
+        public async Task<List<T>> GetAllAsync() =>
+            await _dbSet.ToListAsync();
 
-        public async Task<T> GetAsync(Expression<Func<T, bool>> expression)
-        {
-            return await _dbSet.AsNoTracking().SingleOrDefaultAsync(expression);
-        }
+        public async Task<T> GetAsync(Expression<Func<T, bool>> expression) =>
+            await _dbSet.SingleOrDefaultAsync(expression);
 
         public async Task RemoveAsync(T entity)
         {
